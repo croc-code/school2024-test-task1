@@ -1,5 +1,18 @@
-﻿namespace AnalyticsLargestExpenses;
+﻿using AnalyticsLargestExpenses.Interfaces;
 
-public class ReportHandler
+namespace AnalyticsLargestExpenses;
+
+public class ReportHandler : IReportHandler
 {
+    private readonly IJsonConverter _jsonConverter;
+
+    public ReportHandler(IJsonConverter jsonConverter)
+    {
+        _jsonConverter = jsonConverter;
+    }
+
+    public string GetMonths()
+    {
+        throw new NotImplementedException();
+    }
 }

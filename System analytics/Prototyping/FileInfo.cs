@@ -1,6 +1,9 @@
 ﻿namespace Prototyping;
 
-internal class FileInfo
+/// <summary>
+/// The class for getting the file name
+/// </summary>
+public class FileInfo
 {
     public required string Name { get; set; }
 }

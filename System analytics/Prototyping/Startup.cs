@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using AnalyticsLargestExpenses;
+using AnalyticsLargestExpenses.Interfaces;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 
@@ -22,6 +24,8 @@ internal class Startup
             builder.AddSerilog(Log.Logger, true);
         });
 
+        services.AddTransient<IJsonConverter, JsonConverter>();
+        services.AddScoped<IReportHandler, ReportHandler>();
     }
 
     private static void ConfigureLog()
