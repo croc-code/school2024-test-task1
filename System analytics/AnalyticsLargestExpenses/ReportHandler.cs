@@ -11,7 +11,7 @@ public class ReportHandler : IReportHandler
         _jsonConverter = jsonConverter;
     }
 
-    public string GetMonths()
+    public string GetrReport()
     {
         throw new NotImplementedException();
     }

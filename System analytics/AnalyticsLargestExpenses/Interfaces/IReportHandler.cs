@@ -9,5 +9,5 @@ public interface IReportHandler
     ///
     /// </summary>
     /// <returns></returns>
-    string GetMonths();
+    string GetrReport();
 }

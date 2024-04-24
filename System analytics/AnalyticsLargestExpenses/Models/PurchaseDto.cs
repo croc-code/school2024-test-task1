@@ -1,7 +1,10 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace AnalyticsLargestExpenses;
+namespace AnalyticsLargestExpenses.Models;
 
+/// <summary>
+/// The class for getting data about user purchases
+/// </summary>
 public class PurchaseDto
 {
     [JsonPropertyName("user_id")]
