@@ -10,3 +10,5 @@ var provider = builder.BuildServiceProvider();
 
 var reportHandler = provider
     .GetRequiredService<IReportHandler>();
+
+Console.WriteLine($"Результат обработки: {reportHandler.GetMonths()}");
