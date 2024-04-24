@@ -1,0 +1,6002 @@
+[
+    {
+        "total": 5299.397702512846,
+        "user_id": "785e5fe7-e7f5-4fa7-b255-e52cc8f7369b",
+        "ordered_at": "2020-06-17T11:36:20.340",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5259.904433442734,
+        "user_id": "caf7408a-d43d-477d-9ccb-d21b2cdc3c29",
+        "ordered_at": "2024-05-06T22:58:25.727",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8686.851810609598,
+        "user_id": "fa049d0b-5fc9-454b-bf0a-529ec2f5bd85",
+        "ordered_at": "2019-02-03T19:56:05.987",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6006.45231396897,
+        "user_id": "a7629510-6845-40d5-8c5e-4c757e87a1e0",
+        "ordered_at": "2020-06-03T21:48:11.478",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4488.0582194150475,
+        "user_id": "8ebf485a-a4fd-4c1d-915b-67189e6390e8",
+        "ordered_at": "2018-12-16T20:40:20.902",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8308.716634236782,
+        "user_id": "4e949688-0137-49a7-b85b-d3b31df61ee4",
+        "ordered_at": "2020-10-20T11:58:33.736",
+        "status": "CREATED"
+    },
+    {
+        "total": 806.7059803710753,
+        "user_id": "a40b388e-3723-497d-9b55-c054056dba90",
+        "ordered_at": "2020-09-26T03:07:01.880",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1562.6339574919102,
+        "user_id": "c4c2c699-8ce6-4702-96be-98bffa8b9151",
+        "ordered_at": "2023-11-11T09:31:42.056",
+        "status": "CREATED"
+    },
+    {
+        "total": 3077.509916025334,
+        "user_id": "3131d29f-c170-4fd5-8849-d044e0c06113",
+        "ordered_at": "2016-03-01T22:35:17.202",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5137.632968004231,
+        "user_id": "20911e60-b2ab-47e5-8c9b-36fa928317e2",
+        "ordered_at": "2023-06-26T07:01:10.933",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6099.304316255385,
+        "user_id": "bd375891-45e7-48c7-860c-e801d43b882d",
+        "ordered_at": "2022-06-23T04:47:22.725",
+        "status": "CREATED"
+    },
+    {
+        "total": 6555.963881888754,
+        "user_id": "29668e39-d544-4ba9-9e0e-9f352602531b",
+        "ordered_at": "2020-04-17T17:17:36.574",
+        "status": "CREATED"
+    },
+    {
+        "total": 9897.662418128288,
+        "user_id": "540c0752-74ec-4f72-a075-0b8523e82258",
+        "ordered_at": "2020-04-18T22:00:44.958",
+        "status": "CANCELED"
+    },
+    {
+        "total": 37.997126857239884,
+        "user_id": "5c0aea02-22f9-48d1-9f83-e1dae044402c",
+        "ordered_at": "2020-04-20T00:47:19.249",
+        "status": "CREATED"
+    },
+    {
+        "total": 3084.231722435563,
+        "user_id": "aee558f0-bb93-4c60-96d3-104e22ba6407",
+        "ordered_at": "2018-11-26T08:30:29.622",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3487.7506278372884,
+        "user_id": "186652e2-ccd2-4c2c-93db-f4ada92ab8f7",
+        "ordered_at": "2019-02-19T17:52:15.553",
+        "status": "CREATED"
+    },
+    {
+        "total": 6608.688446519421,
+        "user_id": "e4641830-3865-4cd2-ac93-7e8a7486ccaa",
+        "ordered_at": "2024-01-28T23:22:57.116",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6495.348929635421,
+        "user_id": "a32f2a53-8bc5-4322-8a2c-31fafcf53839",
+        "ordered_at": "2023-12-01T00:31:36.431",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9825.893434514945,
+        "user_id": "54e7e204-3725-40e5-bf71-2156dcd0d7fd",
+        "ordered_at": "2024-09-13T10:22:22.410",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8035.3034049225935,
+        "user_id": "6b448f39-91dc-40f7-8fe6-6f2590a19d21",
+        "ordered_at": "2019-11-19T21:07:24.822",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3111.808716527834,
+        "user_id": "0b760b7b-8066-4df4-b706-a48b2ad680e0",
+        "ordered_at": "2017-12-02T23:21:00.718",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1305.865449612581,
+        "user_id": "d517d115-8123-4435-8555-fb0357750271",
+        "ordered_at": "2019-12-07T21:39:42.660",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3624.604375645355,
+        "user_id": "2cf42882-2364-4f5d-bfd7-a3ad0004b1a7",
+        "ordered_at": "2018-11-24T16:07:26.252",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 180.95510330013664,
+        "user_id": "82e26523-948f-4ec9-a278-5ee6bb5c252e",
+        "ordered_at": "2019-01-27T18:36:28.657",
+        "status": "CREATED"
+    },
+    {
+        "total": 5770.945277574423,
+        "user_id": "0a11c108-c2b2-4b3b-9d1d-84fd1a9a4453",
+        "ordered_at": "2018-04-21T01:04:02.565",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9659.266247320138,
+        "user_id": "5c93ad13-5c64-4a48-a079-a8692e398030",
+        "ordered_at": "2023-02-05T08:40:55.194",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6331.811107584934,
+        "user_id": "61ffec48-de7b-438b-8ccc-56fa630e716f",
+        "ordered_at": "2015-04-10T23:20:15.503",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3653.282270472109,
+        "user_id": "5b6a1007-261a-4da3-8919-20c9bd041274",
+        "ordered_at": "2017-12-28T18:21:51.287",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7638.666693235844,
+        "user_id": "ce973d3c-1225-46ba-8402-33ac0e7c5675",
+        "ordered_at": "2018-05-10T19:26:17.153",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1653.573287466361,
+        "user_id": "bf167e7a-1f1f-4d55-9626-54ef929fae5f",
+        "ordered_at": "2019-04-09T18:54:21.370",
+        "status": "CREATED"
+    },
+    {
+        "total": 5561.967988723587,
+        "user_id": "b0b4a853-616b-401d-b8db-fda8a2a33e0e",
+        "ordered_at": "2020-10-15T08:06:39.677",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9951.579232582972,
+        "user_id": "a03f504e-beed-43cf-b3ba-fc52e6cea29c",
+        "ordered_at": "2018-06-23T00:00:21.003",
+        "status": "CREATED"
+    },
+    {
+        "total": 3053.6678097147505,
+        "user_id": "a030b35b-2ef6-4032-925f-9c66c904ea59",
+        "ordered_at": "2019-02-26T20:32:06.144",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8959.073631769641,
+        "user_id": "3d011421-ead3-4def-9ca8-05e8a58e0d8d",
+        "ordered_at": "2020-05-24T18:28:26.971",
+        "status": "CREATED"
+    },
+    {
+        "total": 3528.6668827657254,
+        "user_id": "28eb5bc2-f0f9-4fee-89ab-ff94ffd894fe",
+        "ordered_at": "2022-08-12T11:35:54.670",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1007.8447776932953,
+        "user_id": "7ff9f466-fb1f-4567-9b61-be364ba5a1d2",
+        "ordered_at": "2019-01-26T03:29:18.075",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1213.3680801577018,
+        "user_id": "1c356512-e600-4028-8916-5d8e0eb7076f",
+        "ordered_at": "2018-01-12T14:59:47.481",
+        "status": "CREATED"
+    },
+    {
+        "total": 163.28485457826392,
+        "user_id": "52a24d28-4385-4598-a105-5f7f85d10d83",
+        "ordered_at": "2023-02-12T21:57:08.038",
+        "status": "CREATED"
+    },
+    {
+        "total": 750.2002175402666,
+        "user_id": "21886feb-ce42-433c-8330-26a8a46b16f2",
+        "ordered_at": "2024-10-16T00:56:46.004",
+        "status": "CREATED"
+    },
+    {
+        "total": 8886.24918233362,
+        "user_id": "9ab5affa-9056-4297-b2a1-ad2b060480d6",
+        "ordered_at": "2015-08-16T01:55:52.827",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4624.026926128234,
+        "user_id": "f3e29161-b6b5-4537-a08b-4b6f48318925",
+        "ordered_at": "2016-01-10T14:40:36.237",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4705.673050709274,
+        "user_id": "1f630b59-65b3-44b0-8e5c-4aed223bc056",
+        "ordered_at": "2021-04-10T05:08:26.363",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1449.8124756911968,
+        "user_id": "8690a84d-61ce-4e20-a1f7-84bd1dcbd5f6",
+        "ordered_at": "2021-11-06T20:11:43.307",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1828.2419673329064,
+        "user_id": "fe4c2dbb-3dee-4802-bd9b-2efe8f8e170e",
+        "ordered_at": "2019-10-05T03:10:32.492",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8692.112642647107,
+        "user_id": "5e5dcd32-5443-4866-9787-e11e5a602f28",
+        "ordered_at": "2017-02-07T15:30:47.619",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8250.33112977101,
+        "user_id": "34c6f356-e6d3-49dd-915a-09b65acbb66d",
+        "ordered_at": "2017-07-03T05:33:25.890",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1118.4743974967903,
+        "user_id": "25847b07-ae43-4fcc-9447-c3ce57386acb",
+        "ordered_at": "2015-05-16T14:58:18.616",
+        "status": "CREATED"
+    },
+    {
+        "total": 3422.176102536518,
+        "user_id": "014af39b-bfac-4a8c-b5ea-635b93890578",
+        "ordered_at": "2018-09-23T01:12:05.588",
+        "status": "CREATED"
+    },
+    {
+        "total": 8144.484593570298,
+        "user_id": "ba5bb56c-839d-42d7-86ff-b1758b58fc8e",
+        "ordered_at": "2017-06-13T12:25:41.007",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6846.7756191535855,
+        "user_id": "72ae94e2-b701-4ad4-89c1-23473430b751",
+        "ordered_at": "2021-09-05T23:26:07.510",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4413.094161527967,
+        "user_id": "406a2105-894f-49c2-a5bd-65ec3c420b32",
+        "ordered_at": "2020-03-17T07:02:55.291",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5709.516546999918,
+        "user_id": "ef40bc92-ddb6-4d3c-b364-a6e1e6fdba3d",
+        "ordered_at": "2017-06-25T07:42:06.637",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4451.278208348627,
+        "user_id": "124663c4-5d03-4ee6-ab03-8d8da56f3c69",
+        "ordered_at": "2023-05-22T02:46:26.920",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3293.4744557382523,
+        "user_id": "641069fc-db35-4169-8446-c5c26322af4d",
+        "ordered_at": "2018-03-11T21:24:55.498",
+        "status": "CREATED"
+    },
+    {
+        "total": 3330.6546208216714,
+        "user_id": "40dd068e-942d-4d91-9771-90354e0688a0",
+        "ordered_at": "2019-11-21T15:00:30.211",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7635.411585806235,
+        "user_id": "d317d5f7-f8dd-4fc2-b06f-809079132fdd",
+        "ordered_at": "2017-01-06T20:41:22.144",
+        "status": "CREATED"
+    },
+    {
+        "total": 5974.210532773676,
+        "user_id": "c40b749d-fbf6-4561-ba4a-6f359fc2c3ac",
+        "ordered_at": "2021-09-23T14:51:12.949",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6745.667293493281,
+        "user_id": "0dee4f92-fa5e-4ba1-9a38-5e26227d6dad",
+        "ordered_at": "2020-03-01T23:15:04.664",
+        "status": "CREATED"
+    },
+    {
+        "total": 1428.8448474569593,
+        "user_id": "a070cb5f-2666-4384-9abc-efafaa77ff5f",
+        "ordered_at": "2024-06-03T04:37:57.313",
+        "status": "CREATED"
+    },
+    {
+        "total": 7409.606839660293,
+        "user_id": "aa4dab49-ae88-4878-8fb4-707156bbe05b",
+        "ordered_at": "2015-03-14T12:52:52.173",
+        "status": "CREATED"
+    },
+    {
+        "total": 9174.349911093495,
+        "user_id": "103e892d-8503-456f-b8ba-5ec3630dda4c",
+        "ordered_at": "2020-11-25T15:53:39.415",
+        "status": "CREATED"
+    },
+    {
+        "total": 5798.501720896125,
+        "user_id": "98a57fa2-c88c-440b-b50d-5622cbcd983e",
+        "ordered_at": "2023-03-19T01:19:07.543",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9756.336584786486,
+        "user_id": "6ffffc88-ae04-40cf-a13a-e5f965280db8",
+        "ordered_at": "2024-12-01T01:09:55.965",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1064.3804863579333,
+        "user_id": "61446a93-dedc-423f-acbd-ce08112a72ec",
+        "ordered_at": "2021-07-03T06:46:27.910",
+        "status": "CREATED"
+    },
+    {
+        "total": 4887.225576563285,
+        "user_id": "79d4d213-ebe1-4469-9829-1256e1bfc349",
+        "ordered_at": "2016-08-13T22:19:01.818",
+        "status": "CREATED"
+    },
+    {
+        "total": 6028.45336820322,
+        "user_id": "2e2d4408-92f1-4298-8fd6-32ba9f8df5f4",
+        "ordered_at": "2022-05-09T05:05:19.881",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4110.92607787535,
+        "user_id": "6200a666-cce0-43e9-a651-b4f3683ffe2d",
+        "ordered_at": "2024-12-02T06:36:44.886",
+        "status": "CREATED"
+    },
+    {
+        "total": 9779.389045278693,
+        "user_id": "63dae74e-f4bf-4ac4-bafe-77c317b2f72d",
+        "ordered_at": "2019-02-15T10:27:02.397",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8409.477345978015,
+        "user_id": "5a5c655e-edd2-42bf-8e88-0e5ff3148138",
+        "ordered_at": "2024-11-15T20:48:35.406",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5290.452459105098,
+        "user_id": "56798e9f-a27a-4d54-a88d-eba35307df03",
+        "ordered_at": "2021-06-18T22:12:43.865",
+        "status": "CREATED"
+    },
+    {
+        "total": 1261.3468650923498,
+        "user_id": "28d9bf8f-c2e3-4c88-8bad-969653da78f5",
+        "ordered_at": "2021-06-20T23:22:05.669",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5389.007874007414,
+        "user_id": "50445894-a312-42fa-a4a8-0c95ae567387",
+        "ordered_at": "2018-12-24T05:06:22.680",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5940.077152176602,
+        "user_id": "b08ab5d8-c5ca-4ebc-8cae-a9fccfca6371",
+        "ordered_at": "2022-09-26T11:10:44.100",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3945.1001989650727,
+        "user_id": "c35a0f52-f654-4f67-b040-ab18c07cce32",
+        "ordered_at": "2024-12-24T14:27:15.550",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3848.636221474341,
+        "user_id": "2baeda98-d424-4fae-933e-1d9102f88830",
+        "ordered_at": "2024-12-10T22:25:28.469",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6895.963284703795,
+        "user_id": "d044da59-c4e9-4140-87df-85b6fc806882",
+        "ordered_at": "2015-09-27T01:05:41.559",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2780.475521564191,
+        "user_id": "8f87315c-0d8e-4861-8c6e-f0c449b69b0e",
+        "ordered_at": "2024-07-17T10:56:43.866",
+        "status": "CREATED"
+    },
+    {
+        "total": 2629.7980745080317,
+        "user_id": "4d4145bd-cab5-465c-bbc8-82c2b9789d77",
+        "ordered_at": "2020-08-27T05:36:09.398",
+        "status": "CREATED"
+    },
+    {
+        "total": 9825.511219767552,
+        "user_id": "917d1a40-aba1-4fac-b973-b515db4d6030",
+        "ordered_at": "2017-07-09T17:04:21.404",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 785.7453129006475,
+        "user_id": "3a4c079f-a219-4596-b0d5-f5b0827ee115",
+        "ordered_at": "2023-03-23T21:41:14.698",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 621.8671136923848,
+        "user_id": "16de8369-a728-4a79-9a67-d7820e3c3454",
+        "ordered_at": "2021-07-04T16:59:11.007",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7189.580841333887,
+        "user_id": "548046e9-be89-411f-b51a-a81633a0c3ae",
+        "ordered_at": "2022-08-24T05:23:28.034",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2497.2948681134067,
+        "user_id": "4d0b0444-2f25-43bf-b225-300d0b03bb30",
+        "ordered_at": "2015-01-23T15:16:47.319",
+        "status": "CREATED"
+    },
+    {
+        "total": 4469.50174714534,
+        "user_id": "f1706598-9a3d-4f98-b0c2-f9c2d1ef09be",
+        "ordered_at": "2015-04-18T11:24:26.567",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2234.080018965495,
+        "user_id": "ed23f0eb-9db9-40d5-be21-502b5cd3accb",
+        "ordered_at": "2024-04-27T14:49:38.161",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8947.884263658167,
+        "user_id": "6ef88e5c-38db-4a16-b2bb-49220d20a850",
+        "ordered_at": "2016-08-27T01:30:36.959",
+        "status": "CREATED"
+    },
+    {
+        "total": 1495.507632564691,
+        "user_id": "b5002652-5d80-44a7-9cb0-927dd1f05450",
+        "ordered_at": "2016-05-01T10:50:55.431",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5278.81569901706,
+        "user_id": "eae6b059-b165-499f-97ef-eb5b31d34455",
+        "ordered_at": "2020-08-03T22:00:19.116",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1919.4393727248394,
+        "user_id": "f963e673-7623-4317-9525-2e354a64603e",
+        "ordered_at": "2024-06-19T17:58:47.269",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8624.441166097042,
+        "user_id": "5e687d27-5e7e-4a9d-beea-567f0a7f606e",
+        "ordered_at": "2016-11-28T06:21:23.843",
+        "status": "CREATED"
+    },
+    {
+        "total": 3345.3157358387275,
+        "user_id": "ae9fb093-1aff-40db-b37f-4d5a5a048b9f",
+        "ordered_at": "2015-10-06T22:43:11.046",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7093.96657100798,
+        "user_id": "ddcec4b4-f651-4230-9e50-062029993e74",
+        "ordered_at": "2016-01-14T23:28:26.771",
+        "status": "CREATED"
+    },
+    {
+        "total": 9206.26978506581,
+        "user_id": "ce7b14bf-50d0-4b48-8ace-8043fe64f020",
+        "ordered_at": "2023-09-22T00:00:03.250",
+        "status": "CREATED"
+    },
+    {
+        "total": 3896.947552270703,
+        "user_id": "16bc90cb-8454-4829-a269-9eee45853efe",
+        "ordered_at": "2015-01-21T13:53:52.089",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2680.6131365760434,
+        "user_id": "a761a39f-a345-409d-aba2-343b2bf365f7",
+        "ordered_at": "2016-08-12T19:38:18.075",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2907.98564594255,
+        "user_id": "b7651bba-9d85-4535-886b-df349dac37e3",
+        "ordered_at": "2023-12-24T16:01:38.182",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1430.5395811648368,
+        "user_id": "16ba8ad3-6ef4-44b8-824e-a7c42c99d16a",
+        "ordered_at": "2023-12-23T10:59:09.693",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3855.0957481580117,
+        "user_id": "302d663e-e012-4f9f-9147-609daa0a719e",
+        "ordered_at": "2022-03-03T13:23:31.843",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1615.5816177393333,
+        "user_id": "7944d4bf-b99d-40c8-91f3-97dc6739cf52",
+        "ordered_at": "2015-11-27T05:52:17.889",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4412.014065796501,
+        "user_id": "8267798d-bc70-4d1d-b7be-5266e25dde1e",
+        "ordered_at": "2019-06-27T11:12:45.132",
+        "status": "CREATED"
+    },
+    {
+        "total": 8090.469385244746,
+        "user_id": "674339dc-9f27-4b7f-8396-79b7e225ee64",
+        "ordered_at": "2016-11-17T00:44:14.178",
+        "status": "CREATED"
+    },
+    {
+        "total": 8410.02107350974,
+        "user_id": "ff7506db-4bd8-4fd9-8c15-a4cf7338829e",
+        "ordered_at": "2023-03-07T14:42:30.397",
+        "status": "CREATED"
+    },
+    {
+        "total": 5299.160797607736,
+        "user_id": "66da38a3-600d-4c0a-b166-7570d132a1f6",
+        "ordered_at": "2018-07-01T03:36:42.583",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9033.17817095142,
+        "user_id": "eb3784e2-100d-46e2-826a-3cb2dc36a8cc",
+        "ordered_at": "2015-07-15T21:42:20.771",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6157.763478339408,
+        "user_id": "519dbbf7-3c29-4241-b6f0-69ae97a6bcbe",
+        "ordered_at": "2024-01-03T16:41:43.979",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7099.169866576034,
+        "user_id": "5dcd00c2-393d-492d-a2e1-a4320baa2484",
+        "ordered_at": "2020-08-28T02:20:52.914",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6258.9344885525525,
+        "user_id": "9f586b98-1470-4fdb-bd00-1a6eaf39ce8b",
+        "ordered_at": "2023-08-22T23:16:02.433",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 764.395959595513,
+        "user_id": "8f207977-eb80-4361-8a35-8573fceed409",
+        "ordered_at": "2015-10-16T02:39:12.592",
+        "status": "CREATED"
+    },
+    {
+        "total": 890.4446643980202,
+        "user_id": "0fd83cfd-0f8e-4459-85fa-faf7864c0e9e",
+        "ordered_at": "2018-10-27T03:55:25.791",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9666.038642499107,
+        "user_id": "6bf0c2d5-1aa6-4239-8b23-b5772dfcde67",
+        "ordered_at": "2016-02-20T15:36:07.481",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8783.515227479205,
+        "user_id": "e63975f1-ed83-4212-adc4-4065842f72b3",
+        "ordered_at": "2017-01-27T09:44:44.363",
+        "status": "CREATED"
+    },
+    {
+        "total": 3596.239364758943,
+        "user_id": "abb687e6-1224-43a0-9252-0bd40a6dbf4e",
+        "ordered_at": "2015-11-02T18:31:12.405",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1116.1028036098564,
+        "user_id": "bc565f49-ea50-4884-aaee-eff07ba41ee4",
+        "ordered_at": "2019-02-19T21:47:21.112",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 296.19668907667204,
+        "user_id": "8f7112f9-3374-4e6a-b488-686118ab1d5c",
+        "ordered_at": "2019-06-27T01:37:52.028",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7297.591991032291,
+        "user_id": "097ee37e-185b-45d4-8d84-820eb8a09aeb",
+        "ordered_at": "2022-12-10T07:21:50.462",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5394.168542891164,
+        "user_id": "19770a98-f9f4-40b8-9351-8c2ed721c6a2",
+        "ordered_at": "2019-10-18T08:38:30.279",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1440.701629969352,
+        "user_id": "466da621-0538-4155-addd-73996c50b588",
+        "ordered_at": "2015-10-19T00:00:36.125",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8455.453222544309,
+        "user_id": "3a411df9-ecf6-4831-8545-396eaab6c7e7",
+        "ordered_at": "2021-09-14T08:26:38.161",
+        "status": "CREATED"
+    },
+    {
+        "total": 9451.381591178217,
+        "user_id": "f5652b1a-7ec3-446a-8f24-cea512239b26",
+        "ordered_at": "2019-02-04T21:41:46.715",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5660.170530385065,
+        "user_id": "c64f321d-fc2c-4741-9f6e-7c77dd082fef",
+        "ordered_at": "2015-07-19T01:30:32.178",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6386.9017359952395,
+        "user_id": "b3062ce0-97f6-4765-88dc-e89de40e670d",
+        "ordered_at": "2022-11-27T17:28:58.878",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1902.9830729379405,
+        "user_id": "3ce34f24-36db-46b0-bef3-68bf45f95234",
+        "ordered_at": "2022-03-14T10:20:58.096",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5476.301708358211,
+        "user_id": "adb8bf89-3ab8-4672-a9fa-e0723fb29ad7",
+        "ordered_at": "2021-07-10T23:06:59.391",
+        "status": "CREATED"
+    },
+    {
+        "total": 2776.0258321617757,
+        "user_id": "c895a219-b59e-426d-81f1-91216b3848d4",
+        "ordered_at": "2021-08-22T08:52:57.073",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3077.204964474133,
+        "user_id": "78751a61-75f2-47d5-888e-b5161ce6b3d5",
+        "ordered_at": "2023-06-28T23:48:09.742",
+        "status": "CREATED"
+    },
+    {
+        "total": 1641.6796573180036,
+        "user_id": "d869c688-897a-4288-8535-666dd1861e3d",
+        "ordered_at": "2015-07-17T12:40:19.677",
+        "status": "CANCELED"
+    },
+    {
+        "total": 251.26146992690445,
+        "user_id": "5f6b7e8b-80bf-4a21-8d86-b18ec67bf005",
+        "ordered_at": "2020-05-08T21:35:16.492",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5046.139101961934,
+        "user_id": "9315a6b4-1335-467d-ad6e-44ebb0c1cb75",
+        "ordered_at": "2018-03-07T13:27:16.311",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9751.03715768408,
+        "user_id": "0d53e661-35cd-4969-9730-2f5cf40b8e6c",
+        "ordered_at": "2017-10-18T19:58:38.653",
+        "status": "CREATED"
+    },
+    {
+        "total": 4319.957302397902,
+        "user_id": "13ff1d48-eba1-4973-92f6-aa8438c908dc",
+        "ordered_at": "2023-04-04T19:19:26.464",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3479.049285476714,
+        "user_id": "370835dd-7345-4ca0-ab79-f32c16881a4f",
+        "ordered_at": "2024-02-16T02:39:50.808",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5141.066506417868,
+        "user_id": "fe9ab977-6613-4067-b9a4-88b900083831",
+        "ordered_at": "2023-09-18T23:28:08.051",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7141.2236715513645,
+        "user_id": "2e3bd6b6-52df-496f-b7bc-08ae2875d6aa",
+        "ordered_at": "2015-12-20T10:28:27.803",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4913.675007781398,
+        "user_id": "0654a1a5-c239-484b-a221-b5a535a1a9af",
+        "ordered_at": "2024-09-03T02:04:52.359",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6389.864360107229,
+        "user_id": "76785007-03af-4b20-b874-8ed24378f446",
+        "ordered_at": "2018-05-24T09:51:57.048",
+        "status": "CREATED"
+    },
+    {
+        "total": 9388.579605408322,
+        "user_id": "80e3fd74-03f2-4a1c-84f3-ddfa0ba0fc3c",
+        "ordered_at": "2018-09-11T02:17:37.466",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8534.136671596567,
+        "user_id": "b9aca907-483b-47f0-84c3-205895367b2e",
+        "ordered_at": "2023-08-07T13:47:51.131",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1393.8113749245706,
+        "user_id": "35d2ae0c-c6d5-4c84-a8dd-6f637a751982",
+        "ordered_at": "2016-10-02T09:21:26.963",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 469.129943006642,
+        "user_id": "dc543053-7c0e-495b-bbb4-a1c9752cd5bc",
+        "ordered_at": "2018-07-25T15:16:53.932",
+        "status": "CREATED"
+    },
+    {
+        "total": 1767.3072383456156,
+        "user_id": "3ec03241-4051-42f1-801b-d084717e11ad",
+        "ordered_at": "2023-07-15T21:36:33.957",
+        "status": "CREATED"
+    },
+    {
+        "total": 2199.122125669255,
+        "user_id": "88a81686-1119-476d-bfe1-a5fe0d82ebd9",
+        "ordered_at": "2018-05-25T02:04:52.373",
+        "status": "CREATED"
+    },
+    {
+        "total": 3524.969720855249,
+        "user_id": "cef1fc9b-a686-404f-abf8-47801a1f0e21",
+        "ordered_at": "2023-11-22T21:48:01.937",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4849.291969897404,
+        "user_id": "4ac398ec-ef35-4866-a074-840fc21ba20a",
+        "ordered_at": "2023-12-27T04:12:54.432",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7428.6984933443055,
+        "user_id": "d4affe37-ef3e-4202-b30c-a6da2e1d35db",
+        "ordered_at": "2017-09-04T00:56:54.093",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6796.643125005909,
+        "user_id": "a7e170f3-51ff-420b-9d52-fd9c9666f873",
+        "ordered_at": "2021-07-03T18:05:27.435",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9941.748399779191,
+        "user_id": "ed6bb32b-3e56-4d84-a4a6-098131232a6b",
+        "ordered_at": "2024-09-08T10:13:32.492",
+        "status": "CREATED"
+    },
+    {
+        "total": 4210.39624285096,
+        "user_id": "90ba1e39-2f73-4a3d-a25f-720bd8b2d5db",
+        "ordered_at": "2020-04-14T15:14:37.497",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2106.2570161115577,
+        "user_id": "80c9313e-4048-47ff-b66d-ddfedb5bfc2f",
+        "ordered_at": "2018-04-28T20:18:37.703",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6360.902911933885,
+        "user_id": "ff4e72e5-f4c7-41b0-9ebf-44a2a3bb3026",
+        "ordered_at": "2024-02-22T10:47:37.958",
+        "status": "CREATED"
+    },
+    {
+        "total": 1214.461403990954,
+        "user_id": "d4832982-69c6-4c79-b920-5efd25fd60d0",
+        "ordered_at": "2021-02-18T16:43:01.531",
+        "status": "CREATED"
+    },
+    {
+        "total": 8301.804019061885,
+        "user_id": "ea981db2-6f47-44d4-8d33-8c6131f34347",
+        "ordered_at": "2019-10-27T13:57:34.315",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1866.6947867214767,
+        "user_id": "28743a3c-6421-4ab9-b251-bda9abae2040",
+        "ordered_at": "2018-02-12T09:16:45.813",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6501.540835979847,
+        "user_id": "763cf3b8-af53-49b2-befc-c3a46d606efc",
+        "ordered_at": "2022-10-11T05:16:28.490",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1742.6506269401555,
+        "user_id": "7ef96e5d-db71-4510-9b9a-52f7ffd0704b",
+        "ordered_at": "2018-05-10T08:29:59.149",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7527.4958959782725,
+        "user_id": "f9d69f4e-8c7b-4649-a7ba-b5648421a61a",
+        "ordered_at": "2017-05-27T05:06:01.805",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2315.862171756197,
+        "user_id": "eb287c32-04fc-42a9-be8a-86eecf186968",
+        "ordered_at": "2024-07-14T20:09:55.556",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7580.31980063214,
+        "user_id": "b3ed7884-66b1-4eda-b97f-63785408830a",
+        "ordered_at": "2021-12-22T23:33:45.632",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4.283017045070281,
+        "user_id": "d145fc46-1bc5-48bd-875a-2a4f70d306a1",
+        "ordered_at": "2019-01-19T10:08:38.925",
+        "status": "CREATED"
+    },
+    {
+        "total": 6429.980245054892,
+        "user_id": "9b284cb1-cd06-402a-ad8b-ef5aea240758",
+        "ordered_at": "2015-01-16T15:33:02.676",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7593.0087909201675,
+        "user_id": "6b1fdc19-e182-4c11-b516-b862bf4703c8",
+        "ordered_at": "2016-06-05T23:28:22.265",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3792.5569685167225,
+        "user_id": "1decfe5a-8c65-4017-9d2c-4369f0558c42",
+        "ordered_at": "2021-08-05T11:49:59.919",
+        "status": "CREATED"
+    },
+    {
+        "total": 4940.476807173494,
+        "user_id": "5bfaa4cd-77e5-4289-b1a0-1106342a6569",
+        "ordered_at": "2015-03-14T15:18:35.097",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8362.911055905104,
+        "user_id": "0379469a-e5ff-414e-a46b-9f9b101cd1b9",
+        "ordered_at": "2017-01-03T00:25:53.420",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7270.137084763331,
+        "user_id": "beb43dd5-def8-44aa-ae35-fbb3795abd66",
+        "ordered_at": "2020-05-19T02:06:25.779",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9319.369254615078,
+        "user_id": "691c3361-6fad-441b-b65a-87f4ff7a1175",
+        "ordered_at": "2022-07-08T16:59:17.875",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6070.059118252911,
+        "user_id": "e9bb1f6a-59c2-4c13-84d4-4529ffd1cbfc",
+        "ordered_at": "2020-05-05T04:42:48.348",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 160.09022660645965,
+        "user_id": "4d1287bf-40a5-40db-830e-1b09d199dec7",
+        "ordered_at": "2015-05-16T14:50:24.135",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3618.911936376039,
+        "user_id": "ae92fd18-dea5-4e4a-a234-06bf1e3074fd",
+        "ordered_at": "2017-02-10T10:04:19.040",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4015.646026073946,
+        "user_id": "1939d66d-8372-4a8e-a37d-4b2df83dfc88",
+        "ordered_at": "2015-03-01T06:10:16.690",
+        "status": "CREATED"
+    },
+    {
+        "total": 6305.205220881057,
+        "user_id": "625a663b-dcc3-405c-97d5-36797db770a7",
+        "ordered_at": "2015-05-28T04:40:59.571",
+        "status": "CREATED"
+    },
+    {
+        "total": 5188.611770755738,
+        "user_id": "67ab2c85-110e-4042-aa5d-9976e25eb718",
+        "ordered_at": "2018-11-12T10:49:57.514",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2615.7913943198273,
+        "user_id": "07b067ce-6e46-408a-b7de-dea189a7b386",
+        "ordered_at": "2015-03-02T02:52:14.717",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1459.973226217488,
+        "user_id": "3604d67d-3eee-4565-b07a-73fbc807cbc6",
+        "ordered_at": "2015-11-02T10:45:26.353",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9378.863838349722,
+        "user_id": "5873d0ab-3e2f-4d00-af96-dfe89fca4b83",
+        "ordered_at": "2021-06-12T09:15:11.376",
+        "status": "CREATED"
+    },
+    {
+        "total": 6816.4837162942495,
+        "user_id": "ba79acf7-78fb-43d5-a0bc-f06fb1b6d2db",
+        "ordered_at": "2018-02-09T08:56:34.228",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9526.749787970079,
+        "user_id": "3ec7280b-3ea2-4244-9fae-af991a268b87",
+        "ordered_at": "2020-06-04T20:58:11.757",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1616.5766463103325,
+        "user_id": "dd49100b-8729-4512-b2a7-0cf8efcaf0ee",
+        "ordered_at": "2019-10-22T07:47:38.844",
+        "status": "CREATED"
+    },
+    {
+        "total": 8296.632641134262,
+        "user_id": "ba6b79a5-8f2a-4868-898d-52053009419e",
+        "ordered_at": "2020-07-16T22:43:10.489",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2030.1363040292097,
+        "user_id": "c7d1d381-ad7d-46e0-9f65-d99e9dc64769",
+        "ordered_at": "2023-12-19T11:30:41.934",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3946.1659321379007,
+        "user_id": "00a32182-c27c-4334-8a8c-65c37469aa22",
+        "ordered_at": "2015-10-15T14:44:04.121",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8845.670060975872,
+        "user_id": "546d94c3-7abc-434e-8a37-274afd3a9c6b",
+        "ordered_at": "2021-08-28T20:36:24.160",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7290.188482688008,
+        "user_id": "a5718795-b81b-44f6-88c8-154791d8b3a9",
+        "ordered_at": "2024-01-11T02:56:07.409",
+        "status": "CREATED"
+    },
+    {
+        "total": 6704.813614810767,
+        "user_id": "a6fdebbb-cc4e-4bb6-bd48-f003fe248924",
+        "ordered_at": "2017-08-26T14:29:09.050",
+        "status": "CREATED"
+    },
+    {
+        "total": 9760.150602692127,
+        "user_id": "8a61af44-2c86-49ff-bc5f-cd4af8af9d18",
+        "ordered_at": "2019-09-01T14:40:44.575",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3547.426506071748,
+        "user_id": "0049bbcb-a2e7-4db9-8d41-6ab63c1be78d",
+        "ordered_at": "2020-12-06T22:50:16.714",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7376.342513786446,
+        "user_id": "5110af02-64d6-4cc9-b40a-131d6cccca26",
+        "ordered_at": "2022-02-08T06:10:01.162",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9860.910177386413,
+        "user_id": "bca4adfe-7078-477e-aafd-193829efad20",
+        "ordered_at": "2020-09-22T07:03:41.303",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2662.7933502551637,
+        "user_id": "1da4ab95-ee8f-471e-8e01-adfec2e52cf4",
+        "ordered_at": "2016-07-12T09:27:56.808",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2336.1188887658245,
+        "user_id": "03dc8567-9d53-4db4-851b-c22b1ac99ec0",
+        "ordered_at": "2019-10-26T22:32:23.873",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4815.236831242067,
+        "user_id": "269b77c4-f0e1-4c50-a7dc-c2087a65ceb6",
+        "ordered_at": "2022-08-21T09:33:21.131",
+        "status": "CREATED"
+    },
+    {
+        "total": 4131.905843051115,
+        "user_id": "0cad448a-a407-483e-8cfc-ad01d7701ed0",
+        "ordered_at": "2018-08-12T10:47:27.589",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1574.5125973990625,
+        "user_id": "714b624f-235a-49dd-b0b0-b31e4b2867af",
+        "ordered_at": "2016-07-24T10:08:41.383",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7314.801911738362,
+        "user_id": "6565b884-96ac-4f98-b7e1-676e9f1c2420",
+        "ordered_at": "2016-02-10T04:27:31.351",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2513.1531416123844,
+        "user_id": "fda086b6-5cf8-4d41-aaee-e75d9298178f",
+        "ordered_at": "2024-10-02T19:07:31.517",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3624.6185082320603,
+        "user_id": "00bf4c25-943c-450a-9bda-8bf4aa5e2f3e",
+        "ordered_at": "2017-10-09T05:23:05.743",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 594.8900677491131,
+        "user_id": "b2e99d6f-2bf1-4bab-aa64-93650e7ef91c",
+        "ordered_at": "2023-06-12T15:55:37.433",
+        "status": "CREATED"
+    },
+    {
+        "total": 9757.237374359089,
+        "user_id": "207a0cec-524f-41ac-915d-5b6930e68913",
+        "ordered_at": "2017-10-14T18:02:17.984",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6729.857898993453,
+        "user_id": "24ac5322-2100-4f70-90f3-d78cd2e033d7",
+        "ordered_at": "2018-06-25T04:48:45.945",
+        "status": "CREATED"
+    },
+    {
+        "total": 8370.084742958054,
+        "user_id": "60a2c5a0-5ff4-4cfe-be5f-24a2cadfa8c7",
+        "ordered_at": "2023-07-03T11:47:43.422",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4968.082082660342,
+        "user_id": "6a2d4bc0-5ae5-46bd-9b5b-284a50dffb37",
+        "ordered_at": "2015-01-08T04:48:43.011",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7302.594365968029,
+        "user_id": "e98011d0-973b-4562-81e7-2dece2c37b4d",
+        "ordered_at": "2018-08-20T17:54:40.096",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5327.362061094418,
+        "user_id": "b3d5684e-a163-4ae6-b452-a64c5edf6e70",
+        "ordered_at": "2016-12-07T13:27:18.942",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6643.440440666381,
+        "user_id": "237dc20e-5764-420e-b010-a1b21aef9a32",
+        "ordered_at": "2024-07-11T18:04:50.471",
+        "status": "CREATED"
+    },
+    {
+        "total": 7947.097373426442,
+        "user_id": "4ac296f7-d979-48e7-be61-56f0c521a733",
+        "ordered_at": "2022-06-09T10:47:13.028",
+        "status": "CREATED"
+    },
+    {
+        "total": 6629.779325608342,
+        "user_id": "8fd49412-5ec9-497a-9654-26506d83881f",
+        "ordered_at": "2023-11-16T16:33:43.231",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9236.426850513646,
+        "user_id": "b5157bba-cc64-4efd-a5c6-2d909958c25a",
+        "ordered_at": "2020-01-15T01:53:08.566",
+        "status": "CREATED"
+    },
+    {
+        "total": 2573.7716160108016,
+        "user_id": "2e034dfd-e406-47b4-ac7a-ebcddf74947c",
+        "ordered_at": "2022-06-02T23:54:47.516",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5413.934655936543,
+        "user_id": "9569185a-fb37-471d-bbce-c4ddde570c3c",
+        "ordered_at": "2019-01-17T02:44:16.226",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5502.084352960623,
+        "user_id": "1bdd9dbf-7294-42d3-9156-0209a451fb82",
+        "ordered_at": "2018-01-11T22:53:11.136",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5819.09523813538,
+        "user_id": "38eb141b-57f3-4530-8c58-783208d6218a",
+        "ordered_at": "2023-05-27T14:27:24.774",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6669.962403249713,
+        "user_id": "3babfce1-4219-4c60-a294-65cafa67f95d",
+        "ordered_at": "2024-02-03T16:59:09.421",
+        "status": "CREATED"
+    },
+    {
+        "total": 1645.7818101967225,
+        "user_id": "8f8080ef-5307-475d-b546-1aa329146c1a",
+        "ordered_at": "2018-05-19T06:17:55.332",
+        "status": "CREATED"
+    },
+    {
+        "total": 9059.168082452274,
+        "user_id": "7b8cb3a7-60fc-40b3-be99-cc5dfe07d523",
+        "ordered_at": "2021-02-20T02:41:19.293",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1369.9919523704784,
+        "user_id": "24b6bcc7-2ff5-471f-816f-ddf0fd3f7173",
+        "ordered_at": "2019-06-15T16:29:39.986",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1156.1648067768826,
+        "user_id": "15fca8a8-e454-4ae5-b50a-ddd276c47a91",
+        "ordered_at": "2020-05-20T18:05:55.435",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2713.1721316242665,
+        "user_id": "c019b808-24ca-4fa6-9f3d-c1bb3a805357",
+        "ordered_at": "2015-08-10T03:18:20.964",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5282.20753900425,
+        "user_id": "3ade074f-f7a8-4739-a121-90f169425719",
+        "ordered_at": "2023-01-01T19:13:05.798",
+        "status": "CANCELED"
+    },
+    {
+        "total": 126.07600471907344,
+        "user_id": "bf57464a-b36b-4003-a7ac-682cabca8551",
+        "ordered_at": "2019-10-09T14:06:27.232",
+        "status": "CANCELED"
+    },
+    {
+        "total": 340.5786196258187,
+        "user_id": "f795f6b1-aa8d-4052-868f-03ac6f2f7da2",
+        "ordered_at": "2021-07-10T20:57:24.473",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3654.2069412438073,
+        "user_id": "8e402ef8-9a73-48dd-9b32-debd346daa5b",
+        "ordered_at": "2018-02-06T06:59:49.556",
+        "status": "CREATED"
+    },
+    {
+        "total": 3669.3982199193133,
+        "user_id": "f4f17e65-cf0c-4212-845c-6649e7f50b8d",
+        "ordered_at": "2016-11-16T16:12:06.687",
+        "status": "CREATED"
+    },
+    {
+        "total": 8843.993265285615,
+        "user_id": "b26feb25-f396-4bc2-8520-1856aa066874",
+        "ordered_at": "2023-06-19T09:35:27.999",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8633.815289628976,
+        "user_id": "26dabf14-728a-4c12-9f95-8aa32c9892cd",
+        "ordered_at": "2024-10-09T13:08:54.423",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1789.6479227536665,
+        "user_id": "14ca7078-2a87-4256-90e4-f5d417103815",
+        "ordered_at": "2023-06-14T04:35:53.899",
+        "status": "CREATED"
+    },
+    {
+        "total": 9332.79325789916,
+        "user_id": "3c03ffc4-ccda-4f7b-964b-73f94e7c14ca",
+        "ordered_at": "2017-02-19T04:39:47.621",
+        "status": "CREATED"
+    },
+    {
+        "total": 9256.123927420413,
+        "user_id": "c4945492-de95-4373-9b38-bf3d3aa5f11d",
+        "ordered_at": "2024-06-13T07:52:51.467",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5288.195679952896,
+        "user_id": "21807236-0727-4645-b1c0-9aca6d83e213",
+        "ordered_at": "2015-04-22T21:34:04.192",
+        "status": "CREATED"
+    },
+    {
+        "total": 1326.8905725121838,
+        "user_id": "1627330d-bd84-4426-978e-7f803fb1af8d",
+        "ordered_at": "2022-08-16T03:40:03.640",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1963.8153043406503,
+        "user_id": "c7fceaf5-81ca-423a-9796-b864833773ba",
+        "ordered_at": "2016-09-26T03:56:37.606",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5530.871630221883,
+        "user_id": "d038eea0-9c58-4d4d-9712-f9c7d21be910",
+        "ordered_at": "2023-11-24T08:13:45.284",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5446.910710900263,
+        "user_id": "2df2c605-2de2-478e-baef-7e436819cddf",
+        "ordered_at": "2024-08-13T05:53:46.786",
+        "status": "CREATED"
+    },
+    {
+        "total": 3746.533477366176,
+        "user_id": "d922e5c7-fb05-41c2-a69f-ae33eb013597",
+        "ordered_at": "2020-07-28T15:25:33.069",
+        "status": "CREATED"
+    },
+    {
+        "total": 5413.590254502849,
+        "user_id": "ad4deffd-69e3-40a6-ab35-61b0000e6e68",
+        "ordered_at": "2022-03-09T22:16:49.332",
+        "status": "CANCELED"
+    },
+    {
+        "total": 239.7009884775747,
+        "user_id": "a22fad0d-688e-4505-ac66-2a399795123a",
+        "ordered_at": "2015-12-12T02:46:39.461",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1672.0492266590625,
+        "user_id": "ab893e23-e09c-4a64-ac28-0ee0af8791dd",
+        "ordered_at": "2023-10-21T01:08:49.884",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4373.457966999733,
+        "user_id": "95da3b2c-41f3-4f32-9f47-df15b3286698",
+        "ordered_at": "2022-11-28T09:04:23.428",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8995.589737723796,
+        "user_id": "8829cccb-2686-4ae2-86b4-97262ba91a0f",
+        "ordered_at": "2020-09-11T12:31:54.560",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 272.87625803095295,
+        "user_id": "0d498c75-929d-4217-92cc-634e4d37ffe9",
+        "ordered_at": "2022-05-12T23:06:25.264",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8763.079832923435,
+        "user_id": "af743167-7dcc-480e-a51c-33f83771800f",
+        "ordered_at": "2015-01-07T15:59:22.511",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8005.038111829654,
+        "user_id": "10907f7e-ff6f-44ce-8262-3e7deffd2139",
+        "ordered_at": "2021-06-14T22:21:12.190",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6041.890822590858,
+        "user_id": "8cad9344-4c78-455e-9b86-28430ea97a97",
+        "ordered_at": "2017-02-07T13:45:41.714",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3647.8101294276476,
+        "user_id": "b5dea925-53fe-4e01-ba14-5f46dff0d841",
+        "ordered_at": "2015-01-01T09:28:19.861",
+        "status": "CREATED"
+    },
+    {
+        "total": 7382.448444884231,
+        "user_id": "19f08533-916f-4986-9e17-efab107b66fd",
+        "ordered_at": "2020-04-23T03:02:54.782",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5502.30579592636,
+        "user_id": "86382df0-7856-43c0-9d3c-0d274d287e62",
+        "ordered_at": "2018-09-18T12:58:41.590",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8730.694056968297,
+        "user_id": "6a83b509-32be-462e-b410-fb3b112de400",
+        "ordered_at": "2017-06-09T11:37:49.330",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9218.38582605569,
+        "user_id": "5e3e17be-928c-4e20-98b3-17de482c6134",
+        "ordered_at": "2021-10-23T13:46:19.001",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8772.530108709445,
+        "user_id": "ec269d7c-f74c-45ce-904f-e6124b627c74",
+        "ordered_at": "2023-02-18T05:40:30.351",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8845.593726531433,
+        "user_id": "ca25452c-daf5-4f9d-bd56-18ddd22f90e0",
+        "ordered_at": "2019-01-04T06:46:15.881",
+        "status": "CREATED"
+    },
+    {
+        "total": 751.5655535619936,
+        "user_id": "13593f60-5cc0-49ed-9568-2fabe89aa389",
+        "ordered_at": "2021-10-17T02:47:57.123",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3920.565549674917,
+        "user_id": "dbe24cc9-d474-4e7a-b9f6-e34b14c3560d",
+        "ordered_at": "2021-05-08T17:55:59.563",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3678.2596148747916,
+        "user_id": "a0803060-314f-4e70-b2ba-e78fec3f7a9d",
+        "ordered_at": "2022-10-10T10:00:01.737",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4314.38758578737,
+        "user_id": "3f419c31-fa55-4936-9d14-0d73bd3282ed",
+        "ordered_at": "2018-11-05T17:31:42.894",
+        "status": "CREATED"
+    },
+    {
+        "total": 986.1992013342058,
+        "user_id": "51643d98-3e59-4cc6-9992-2fbb343152fe",
+        "ordered_at": "2015-11-08T20:16:08.332",
+        "status": "CREATED"
+    },
+    {
+        "total": 6379.05489309053,
+        "user_id": "f16a2a63-f998-46bc-b8c6-50aa4a9335cf",
+        "ordered_at": "2022-07-26T07:47:30.130",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3482.330259205382,
+        "user_id": "d07ab5e8-f140-4611-b306-8c89f8c2feac",
+        "ordered_at": "2018-05-01T20:15:38.827",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2171.818906874885,
+        "user_id": "af11f3df-29c5-45d2-b7a3-543dcbbd0c56",
+        "ordered_at": "2016-09-06T07:06:13.604",
+        "status": "CREATED"
+    },
+    {
+        "total": 2056.322439885626,
+        "user_id": "b74dc519-0809-46e5-b065-bb70557343ce",
+        "ordered_at": "2023-06-04T10:24:01.735",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1451.7434607777413,
+        "user_id": "15fe6000-a136-4ff9-b496-5d4747c23368",
+        "ordered_at": "2016-04-22T23:46:37.114",
+        "status": "CREATED"
+    },
+    {
+        "total": 514.9424050362439,
+        "user_id": "1ca2b14c-3243-4724-beff-3b45591a195b",
+        "ordered_at": "2016-09-26T03:07:33.833",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6517.433096681083,
+        "user_id": "ca8408ea-cbea-4209-bf5c-8770a8d5c014",
+        "ordered_at": "2023-04-17T07:17:25.288",
+        "status": "CREATED"
+    },
+    {
+        "total": 7326.698444292676,
+        "user_id": "92b3a9fb-2926-40a0-88e8-7dec6f9e56f1",
+        "ordered_at": "2024-01-28T18:48:43.242",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7603.096885309744,
+        "user_id": "55f4b4b9-56d2-42c0-b195-e2b96c9f0035",
+        "ordered_at": "2023-11-25T08:59:58.941",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7517.651252439776,
+        "user_id": "6426bd55-946c-404e-8cfe-da013fb5f097",
+        "ordered_at": "2023-09-18T15:16:23.873",
+        "status": "CREATED"
+    },
+    {
+        "total": 817.5732244677025,
+        "user_id": "eb7fe525-80cf-46df-9656-089689323366",
+        "ordered_at": "2015-11-27T01:15:15.231",
+        "status": "CREATED"
+    },
+    {
+        "total": 8750.001432232726,
+        "user_id": "18ab48bc-b6fb-4c0b-8409-6e95cf82b9ce",
+        "ordered_at": "2024-09-19T15:57:30.303",
+        "status": "CREATED"
+    },
+    {
+        "total": 7874.626802864495,
+        "user_id": "303d11d7-f382-4a79-bb61-a8cb9b2de94c",
+        "ordered_at": "2020-08-08T19:19:48.212",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3320.947704218623,
+        "user_id": "f66f1b6c-159a-430e-b2e6-2332638261e9",
+        "ordered_at": "2018-10-27T18:56:03.740",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3030.9167867620936,
+        "user_id": "476abe71-9e27-4722-870c-3f298c119741",
+        "ordered_at": "2018-01-05T02:51:37.835",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5801.676365814427,
+        "user_id": "3f30391d-6f16-4a50-9a87-2fee45ef2304",
+        "ordered_at": "2016-02-22T18:56:12.350",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5660.0189663397905,
+        "user_id": "71616869-0269-45b2-a9f7-0f0d011b1de4",
+        "ordered_at": "2022-10-18T03:19:28.680",
+        "status": "CREATED"
+    },
+    {
+        "total": 2937.778078035367,
+        "user_id": "78fb5203-d797-43d2-9774-4bc3638c9520",
+        "ordered_at": "2023-06-28T01:59:08.149",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9217.415868898499,
+        "user_id": "871191da-5753-4785-9d28-fce4addcba75",
+        "ordered_at": "2024-06-28T19:09:22.959",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2676.71782165928,
+        "user_id": "d7ebb54f-9e34-4dde-9bbb-34dc337e46b6",
+        "ordered_at": "2022-08-04T03:06:42.367",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8494.456125737408,
+        "user_id": "abac10a2-a349-47fb-9d05-ed02db1fc679",
+        "ordered_at": "2022-09-21T05:59:35.605",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5480.295514817243,
+        "user_id": "602c3391-1c3d-4a79-955f-ae642ae24df3",
+        "ordered_at": "2019-11-14T23:32:58.244",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6052.08280632069,
+        "user_id": "2da96c58-be49-4068-a463-ab6f08dc5c6b",
+        "ordered_at": "2019-01-04T08:57:17.422",
+        "status": "CREATED"
+    },
+    {
+        "total": 6906.6307416615755,
+        "user_id": "922adda9-7b00-4e90-b5e2-33a2ab281f83",
+        "ordered_at": "2015-07-03T19:10:33.358",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6632.118032428876,
+        "user_id": "8afd31dd-4da5-480c-a620-1d3a6e167593",
+        "ordered_at": "2018-05-16T09:14:02.738",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2574.7035557292907,
+        "user_id": "55f4c708-5c57-4871-b052-8e82a51e3d3e",
+        "ordered_at": "2018-09-25T01:18:54.378",
+        "status": "CANCELED"
+    },
+    {
+        "total": 760.7777113563995,
+        "user_id": "2b5ddb9f-e01e-49a0-ac78-47b24d83d5ac",
+        "ordered_at": "2015-06-20T01:01:33.791",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7603.667706452078,
+        "user_id": "6dbec635-a513-4c88-a872-42e7dd1290e3",
+        "ordered_at": "2022-11-25T02:42:05.672",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8312.801258661875,
+        "user_id": "20521b6c-a704-47e3-8562-3deedfc7e932",
+        "ordered_at": "2018-12-13T16:49:15.291",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3279.1399916300466,
+        "user_id": "94d52245-dd06-4fb3-a153-bac381902108",
+        "ordered_at": "2017-03-02T19:29:51.957",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1653.345178112704,
+        "user_id": "84bdf43a-08bd-40e8-9008-f75f26b7885e",
+        "ordered_at": "2022-01-20T13:05:52.575",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5650.762118035378,
+        "user_id": "989dd28d-115a-45f1-86fd-19ffef99ee46",
+        "ordered_at": "2022-06-12T10:43:01.999",
+        "status": "CREATED"
+    },
+    {
+        "total": 308.0524753376779,
+        "user_id": "23426ba3-adb0-49c9-854d-09c0b894eea2",
+        "ordered_at": "2018-10-24T14:51:26.115",
+        "status": "CREATED"
+    },
+    {
+        "total": 8902.119179083877,
+        "user_id": "ed046f28-5df2-4ab4-9fe4-51d298880854",
+        "ordered_at": "2019-08-05T04:20:29.321",
+        "status": "CREATED"
+    },
+    {
+        "total": 3650.1648792979026,
+        "user_id": "d5d80b15-6e3b-4f3f-8333-262e72f7820d",
+        "ordered_at": "2020-09-10T21:28:10.026",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1329.4052642210686,
+        "user_id": "8fa920f8-d4af-4c84-b2e9-16278e52058c",
+        "ordered_at": "2015-09-05T22:37:51.538",
+        "status": "CANCELED"
+    },
+    {
+        "total": 589.1603834646176,
+        "user_id": "aa59a0d1-decd-47ef-af69-956c9e1257de",
+        "ordered_at": "2016-06-25T09:58:55.111",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2574.136944304456,
+        "user_id": "56420b49-252b-493a-8a60-3e685dfe474c",
+        "ordered_at": "2021-03-14T01:06:44.544",
+        "status": "CANCELED"
+    },
+    {
+        "total": 981.3700858996721,
+        "user_id": "26d85e1b-0739-4b28-bc29-d69308872cb1",
+        "ordered_at": "2020-03-24T10:19:22.545",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7114.044536080829,
+        "user_id": "d8151ac0-7acf-4337-bf53-5b6b0f36d3be",
+        "ordered_at": "2018-12-06T20:53:48.465",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9773.802902712041,
+        "user_id": "da9ad0d4-ad29-4619-b917-248dd49bc18f",
+        "ordered_at": "2022-09-21T14:26:49.995",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3942.612221371309,
+        "user_id": "d2b330a5-b653-4cb3-b3ce-f045c8816ca8",
+        "ordered_at": "2024-08-04T07:18:34.631",
+        "status": "CREATED"
+    },
+    {
+        "total": 3583.700931758971,
+        "user_id": "6e92ef4e-6026-4fb0-b288-659a04232835",
+        "ordered_at": "2021-08-28T18:20:40.720",
+        "status": "CREATED"
+    },
+    {
+        "total": 4660.407696551455,
+        "user_id": "d06cfc39-322a-40ef-823f-24366f08b9d9",
+        "ordered_at": "2017-01-07T08:37:21.182",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9385.108212989828,
+        "user_id": "e90b654b-4fe8-4bfc-9ef9-e566b10c8292",
+        "ordered_at": "2020-05-22T13:21:03.687",
+        "status": "CREATED"
+    },
+    {
+        "total": 8940.425135145935,
+        "user_id": "3673c2ec-f440-4c29-b8ac-cb73b4483b20",
+        "ordered_at": "2015-02-08T22:39:23.035",
+        "status": "CREATED"
+    },
+    {
+        "total": 4628.157363201652,
+        "user_id": "89e085a4-2f2f-470e-a04c-f7f10e4b54dc",
+        "ordered_at": "2024-10-10T04:45:53.318",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5376.486288641989,
+        "user_id": "87f473da-291b-4275-9ffc-65099f450a7d",
+        "ordered_at": "2022-03-16T05:23:16.532",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7896.329976556508,
+        "user_id": "21482e87-50d4-4f0f-9de4-9ffba189d7f8",
+        "ordered_at": "2021-08-13T22:16:43.735",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8220.88432833271,
+        "user_id": "ed741a2d-ec0f-434d-9096-6db598f13705",
+        "ordered_at": "2020-05-27T04:44:12.993",
+        "status": "CREATED"
+    },
+    {
+        "total": 4082.3226597785656,
+        "user_id": "13401c43-53a0-4137-a382-bdbe946fc69e",
+        "ordered_at": "2019-05-11T00:56:02.117",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3388.7380883403684,
+        "user_id": "29e47290-07e1-4e2c-9a6b-a81d10ba7790",
+        "ordered_at": "2022-12-05T04:00:36.214",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 36.29668578702727,
+        "user_id": "a14c6f72-28e5-490c-8185-54151fe45d83",
+        "ordered_at": "2023-11-18T11:58:17.293",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5557.035274510847,
+        "user_id": "4adc11f8-fc6b-4b3e-b146-31170a84153d",
+        "ordered_at": "2016-01-20T05:32:02.203",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7244.429221809656,
+        "user_id": "dcd94edd-9b42-4848-9b34-3b0b4872dda4",
+        "ordered_at": "2017-02-24T18:02:01.286",
+        "status": "CREATED"
+    },
+    {
+        "total": 8202.39856961153,
+        "user_id": "81e6bdcb-929a-4b7f-8ab9-1cb987c4ed4c",
+        "ordered_at": "2023-12-19T23:34:55.959",
+        "status": "CREATED"
+    },
+    {
+        "total": 895.2485945397603,
+        "user_id": "17caa178-cb3f-4035-9c77-0d514f570a54",
+        "ordered_at": "2024-02-01T05:39:57.983",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9270.803581509757,
+        "user_id": "83d6292b-2f83-4160-9d96-d43d340753b7",
+        "ordered_at": "2023-11-15T21:33:29.441",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7781.942487490233,
+        "user_id": "54ab4ab4-2beb-4dda-8901-440ab379bc1e",
+        "ordered_at": "2016-01-20T20:08:36.236",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1903.6198884629353,
+        "user_id": "bb78426c-11fc-4cb6-a8b5-b7572669ebb0",
+        "ordered_at": "2020-08-15T19:37:30.721",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3997.6257812604445,
+        "user_id": "ba83a8d0-580f-45d6-bbbe-8c450d3166fa",
+        "ordered_at": "2017-02-09T06:32:01.552",
+        "status": "CREATED"
+    },
+    {
+        "total": 5587.537375003569,
+        "user_id": "f2917c46-60b8-4a8d-b26a-21a73485c5e0",
+        "ordered_at": "2017-03-12T02:37:20.709",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1965.643386565875,
+        "user_id": "d60135a7-c9b7-4a75-b2c4-6ea7af9bab07",
+        "ordered_at": "2021-09-10T00:15:33.353",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2362.479035623236,
+        "user_id": "3b46e590-a75c-41ac-bf34-3f9734227955",
+        "ordered_at": "2016-11-26T06:58:19.446",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1697.8247121056945,
+        "user_id": "fd8426cd-45bb-42ba-9b43-02af7b28f5d0",
+        "ordered_at": "2018-05-07T14:28:20.676",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2704.100861006824,
+        "user_id": "cf900b1c-7a28-4771-acde-e26d363c8f4c",
+        "ordered_at": "2021-04-19T10:33:23.666",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4510.888847563506,
+        "user_id": "07484264-cdf1-4b80-9484-c95bebf2c7a6",
+        "ordered_at": "2021-07-17T16:30:53.053",
+        "status": "CREATED"
+    },
+    {
+        "total": 9569.734222468038,
+        "user_id": "df1c4cdb-5d5b-48cd-babe-21296ab1d534",
+        "ordered_at": "2019-08-16T18:17:35.553",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7006.896583332942,
+        "user_id": "1374db43-d9d8-4b4d-9baf-4a36b4638ca2",
+        "ordered_at": "2024-12-02T10:25:18.424",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8313.739845159806,
+        "user_id": "762db927-85de-4943-835f-4c46754b899a",
+        "ordered_at": "2018-08-13T01:03:49.977",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6720.938899476043,
+        "user_id": "ad1faaa0-41a3-4123-9ee3-55f08fa12155",
+        "ordered_at": "2024-04-03T06:48:03.669",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6976.525681739328,
+        "user_id": "5616d125-0aef-4304-a739-cca8c055c7f6",
+        "ordered_at": "2022-07-17T19:29:12.135",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8272.610379336706,
+        "user_id": "1f43b465-3956-41ca-9a74-4fa77895a26d",
+        "ordered_at": "2019-06-11T06:55:02.145",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1348.5252480965614,
+        "user_id": "349c9f31-3aa7-402e-af61-2b61da50184d",
+        "ordered_at": "2020-02-06T02:26:11.919",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4472.9363889646065,
+        "user_id": "f6d54a9c-af93-4b4a-9450-ec6b6f30faa1",
+        "ordered_at": "2018-07-19T22:41:27.308",
+        "status": "CREATED"
+    },
+    {
+        "total": 3505.0542654892347,
+        "user_id": "d831d287-0414-4103-8eb9-bb3df062ae95",
+        "ordered_at": "2022-01-27T01:54:12.797",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2012.2574168259466,
+        "user_id": "bfcc0e99-e725-4161-9cf7-9e6b2a28aaba",
+        "ordered_at": "2019-06-19T00:56:33.490",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 780.2538895624955,
+        "user_id": "5b9ea0fd-d6da-42b5-8c9b-ebd99d4a5710",
+        "ordered_at": "2020-03-25T21:10:05.903",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6995.33034405182,
+        "user_id": "58b86fe0-d253-4ba4-9656-b18cc343bafd",
+        "ordered_at": "2021-12-27T05:38:04.114",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4759.5945328865055,
+        "user_id": "3ce953e6-a230-4a4c-8593-1be734686384",
+        "ordered_at": "2015-03-24T07:28:01.835",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4637.030070571257,
+        "user_id": "d1b1172b-d07f-4c0e-b941-4510ab2037dd",
+        "ordered_at": "2018-08-08T14:38:30.745",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 463.2687749863118,
+        "user_id": "2a8c5745-8ba8-4018-871d-a932e9f2a42a",
+        "ordered_at": "2021-05-08T09:41:44.222",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7356.241339525952,
+        "user_id": "3b26c3c1-5f1c-4580-a65c-b54e3442ddcd",
+        "ordered_at": "2023-08-28T12:40:13.245",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3891.027662553721,
+        "user_id": "5ebabb7c-842a-4060-a384-53e2be04e969",
+        "ordered_at": "2019-11-01T17:19:35.290",
+        "status": "CREATED"
+    },
+    {
+        "total": 808.7564512071199,
+        "user_id": "b330543d-e1f1-4c19-a8b4-a9f56c4f93f3",
+        "ordered_at": "2024-08-13T18:00:08.589",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9207.73324331097,
+        "user_id": "4c32f8d7-6b75-430c-8a58-3ce659bc2967",
+        "ordered_at": "2016-10-19T03:34:47.879",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2115.4609136159174,
+        "user_id": "17acf1f4-685e-471e-be0e-dee2c81f7310",
+        "ordered_at": "2022-07-12T23:38:16.822",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3554.410368710642,
+        "user_id": "2b77d2b9-ef65-4de8-aa1d-8b3dcac8a255",
+        "ordered_at": "2019-12-05T12:18:27.834",
+        "status": "CREATED"
+    },
+    {
+        "total": 4734.228441798464,
+        "user_id": "f623c62d-633f-4cd2-b74f-602bb8c8a946",
+        "ordered_at": "2017-04-22T10:48:32.826",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9539.476081722092,
+        "user_id": "a59bd4b8-e578-4b99-879f-e3a969a88aa7",
+        "ordered_at": "2017-01-26T20:50:26.579",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 688.491571613945,
+        "user_id": "ed9cd036-63e8-4ccd-ba31-a088714b78f9",
+        "ordered_at": "2023-06-18T20:16:50.093",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 447.91995787608727,
+        "user_id": "b794fd22-168a-44dc-b824-0dc9dc7b532a",
+        "ordered_at": "2022-12-15T16:47:36.757",
+        "status": "CREATED"
+    },
+    {
+        "total": 829.3139055872101,
+        "user_id": "5a0fde55-da39-471e-adfc-7fe94973573d",
+        "ordered_at": "2020-03-15T13:12:12.342",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6932.604074388485,
+        "user_id": "570845f0-2f65-4bf8-9652-282932ec61ec",
+        "ordered_at": "2023-11-03T19:40:31.712",
+        "status": "CREATED"
+    },
+    {
+        "total": 4629.227317753013,
+        "user_id": "60f06a77-ae51-4053-a613-9b8898587ba5",
+        "ordered_at": "2024-10-13T15:12:17.313",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3032.8465913072587,
+        "user_id": "e5769b51-fe98-4440-a44a-9a515caffc3d",
+        "ordered_at": "2019-08-15T05:04:17.604",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1874.4940094420836,
+        "user_id": "340b9aa7-1db1-4cb5-80e3-191ebac54f5c",
+        "ordered_at": "2018-11-03T09:01:38.427",
+        "status": "CREATED"
+    },
+    {
+        "total": 3693.6475739140183,
+        "user_id": "d27ab8d5-2838-4816-8e30-9c1cf1853620",
+        "ordered_at": "2021-04-10T11:35:53.675",
+        "status": "CREATED"
+    },
+    {
+        "total": 3258.58453271619,
+        "user_id": "249a1741-6be8-4fad-8aae-353e0beeb642",
+        "ordered_at": "2023-09-20T05:15:04.539",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1208.1324790113636,
+        "user_id": "75bcf65d-b70b-482b-b5d0-174c4441d2a0",
+        "ordered_at": "2015-06-22T17:43:17.810",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6035.424641914608,
+        "user_id": "d2d9e191-eaec-4a2a-993e-ba2da36c7278",
+        "ordered_at": "2017-08-11T04:23:20.687",
+        "status": "CREATED"
+    },
+    {
+        "total": 8131.0969444939155,
+        "user_id": "1dea29e9-e13e-4311-9468-546eb4a4f6f8",
+        "ordered_at": "2015-04-18T11:55:36.564",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4849.590750435292,
+        "user_id": "38a4ca45-6efe-476c-b634-16ead08014eb",
+        "ordered_at": "2024-08-06T16:47:57.385",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3949.282782945456,
+        "user_id": "e0fd7492-df5c-4604-a593-702c6534f496",
+        "ordered_at": "2016-07-10T20:18:15.305",
+        "status": "CREATED"
+    },
+    {
+        "total": 8936.569407097295,
+        "user_id": "04b0e380-a6bc-4bfc-adc2-4f7f862d4e3c",
+        "ordered_at": "2017-09-21T05:58:26.350",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 161.7515667541225,
+        "user_id": "30017eeb-5eaa-4aec-bdde-502452127114",
+        "ordered_at": "2024-08-22T14:09:57.925",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1925.1475811266184,
+        "user_id": "70a62315-fdb9-41ad-88e7-2bebef10c007",
+        "ordered_at": "2024-03-09T06:22:41.107",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7220.305178762502,
+        "user_id": "02cd23c9-ffe9-40c6-a889-29ca75041011",
+        "ordered_at": "2019-04-18T09:11:50.926",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3352.9059938825935,
+        "user_id": "64fc1ec0-d19f-4ecc-9a92-b6f792139565",
+        "ordered_at": "2022-01-02T10:08:33.442",
+        "status": "CREATED"
+    },
+    {
+        "total": 9085.391862086635,
+        "user_id": "62843202-490f-44b1-bb35-2e965922e03c",
+        "ordered_at": "2016-07-21T13:23:54.564",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5132.882369151492,
+        "user_id": "4aea3f0c-a82c-4d19-a3f7-7518c5ad1118",
+        "ordered_at": "2020-01-28T12:30:09.255",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9828.65762786433,
+        "user_id": "ecc46201-b48f-476b-b046-ea5dda8dfdc3",
+        "ordered_at": "2016-06-13T20:37:50.117",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7024.163980431338,
+        "user_id": "93df9baf-4c4b-4640-a20a-65d2ca5196d2",
+        "ordered_at": "2015-04-23T21:00:25.137",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7901.856765725219,
+        "user_id": "81d2f403-9e3e-4d91-a975-38bc5edb2497",
+        "ordered_at": "2018-06-09T07:27:59.528",
+        "status": "CREATED"
+    },
+    {
+        "total": 2632.2094927070993,
+        "user_id": "5e59279d-feae-4b6c-91c0-dc0329190f08",
+        "ordered_at": "2017-11-20T02:07:48.435",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9317.019445338723,
+        "user_id": "cffe9b0e-9e3c-41b5-ba31-c2849e77079f",
+        "ordered_at": "2024-09-21T23:24:11.889",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8598.000649922304,
+        "user_id": "964fd73f-2bfc-4a08-9dc9-9fc4946c887a",
+        "ordered_at": "2019-03-04T11:06:59.685",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1249.6907769019715,
+        "user_id": "5e82765a-9855-411c-8f6d-8ca1679de5f2",
+        "ordered_at": "2024-12-08T02:41:00.910",
+        "status": "CREATED"
+    },
+    {
+        "total": 961.9213083643963,
+        "user_id": "548dc401-a33b-433b-b2e0-c7a04ae9c040",
+        "ordered_at": "2017-05-08T01:31:56.930",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3472.0229885447793,
+        "user_id": "6f8eae29-4ed4-4e53-9e9a-dbc449bea032",
+        "ordered_at": "2017-10-02T14:36:37.755",
+        "status": "CREATED"
+    },
+    {
+        "total": 2772.976918119825,
+        "user_id": "f01ae5db-188a-4a30-9a5c-83bc2b77a4fc",
+        "ordered_at": "2019-09-03T08:48:17.527",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 813.0982597918002,
+        "user_id": "93b16301-62b5-41f8-acad-b88c5a9d0798",
+        "ordered_at": "2021-05-01T12:44:35.055",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8952.339839572403,
+        "user_id": "eeaa0a0c-4b5b-4f90-a9e3-d410da426af0",
+        "ordered_at": "2017-11-01T22:35:31.119",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5578.910713107605,
+        "user_id": "dfeba971-bbbd-4eed-9d8b-dcb18d271fb6",
+        "ordered_at": "2017-12-13T02:28:06.826",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8339.149661313842,
+        "user_id": "c2e74573-0a48-44d8-a309-fa85bd35f94a",
+        "ordered_at": "2021-07-24T06:59:10.945",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2874.0295182617324,
+        "user_id": "062041c0-e9d8-410f-b789-7acce7158dcb",
+        "ordered_at": "2017-11-05T00:50:15.194",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8404.252112003727,
+        "user_id": "49e8cd79-dd45-42ae-9eeb-7ba866c94a1a",
+        "ordered_at": "2020-10-24T23:20:03.990",
+        "status": "CREATED"
+    },
+    {
+        "total": 3162.4191202156735,
+        "user_id": "749b8e16-49da-49e9-a752-a545fd9f6a8b",
+        "ordered_at": "2016-12-05T18:41:59.104",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7003.546753535582,
+        "user_id": "070b66d6-de95-4190-bce8-d37b7ad3f4b6",
+        "ordered_at": "2015-11-19T05:32:50.526",
+        "status": "CREATED"
+    },
+    {
+        "total": 7578.788153954223,
+        "user_id": "2bcc77d5-0de3-48b9-afb6-d8968d057278",
+        "ordered_at": "2015-02-02T10:55:09.264",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3977.5658262409606,
+        "user_id": "af0b5499-c952-4c26-90da-6367f5a2c6f1",
+        "ordered_at": "2023-05-09T11:48:31.751",
+        "status": "CREATED"
+    },
+    {
+        "total": 628.0058099315534,
+        "user_id": "5fbd69b3-8ea3-4ce9-8a56-ec6999d935f1",
+        "ordered_at": "2016-04-01T03:00:52.041",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6639.746660387267,
+        "user_id": "a982bc9c-b1bd-4943-b10e-f976e0a8dbf8",
+        "ordered_at": "2024-06-27T18:28:25.527",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8443.641812803644,
+        "user_id": "b0ca553d-597a-4480-976d-a51a455bd9ba",
+        "ordered_at": "2019-06-05T06:18:11.560",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 15.818639743909735,
+        "user_id": "04059fd5-0f3f-4e0b-b87c-3e70824f95f4",
+        "ordered_at": "2016-09-03T04:57:07.480",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5953.877633561162,
+        "user_id": "ae6757f6-0c7c-42b3-aebb-70f3c6e0d7b5",
+        "ordered_at": "2021-12-10T10:21:55.684",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9915.238042765035,
+        "user_id": "42c839a3-6582-4e7d-9f24-1a72b1be41f9",
+        "ordered_at": "2022-08-07T05:14:25.910",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3641.4845384977743,
+        "user_id": "1ef9827d-c418-494d-97c9-79b23e9a3574",
+        "ordered_at": "2015-06-06T20:29:07.396",
+        "status": "CREATED"
+    },
+    {
+        "total": 3878.3793352905604,
+        "user_id": "bf5a51d7-b94e-4b3f-a538-a7f0c70842b0",
+        "ordered_at": "2023-08-20T21:06:28.884",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 383.095543983768,
+        "user_id": "7306d4ed-4507-4b94-a02b-bf02fe77fc72",
+        "ordered_at": "2022-04-13T12:58:00.794",
+        "status": "CREATED"
+    },
+    {
+        "total": 8127.18485807295,
+        "user_id": "b220ca21-faba-4943-9088-ce475cef1cf9",
+        "ordered_at": "2024-07-21T12:47:36.302",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7691.685819332297,
+        "user_id": "47a79234-5eb5-4765-87f9-1802fb71df09",
+        "ordered_at": "2020-03-25T09:42:58.136",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3760.383939476851,
+        "user_id": "a8dc17bd-c104-491f-becc-d04a3070b46c",
+        "ordered_at": "2023-04-16T22:06:01.568",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7926.36630342943,
+        "user_id": "79a83478-2c40-4caa-b888-479a54bd1f3f",
+        "ordered_at": "2015-12-21T01:04:54.058",
+        "status": "CREATED"
+    },
+    {
+        "total": 516.6787439890486,
+        "user_id": "215da2b0-7f4f-4577-8466-430337c99c10",
+        "ordered_at": "2016-07-26T12:45:30.362",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3317.8314864398217,
+        "user_id": "e5cdeec6-fc00-4f0c-a55f-9f43cd4ff198",
+        "ordered_at": "2024-12-25T13:11:50.113",
+        "status": "CREATED"
+    },
+    {
+        "total": 3951.148610938817,
+        "user_id": "16d65c47-1b33-4a21-beb8-66b80d03d875",
+        "ordered_at": "2024-06-21T20:29:24.793",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8409.956348447276,
+        "user_id": "536c3470-4e2f-4333-9d3b-37618c6a184e",
+        "ordered_at": "2017-01-23T12:40:27.271",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1333.512450627279,
+        "user_id": "de4df2d3-7c5b-4afe-92d8-fc3d0e537237",
+        "ordered_at": "2019-01-08T19:00:49.696",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8443.149467199926,
+        "user_id": "f2fc2bb1-7844-47f6-8d4b-fed92f80ae38",
+        "ordered_at": "2015-11-26T21:32:36.851",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2015.0102350027964,
+        "user_id": "3462f45b-9991-4e31-b56b-07df7ae4bad9",
+        "ordered_at": "2017-04-12T02:15:34.589",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3789.490901677386,
+        "user_id": "dd4e0911-e9d5-48c4-9ca6-a4a90509332f",
+        "ordered_at": "2015-01-25T23:44:35.086",
+        "status": "CREATED"
+    },
+    {
+        "total": 487.95992336706064,
+        "user_id": "e8bba938-0f69-435e-bb5c-fc52ab914b63",
+        "ordered_at": "2022-06-01T18:03:32.195",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2560.9808707801894,
+        "user_id": "16fac10c-2c32-4c93-b2b0-94e49ed3b160",
+        "ordered_at": "2021-08-08T19:51:58.864",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 474.2438308146801,
+        "user_id": "baaab657-eaf2-4d34-85e5-fe22dbd9826f",
+        "ordered_at": "2024-05-18T04:31:19.375",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2499.2333496372867,
+        "user_id": "457b4592-ed21-4cab-a3ca-305132db05b8",
+        "ordered_at": "2015-02-27T15:15:10.085",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8753.005248078334,
+        "user_id": "6cca10ea-26ca-463e-981a-bef0316fa82b",
+        "ordered_at": "2021-01-19T13:02:48.459",
+        "status": "CANCELED"
+    },
+    {
+        "total": 47.74391833251013,
+        "user_id": "6da960d4-14fb-4e0a-8f90-c07cc8f943e1",
+        "ordered_at": "2018-08-13T14:54:24.894",
+        "status": "CREATED"
+    },
+    {
+        "total": 231.91053300615104,
+        "user_id": "2da7f538-e857-41c3-bb84-1a1d07c551c5",
+        "ordered_at": "2016-12-24T09:58:56.278",
+        "status": "CANCELED"
+    },
+    {
+        "total": 717.7625640160911,
+        "user_id": "f2d4bf91-e08b-4985-b849-f4a3e3c74c21",
+        "ordered_at": "2018-01-17T23:10:13.528",
+        "status": "CREATED"
+    },
+    {
+        "total": 5169.910343885952,
+        "user_id": "f67bd771-9912-497c-b88f-c82e84d9c916",
+        "ordered_at": "2019-06-12T16:11:17.996",
+        "status": "CREATED"
+    },
+    {
+        "total": 5378.411151749594,
+        "user_id": "1a784a2e-2bd5-4fdb-bd77-9be91637a82d",
+        "ordered_at": "2018-10-09T18:12:23.007",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4193.194198090469,
+        "user_id": "934942a5-a10d-4d54-9101-35fe1d13141e",
+        "ordered_at": "2023-01-20T03:11:59.955",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2604.797261340096,
+        "user_id": "2818b29d-ad51-4f06-848d-e0f101fed225",
+        "ordered_at": "2018-12-20T12:29:12.939",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2561.971632676857,
+        "user_id": "8e1e70a0-c869-4e82-b24f-987bb3f4e7de",
+        "ordered_at": "2022-02-05T08:07:43.820",
+        "status": "CREATED"
+    },
+    {
+        "total": 6659.5995766643855,
+        "user_id": "42217e0e-1a70-4739-ba47-9bbfe032c665",
+        "ordered_at": "2016-04-28T12:56:58.866",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7326.985774821915,
+        "user_id": "8701fe0e-a1b5-47a9-8788-37e5a0d72160",
+        "ordered_at": "2015-07-11T00:59:14.894",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3800.2460925088753,
+        "user_id": "5ad163ec-2c3b-48f2-b697-1bb65c88ffe3",
+        "ordered_at": "2015-11-14T06:15:05.598",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6875.759871992498,
+        "user_id": "2d614713-f09e-4ebf-836a-5753084f9a53",
+        "ordered_at": "2015-12-16T23:04:10.867",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9412.95355313221,
+        "user_id": "c4feb184-5c1d-4885-b65a-6f197b1ceba6",
+        "ordered_at": "2016-02-20T21:44:25.491",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3755.1817064213724,
+        "user_id": "aa401922-9eff-4bf7-9525-9d985f10fc94",
+        "ordered_at": "2022-11-15T19:56:43.906",
+        "status": "CREATED"
+    },
+    {
+        "total": 3775.3853102404832,
+        "user_id": "12b7ea7b-ec51-4ed7-b4bf-6cd84265e894",
+        "ordered_at": "2023-05-24T23:10:58.269",
+        "status": "CREATED"
+    },
+    {
+        "total": 7446.101565623602,
+        "user_id": "2b213d3a-4522-47b4-b9ac-2803ef1ff1a1",
+        "ordered_at": "2019-11-27T10:51:26.440",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2121.5749336723443,
+        "user_id": "521229c6-f65e-40bf-94f8-6fa948abe086",
+        "ordered_at": "2022-08-16T15:47:50.926",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2365.3573234260907,
+        "user_id": "ee1e5620-7dee-42a8-8a44-d3654dbc46d2",
+        "ordered_at": "2021-12-28T06:38:35.477",
+        "status": "CREATED"
+    },
+    {
+        "total": 2987.399417220481,
+        "user_id": "8178cd2d-fd91-443c-97ac-c7c7032c8d32",
+        "ordered_at": "2024-08-04T20:14:08.485",
+        "status": "CREATED"
+    },
+    {
+        "total": 8220.501799779227,
+        "user_id": "45ab0e95-5479-4d5a-b152-60e3a95c7a55",
+        "ordered_at": "2022-10-26T20:57:37.692",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8694.837425095959,
+        "user_id": "dcb7e4c1-80b9-42dc-86f0-bb3332e92ae5",
+        "ordered_at": "2017-10-17T16:17:46.869",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9913.191817565095,
+        "user_id": "db9bee91-d9fb-484c-bb15-8738d5b1f415",
+        "ordered_at": "2022-09-06T20:09:33.628",
+        "status": "CREATED"
+    },
+    {
+        "total": 212.3438851430026,
+        "user_id": "68fbebc8-6c38-4c13-8fbd-8b5b411ac959",
+        "ordered_at": "2023-03-12T11:45:11.412",
+        "status": "CREATED"
+    },
+    {
+        "total": 4480.671397597118,
+        "user_id": "5487aa39-0ee2-4697-8ec1-55bddb9d7009",
+        "ordered_at": "2016-07-13T00:37:41.035",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 711.9937913594831,
+        "user_id": "95613d6d-fe22-4b50-ab9d-02c4e509b687",
+        "ordered_at": "2023-01-04T13:12:13.969",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4614.211169847289,
+        "user_id": "5df4fd8e-77df-44c7-a155-9476d739e552",
+        "ordered_at": "2015-02-16T02:08:27.146",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3917.9201402097883,
+        "user_id": "bd5ef995-2c8e-4c27-931d-ecc24f74aa4b",
+        "ordered_at": "2022-10-12T09:26:28.981",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5663.268241059945,
+        "user_id": "df4301a8-7df5-4786-9656-380a14ff82df",
+        "ordered_at": "2020-08-18T23:55:52.237",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4072.5715456000853,
+        "user_id": "c8ff41ed-b2d8-4645-ba63-ed7a52399a16",
+        "ordered_at": "2024-09-23T12:43:00.697",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3820.128513808612,
+        "user_id": "9ffc05ab-e4fb-4373-a302-11af1185b2b1",
+        "ordered_at": "2015-03-03T19:38:21.699",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9086.280209132687,
+        "user_id": "e7060db0-8038-43cb-b250-ef4b0106f58c",
+        "ordered_at": "2015-02-27T19:43:59.548",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2508.9176169633542,
+        "user_id": "b351a1f6-f82f-4444-8641-9f17f010260b",
+        "ordered_at": "2021-10-08T15:49:44.420",
+        "status": "CANCELED"
+    },
+    {
+        "total": 511.6210768739737,
+        "user_id": "22d0f000-ec07-4f1d-b895-eceda8eebddd",
+        "ordered_at": "2022-01-28T14:44:42.231",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6533.261786787771,
+        "user_id": "86537277-42f8-4374-baac-aa3bf9cfe55c",
+        "ordered_at": "2019-12-14T13:28:19.625",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7508.406628649696,
+        "user_id": "8f20246e-d639-4a23-ba55-c1c742205a75",
+        "ordered_at": "2017-01-04T21:21:04.078",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5958.031455819587,
+        "user_id": "265ab685-8295-4b62-a21b-0cc863116824",
+        "ordered_at": "2024-09-20T13:32:08.035",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4330.467867901404,
+        "user_id": "82eedbea-d86b-49f2-8b14-dd0db9342426",
+        "ordered_at": "2020-04-20T20:27:45.449",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5233.206439988279,
+        "user_id": "0ef8a7f7-5841-4985-8b23-f68addf2910c",
+        "ordered_at": "2019-03-23T04:03:25.624",
+        "status": "CREATED"
+    },
+    {
+        "total": 5245.438715723823,
+        "user_id": "6d2cd93d-52e6-4ac8-8ac5-0aae70183d50",
+        "ordered_at": "2017-06-25T13:16:46.695",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5963.89389889434,
+        "user_id": "d063c7cd-931f-490a-9fa6-35dddd177d2b",
+        "ordered_at": "2021-06-28T04:39:52.501",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8648.689735374986,
+        "user_id": "d155f805-f5fb-4b6b-8694-643734f8e23b",
+        "ordered_at": "2016-08-20T08:49:52.013",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1773.1531312382099,
+        "user_id": "fda0f87c-4a5a-461b-bd20-44a713cfd5de",
+        "ordered_at": "2020-11-06T02:45:36.226",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5688.651591923429,
+        "user_id": "009c9bc6-e156-4ecd-861b-18bfad27cd3b",
+        "ordered_at": "2019-12-25T23:21:51.562",
+        "status": "CREATED"
+    },
+    {
+        "total": 707.9423556482257,
+        "user_id": "a6561c46-b575-495d-ab3e-16d737c17996",
+        "ordered_at": "2020-02-28T13:15:57.447",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3500.62543480425,
+        "user_id": "a57e1eb5-dda5-4133-935b-7c115caf9ea1",
+        "ordered_at": "2020-04-19T22:21:06.821",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8948.936314409553,
+        "user_id": "d265fe41-4aaa-4c19-869f-32d59188197a",
+        "ordered_at": "2021-12-18T11:16:11.393",
+        "status": "CANCELED"
+    },
+    {
+        "total": 448.6124828803517,
+        "user_id": "2bf3f39d-f87d-40ba-95d7-6b136c02c41b",
+        "ordered_at": "2023-04-13T22:43:08.331",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 579.1184052954568,
+        "user_id": "47261bbf-c819-4d90-ae7c-5b7a8a0c6dbb",
+        "ordered_at": "2022-01-05T02:41:36.493",
+        "status": "CREATED"
+    },
+    {
+        "total": 179.7934601850848,
+        "user_id": "36a579d1-923b-4c1e-9e09-6e22be3ebe77",
+        "ordered_at": "2015-10-17T09:52:07.975",
+        "status": "CREATED"
+    },
+    {
+        "total": 2752.105245415077,
+        "user_id": "7c17ad5e-5821-4a90-9feb-6b202eea0109",
+        "ordered_at": "2019-11-11T17:57:01.685",
+        "status": "CREATED"
+    },
+    {
+        "total": 3165.376280033112,
+        "user_id": "1309a30c-fdcd-4709-9630-19b3acd644c9",
+        "ordered_at": "2024-06-26T00:22:00.777",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6718.618374091626,
+        "user_id": "e7ec0ce8-da7d-4d6a-a868-a1208adbb7b5",
+        "ordered_at": "2022-09-11T07:54:23.354",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2377.1834258670888,
+        "user_id": "52f8d76c-7169-4cc9-845c-16564f1ed134",
+        "ordered_at": "2016-01-11T23:16:16.579",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 289.01252365648776,
+        "user_id": "4fcd7b95-c83e-45e3-b2d4-8e0fecba7c1b",
+        "ordered_at": "2020-08-20T03:17:17.846",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3255.404139357836,
+        "user_id": "a2af2791-61e8-4ed4-8841-0e6487c5d260",
+        "ordered_at": "2018-11-01T18:20:02.787",
+        "status": "CANCELED"
+    },
+    {
+        "total": 933.3311376923692,
+        "user_id": "3991f278-9eb7-463b-9770-f0e6cc73c819",
+        "ordered_at": "2015-07-06T02:19:39.383",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4864.454394080069,
+        "user_id": "7eded9a1-67c9-4524-b82a-5c8fe9a2754a",
+        "ordered_at": "2015-02-27T02:21:11.002",
+        "status": "CREATED"
+    },
+    {
+        "total": 4881.119561962384,
+        "user_id": "5e806e6a-32b6-41c1-a858-b00eb230a306",
+        "ordered_at": "2021-12-16T21:44:06.746",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7597.220183431851,
+        "user_id": "a7c0ddd2-bfc2-4177-b516-d90337c26ada",
+        "ordered_at": "2021-07-10T13:52:54.994",
+        "status": "CREATED"
+    },
+    {
+        "total": 2345.695456301056,
+        "user_id": "f8810714-dafc-4880-8c21-0f8aff3ada8b",
+        "ordered_at": "2018-02-25T14:46:01.419",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4740.6583014960615,
+        "user_id": "e4e76091-01ff-4b8b-b416-3ad482f66a52",
+        "ordered_at": "2023-03-18T03:57:24.158",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2957.415578824377,
+        "user_id": "e9b38fd9-dc2e-4519-b318-5d26d8e1e583",
+        "ordered_at": "2017-05-17T21:09:09.950",
+        "status": "CREATED"
+    },
+    {
+        "total": 8206.648012860893,
+        "user_id": "76a7eac1-6059-491f-925f-f1c09d7806e3",
+        "ordered_at": "2020-10-09T01:13:56.900",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6274.669112541019,
+        "user_id": "7254d2a0-e1fc-40de-adc8-699293e3a194",
+        "ordered_at": "2015-07-20T11:38:34.247",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8591.18138031944,
+        "user_id": "028fbf53-6ec5-44c1-ba4a-8bd1eec7c41a",
+        "ordered_at": "2022-08-03T16:18:05.471",
+        "status": "CREATED"
+    },
+    {
+        "total": 7008.058440798218,
+        "user_id": "68bed7d2-f21a-4634-9dcb-1a7c6dea47ce",
+        "ordered_at": "2022-09-27T09:20:15.897",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3063.798320422857,
+        "user_id": "87b66a65-f9ed-4065-968e-33c5b9084c80",
+        "ordered_at": "2019-08-19T19:54:52.844",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2531.954340258008,
+        "user_id": "223231a6-6a95-4aa0-a248-99620736e3f8",
+        "ordered_at": "2016-11-08T05:16:43.489",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1300.1754257486675,
+        "user_id": "bf772513-e3ee-41c1-88b0-8040ca3a7736",
+        "ordered_at": "2024-11-02T14:55:25.902",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5089.043787089533,
+        "user_id": "99c27a48-c31c-42f0-b70f-8183398ee6f1",
+        "ordered_at": "2024-08-23T23:03:38.350",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5427.805326762801,
+        "user_id": "128fdede-338d-4158-b8d5-98e4fc5ccf8f",
+        "ordered_at": "2018-07-04T13:17:01.400",
+        "status": "CREATED"
+    },
+    {
+        "total": 3569.571487013714,
+        "user_id": "802e33f8-2baa-4495-a3db-cc508d6e9bc6",
+        "ordered_at": "2017-03-15T02:32:22.973",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8712.829610902007,
+        "user_id": "449407b0-1b28-4394-b1a1-80a4baf2b2c6",
+        "ordered_at": "2021-02-11T12:19:38.618",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 150.90809474013423,
+        "user_id": "d189ddc5-b4d6-4a6e-acdd-0b1909e8fd19",
+        "ordered_at": "2023-12-25T14:17:34.993",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4211.638533545273,
+        "user_id": "a1ff762a-b5d8-4071-a3e8-295f9811694a",
+        "ordered_at": "2016-11-18T20:50:18.777",
+        "status": "CREATED"
+    },
+    {
+        "total": 7729.3349153810395,
+        "user_id": "c8dd0aa0-0a2a-45a8-8fba-1828baddce69",
+        "ordered_at": "2024-12-07T19:22:43.429",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6861.409759248865,
+        "user_id": "b6a07b48-7fe3-41df-a16f-be81f58f2693",
+        "ordered_at": "2023-03-04T00:19:26.592",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1810.1871886786003,
+        "user_id": "3bb94f4f-7fd5-4d31-9984-0ab16755ff64",
+        "ordered_at": "2017-08-25T15:24:52.249",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4288.145779503103,
+        "user_id": "0607399d-f0aa-47e6-b4b7-fb399acb0e38",
+        "ordered_at": "2023-01-08T02:59:31.726",
+        "status": "CREATED"
+    },
+    {
+        "total": 9221.730674869183,
+        "user_id": "5f2ed70a-4a11-4f89-9aa9-8673ea8066ce",
+        "ordered_at": "2023-02-06T01:29:37.939",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5049.074046900151,
+        "user_id": "2f031814-58de-4fd2-b1bc-1d678d492274",
+        "ordered_at": "2019-03-27T17:20:52.342",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9090.538121609829,
+        "user_id": "fc5649aa-d7bd-4559-b490-372cb2701699",
+        "ordered_at": "2016-07-17T10:14:59.925",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 959.8099125147497,
+        "user_id": "2b7386f7-8de9-4e94-93b8-6a630870dd41",
+        "ordered_at": "2023-05-27T07:45:31.791",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4401.150991458761,
+        "user_id": "9a5580da-f112-4d39-bc2a-b2afbba92b10",
+        "ordered_at": "2023-11-16T00:54:53.128",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8728.045929530983,
+        "user_id": "4ce306a1-2195-49f9-85e4-bf37ceeced03",
+        "ordered_at": "2021-07-01T06:16:03.896",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5131.15163114629,
+        "user_id": "a0786903-356d-48b7-bb9a-e0970d6ed3bc",
+        "ordered_at": "2017-04-11T21:55:59.397",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7248.528132973803,
+        "user_id": "cc5f4cd7-f3c4-4641-8106-99cbf857b6af",
+        "ordered_at": "2016-01-17T03:47:07.737",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3406.3985257215977,
+        "user_id": "0cdfea16-3159-4c74-bcd2-d68a3f18812f",
+        "ordered_at": "2022-01-09T18:18:05.917",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 813.8106621069352,
+        "user_id": "74fe7438-b235-47ea-a8ad-987f6902a21c",
+        "ordered_at": "2019-10-18T10:44:09.606",
+        "status": "CREATED"
+    },
+    {
+        "total": 3893.27149381693,
+        "user_id": "4b22218c-5283-4bd4-967a-131348625701",
+        "ordered_at": "2020-01-19T03:03:51.259",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6148.057819876474,
+        "user_id": "54e8a7e8-8674-473a-972a-abb7eae6c5fd",
+        "ordered_at": "2023-07-03T19:26:08.260",
+        "status": "CREATED"
+    },
+    {
+        "total": 7299.816357989765,
+        "user_id": "63dd2d57-f013-485e-9add-324a05a20a37",
+        "ordered_at": "2024-12-16T13:26:20.029",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6844.572344719523,
+        "user_id": "c4366690-2b3f-436b-9d7a-c1b6c41a2f19",
+        "ordered_at": "2023-02-25T10:31:39.055",
+        "status": "CREATED"
+    },
+    {
+        "total": 4491.351618959378,
+        "user_id": "f0d92550-6871-4fcb-b52b-06e8adacd92c",
+        "ordered_at": "2023-10-14T11:11:12.731",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2530.5908343299643,
+        "user_id": "64c4bc02-85d6-44e6-8baf-9e0988874c8f",
+        "ordered_at": "2020-05-27T08:56:45.277",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3465.3629367641647,
+        "user_id": "a0aa0f8d-a6a1-4ad6-bef0-2296827a5cfd",
+        "ordered_at": "2020-06-06T05:12:46.147",
+        "status": "CREATED"
+    },
+    {
+        "total": 225.29527714633235,
+        "user_id": "4aaa47db-e42a-4603-bce0-b399904513f6",
+        "ordered_at": "2023-10-21T09:32:39.593",
+        "status": "CANCELED"
+    },
+    {
+        "total": 933.576360477194,
+        "user_id": "866475e7-8ebf-4272-9438-5919ed2a124a",
+        "ordered_at": "2023-06-03T15:57:29.952",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1010.2552213284099,
+        "user_id": "e2cb83af-e323-470a-a577-75755a5ecc47",
+        "ordered_at": "2023-05-12T05:58:50.657",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6215.398564692827,
+        "user_id": "59a083f5-bcd0-446b-8404-3ec07272e390",
+        "ordered_at": "2020-08-13T19:58:55.165",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8688.220328414502,
+        "user_id": "3aad0282-83bb-4525-9367-8aba3ac89159",
+        "ordered_at": "2020-05-05T09:53:21.370",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3777.179139743585,
+        "user_id": "4e124997-86ac-45b6-a207-e871b687fae4",
+        "ordered_at": "2017-04-09T12:56:20.398",
+        "status": "CREATED"
+    },
+    {
+        "total": 6740.167458203714,
+        "user_id": "cf7c8621-caaa-4db1-9697-8ee15a32ef46",
+        "ordered_at": "2018-03-01T20:04:01.738",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5307.903895756488,
+        "user_id": "6b44f2e3-137c-4ac9-8a83-bb168700a048",
+        "ordered_at": "2023-07-04T20:53:47.469",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2056.8364939723883,
+        "user_id": "cc3da225-bcc3-4416-a441-4597bccc85cc",
+        "ordered_at": "2020-03-23T23:19:13.484",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5487.192246466243,
+        "user_id": "bc10e378-52fc-4b9e-9f30-a1f6fb827c80",
+        "ordered_at": "2019-05-16T07:34:31.224",
+        "status": "CREATED"
+    },
+    {
+        "total": 5855.984530273712,
+        "user_id": "33cb0443-b933-4206-ac99-2c2ae072128a",
+        "ordered_at": "2021-09-07T13:15:53.104",
+        "status": "CREATED"
+    },
+    {
+        "total": 2390.307354460479,
+        "user_id": "2a6a627e-9e3d-45a8-a486-00b72bfe630f",
+        "ordered_at": "2020-04-15T05:55:03.964",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4417.860632009434,
+        "user_id": "95dd53ff-4b9a-4f2c-bce6-2a25d3ae9eda",
+        "ordered_at": "2018-07-14T07:26:26.777",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3132.9661366157093,
+        "user_id": "c07a44fd-3651-400a-86a5-e97ca8b3f0e0",
+        "ordered_at": "2019-07-09T11:31:20.779",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1077.7385152980678,
+        "user_id": "6ddef27b-cb85-4903-a0dc-5f43e0a0180b",
+        "ordered_at": "2018-10-13T21:05:00.953",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4263.04484587194,
+        "user_id": "0fd5dd20-5461-495a-a027-e4d072d9ac97",
+        "ordered_at": "2018-04-25T14:32:08.975",
+        "status": "CREATED"
+    },
+    {
+        "total": 885.8507842740648,
+        "user_id": "62a15703-939b-493a-a5ac-4a75a3fac1f7",
+        "ordered_at": "2016-03-22T12:38:03.133",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 465.00312105120736,
+        "user_id": "01b5b53b-1584-4b70-9672-156dbf8ad6b1",
+        "ordered_at": "2021-10-19T20:00:19.994",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5843.0604881239615,
+        "user_id": "c5bb9d01-ef12-4b0b-a1e2-7312331f3bf1",
+        "ordered_at": "2016-02-27T10:29:54.644",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2295.436489199265,
+        "user_id": "739be65a-456d-4456-baa1-c1b8a0a24be8",
+        "ordered_at": "2019-06-10T13:45:18.134",
+        "status": "CANCELED"
+    },
+    {
+        "total": 287.6719530960881,
+        "user_id": "e922e3c7-25ed-4c29-90ed-2c61ba5cf0e7",
+        "ordered_at": "2022-10-14T23:24:38.036",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6385.346114324113,
+        "user_id": "f0129aa8-cff4-45ff-a86b-1f79cb211d3c",
+        "ordered_at": "2022-11-21T12:23:43.009",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7268.729571462201,
+        "user_id": "b1690bf4-c0b3-46c7-a68c-ce986193f79e",
+        "ordered_at": "2018-05-08T02:53:58.435",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9328.41053188263,
+        "user_id": "a81f3c6d-7938-4e44-b393-114667d04a45",
+        "ordered_at": "2020-01-11T18:56:06.522",
+        "status": "CANCELED"
+    },
+    {
+        "total": 299.09423005477834,
+        "user_id": "79266229-b90f-41a0-b447-de7196e233fd",
+        "ordered_at": "2018-09-20T17:59:01.532",
+        "status": "CREATED"
+    },
+    {
+        "total": 8357.97118710012,
+        "user_id": "e1f868ea-71af-4bdd-bd32-834be99b2fa9",
+        "ordered_at": "2021-12-03T15:47:20.733",
+        "status": "CREATED"
+    },
+    {
+        "total": 4223.810301568953,
+        "user_id": "8e1e17dd-033c-44e0-8bef-b628baca8df5",
+        "ordered_at": "2016-11-12T05:52:51.188",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8963.065229277507,
+        "user_id": "f73eb2a9-e405-4964-ad29-138ad074477e",
+        "ordered_at": "2024-04-26T12:32:12.185",
+        "status": "CANCELED"
+    },
+    {
+        "total": 833.3915065031316,
+        "user_id": "9d5b6696-80fe-4b25-8fca-6626954b6ff7",
+        "ordered_at": "2024-11-27T20:05:43.769",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7401.336795450846,
+        "user_id": "9e936c11-f274-42ba-bcc1-46aa9115db92",
+        "ordered_at": "2024-06-13T18:59:26.204",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1846.4735562181233,
+        "user_id": "aa76726c-deb5-419e-8185-c4dd5e6ede10",
+        "ordered_at": "2022-06-09T17:04:23.963",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7261.003269470474,
+        "user_id": "0fce50fc-8faf-4a39-8b26-41086f5be56f",
+        "ordered_at": "2018-05-11T22:24:08.127",
+        "status": "CREATED"
+    },
+    {
+        "total": 4811.8864949898,
+        "user_id": "118068ef-5517-4d10-b43c-e1dcbcac3808",
+        "ordered_at": "2018-05-18T23:30:54.819",
+        "status": "CREATED"
+    },
+    {
+        "total": 5963.441106796611,
+        "user_id": "2c5540da-6a22-4bbe-a893-d5ab2779dc95",
+        "ordered_at": "2015-02-11T00:11:15.929",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7947.918503596619,
+        "user_id": "e6f3f13d-b177-4f12-9390-d82f9107f864",
+        "ordered_at": "2018-05-22T14:20:34.676",
+        "status": "CREATED"
+    },
+    {
+        "total": 3571.8376854832723,
+        "user_id": "5774fefb-e1e5-402f-b2f3-3c014975a274",
+        "ordered_at": "2020-03-16T08:53:36.481",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2838.9607120008855,
+        "user_id": "5dcbe56a-c30b-4fe5-872b-b3ec0016fd71",
+        "ordered_at": "2022-08-22T10:49:54.856",
+        "status": "CREATED"
+    },
+    {
+        "total": 1200.4461106488573,
+        "user_id": "e4c02b48-1fbe-40a6-92ea-3e0ac5d79591",
+        "ordered_at": "2020-12-23T17:07:12.398",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9920.645193183567,
+        "user_id": "f19ee177-c63c-40f4-8dae-a56e986a2b36",
+        "ordered_at": "2022-03-02T12:36:19.624",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5455.210510775504,
+        "user_id": "623d06b1-d77b-4fb8-a34d-7c953f946ba7",
+        "ordered_at": "2017-05-28T20:09:58.559",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9759.132658639646,
+        "user_id": "d140d02b-c569-45f2-bac1-1d96b001aa32",
+        "ordered_at": "2021-07-23T13:18:35.327",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3963.1293344235964,
+        "user_id": "488b8da0-4dad-420f-9159-371a21935a10",
+        "ordered_at": "2021-07-04T17:13:06.098",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3004.6543241007553,
+        "user_id": "97d0fc53-3494-4291-b430-d252a35e4cb8",
+        "ordered_at": "2023-12-15T06:10:43.686",
+        "status": "CREATED"
+    },
+    {
+        "total": 2479.1274218004733,
+        "user_id": "79fbb474-630f-4a9b-a54d-c2864a29908c",
+        "ordered_at": "2021-05-12T04:08:20.635",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6591.379696003774,
+        "user_id": "c8a4e22c-f10c-4d60-89b5-fbc79d621dd1",
+        "ordered_at": "2017-05-24T06:19:59.849",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8141.122768615342,
+        "user_id": "a3beb1d8-21fa-4498-a856-c96558bd2366",
+        "ordered_at": "2019-09-02T21:17:45.362",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2063.9804394720763,
+        "user_id": "f97e76d5-2b2b-46b3-998f-165ffb579c46",
+        "ordered_at": "2022-04-19T18:07:52.052",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5053.357063580233,
+        "user_id": "21fcfe0f-e7c6-4fc0-a330-b9fed4541c5f",
+        "ordered_at": "2016-07-17T02:40:50.511",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 915.962142907083,
+        "user_id": "29f1390e-dba8-48dd-aba7-0b38ca8bee2d",
+        "ordered_at": "2021-08-20T05:26:26.436",
+        "status": "CREATED"
+    },
+    {
+        "total": 5923.111773916413,
+        "user_id": "6105dabe-ce7d-49c9-92d5-bf65ccb67623",
+        "ordered_at": "2024-01-13T17:41:38.085",
+        "status": "CREATED"
+    },
+    {
+        "total": 9387.288515319482,
+        "user_id": "c47d9050-a3ce-4fa9-8613-0232ce284000",
+        "ordered_at": "2023-05-14T09:41:44.181",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7396.1044103186405,
+        "user_id": "4e3d4042-0b8c-4d37-ba87-630ea4418b5f",
+        "ordered_at": "2020-08-13T05:00:53.751",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2431.582106680794,
+        "user_id": "1cf197ac-2aa6-4aaf-86bb-ad4ca537ae37",
+        "ordered_at": "2024-01-06T12:13:17.549",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2001.8574895707586,
+        "user_id": "164f0e4c-8792-417a-b108-983e5b68675b",
+        "ordered_at": "2015-02-05T05:45:57.781",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 450.09728567118935,
+        "user_id": "e41b607c-26c8-4d2b-92bb-9960d6384549",
+        "ordered_at": "2019-11-21T12:53:40.804",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8234.113421630895,
+        "user_id": "6672bd21-c474-491b-8d97-3e1eb6638dc6",
+        "ordered_at": "2019-04-20T20:03:36.215",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8105.792672495875,
+        "user_id": "de83e5d2-41ac-4e37-adb2-435abe65bea7",
+        "ordered_at": "2022-09-10T17:35:50.661",
+        "status": "CREATED"
+    },
+    {
+        "total": 3786.119588871688,
+        "user_id": "4f7025b9-44d3-49ea-9758-1cbe5f491c97",
+        "ordered_at": "2016-08-27T22:34:49.941",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8062.518088494386,
+        "user_id": "0742e4e7-47c5-4bec-b5b1-47d4fb5d0aff",
+        "ordered_at": "2021-10-20T22:46:51.389",
+        "status": "CREATED"
+    },
+    {
+        "total": 8900.813281206285,
+        "user_id": "5892e342-fe82-49ac-a97e-403bcda3d3d9",
+        "ordered_at": "2023-01-17T07:13:20.016",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3109.142822218469,
+        "user_id": "7b98670a-ec19-4c35-8f5b-27fe26fda9af",
+        "ordered_at": "2024-09-24T13:09:33.878",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5277.252199136853,
+        "user_id": "7967a974-1f29-4a5c-8e86-771fc20f24a1",
+        "ordered_at": "2021-10-10T15:54:31.716",
+        "status": "CREATED"
+    },
+    {
+        "total": 2875.2253645558435,
+        "user_id": "dec2d77c-732f-4163-ba0b-b4af77cc46dc",
+        "ordered_at": "2020-05-09T07:31:02.511",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6124.072296895667,
+        "user_id": "ee812269-6aca-40d2-b3ef-21692f535c5b",
+        "ordered_at": "2019-03-02T17:07:37.658",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9553.63440093958,
+        "user_id": "a8168f43-f3f7-42f5-be3f-5a388cf49726",
+        "ordered_at": "2023-07-02T21:42:40.388",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9426.45675524143,
+        "user_id": "f77d10bd-d519-4be5-9597-4fe1f2fd701b",
+        "ordered_at": "2019-08-24T14:46:06.557",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4827.705981499046,
+        "user_id": "15dd7c5b-993b-4aaf-ba8c-40bf9a6598de",
+        "ordered_at": "2020-11-15T13:57:00.380",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5984.5770633369575,
+        "user_id": "94d3531e-fd98-41e6-9292-35e82a19c03d",
+        "ordered_at": "2018-01-23T19:28:20.981",
+        "status": "CREATED"
+    },
+    {
+        "total": 4948.63072219889,
+        "user_id": "acb26bbc-a342-470a-8908-d23ffa763d15",
+        "ordered_at": "2023-06-22T07:13:40.461",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7509.366023098055,
+        "user_id": "54a792e5-15bf-46db-a68c-c543795cae7a",
+        "ordered_at": "2016-08-17T21:37:26.947",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5796.659751562429,
+        "user_id": "f5e9678d-5400-4a7c-8944-fda70eeffa82",
+        "ordered_at": "2018-12-12T05:33:21.534",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6277.808462045218,
+        "user_id": "d1d3b090-295b-4cf8-91e4-c1fab3fab4d0",
+        "ordered_at": "2023-09-19T20:34:07.350",
+        "status": "CREATED"
+    },
+    {
+        "total": 6242.446241777827,
+        "user_id": "dfdee1d5-d30a-4557-9cf7-d83008fe2aca",
+        "ordered_at": "2024-01-14T17:31:07.145",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4337.854027276024,
+        "user_id": "cd5b7d1d-6aaf-4f6e-b60b-a3facfdc3d9e",
+        "ordered_at": "2021-11-22T14:51:08.601",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8438.75240019338,
+        "user_id": "ea477674-839c-4179-bdee-25e59ac3bb9f",
+        "ordered_at": "2016-09-06T23:47:08.848",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6827.039307305574,
+        "user_id": "00b91a57-435f-45b9-b940-9987e0e95391",
+        "ordered_at": "2018-12-22T15:59:51.403",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3335.4203684359964,
+        "user_id": "c5a20bb5-9b01-432e-b655-aa00ed11e2e3",
+        "ordered_at": "2022-07-27T00:27:19.867",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4974.652176189911,
+        "user_id": "fa9c694f-85ba-470b-80fa-b8e23b4a8470",
+        "ordered_at": "2015-06-11T01:55:15.820",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 20.75229113928989,
+        "user_id": "850ac21b-2f9d-4a76-8e8d-cf9284a5ce96",
+        "ordered_at": "2021-05-01T14:35:20.568",
+        "status": "CREATED"
+    },
+    {
+        "total": 1171.7303431711634,
+        "user_id": "997367e0-6031-4206-8bfb-2f11e0b49c95",
+        "ordered_at": "2018-09-28T04:28:03.012",
+        "status": "CREATED"
+    },
+    {
+        "total": 8030.354693571013,
+        "user_id": "4c112139-5642-4ddf-9aba-05ed5485dc2e",
+        "ordered_at": "2023-05-28T15:00:41.904",
+        "status": "CREATED"
+    },
+    {
+        "total": 2024.5680640682174,
+        "user_id": "ee814302-fdd1-48d6-95fc-218721a5afb6",
+        "ordered_at": "2023-05-17T02:46:01.205",
+        "status": "CREATED"
+    },
+    {
+        "total": 2891.4071629324744,
+        "user_id": "f4f670fa-0b99-472d-8381-f289c0002ff1",
+        "ordered_at": "2019-08-24T15:38:00.039",
+        "status": "CREATED"
+    },
+    {
+        "total": 8495.155284651315,
+        "user_id": "b22c46ab-a3c8-4340-a496-c8a7b96daefe",
+        "ordered_at": "2019-03-15T05:28:30.957",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 528.7742436920595,
+        "user_id": "b13db6d4-a341-4861-9fd9-b8b00e006187",
+        "ordered_at": "2017-02-17T11:41:54.315",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2546.7995772879303,
+        "user_id": "189ca773-c1f9-42ee-a67c-4a8178367f34",
+        "ordered_at": "2020-01-06T05:27:27.880",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5173.249051970767,
+        "user_id": "9e4ddee9-bc25-44f3-b1f4-3e7a53bdfd1b",
+        "ordered_at": "2023-01-14T08:56:09.272",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1657.0394396032507,
+        "user_id": "657180f8-1cb7-4d9e-b32c-e9c9126e6b18",
+        "ordered_at": "2016-09-27T08:54:45.132",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5786.55129615017,
+        "user_id": "76b82354-3ecb-4882-9a91-02259265e6dd",
+        "ordered_at": "2015-06-13T00:03:01.604",
+        "status": "CANCELED"
+    },
+    {
+        "total": 166.0418028721089,
+        "user_id": "d766ccc0-e839-4970-acbc-d6311f4a4836",
+        "ordered_at": "2021-11-13T21:27:05.493",
+        "status": "CREATED"
+    },
+    {
+        "total": 6238.837928341221,
+        "user_id": "49751033-6c3d-4afa-80e2-5b9c5c948689",
+        "ordered_at": "2022-11-10T22:27:04.499",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5761.44701766977,
+        "user_id": "f74a17fb-9e53-44cf-a840-bd1736f7cdfe",
+        "ordered_at": "2020-02-19T15:12:21.288",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6310.006041856269,
+        "user_id": "33a4ba84-af02-4ce6-a876-c56fcbe3a3a4",
+        "ordered_at": "2023-11-01T21:43:24.116",
+        "status": "CREATED"
+    },
+    {
+        "total": 1055.7887392863408,
+        "user_id": "80a01c9f-a927-4e27-bd68-62836f3c7dc1",
+        "ordered_at": "2016-07-13T20:58:59.307",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1584.791193998274,
+        "user_id": "d3f0c2f4-6428-4ab9-beec-527264d0e9e3",
+        "ordered_at": "2024-07-16T04:36:02.403",
+        "status": "CREATED"
+    },
+    {
+        "total": 1817.1086185440988,
+        "user_id": "af2cd0d8-85c7-4e43-976c-3758f2b92a67",
+        "ordered_at": "2017-11-01T20:17:34.146",
+        "status": "CREATED"
+    },
+    {
+        "total": 6303.678187229091,
+        "user_id": "41b6f980-06a9-4ae5-99fe-40b938448014",
+        "ordered_at": "2021-08-25T10:55:19.361",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2125.434454020182,
+        "user_id": "596b19ec-64d0-45b6-b172-7bc0df224e4f",
+        "ordered_at": "2021-11-01T15:47:30.460",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 828.2650513937073,
+        "user_id": "f2dda847-844a-4d79-9af5-1f3e636b7ca8",
+        "ordered_at": "2020-05-14T15:22:30.247",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1736.8320140667647,
+        "user_id": "6f3064fe-1d73-4fc4-9686-5ed890912c75",
+        "ordered_at": "2021-03-17T23:31:28.832",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4473.5423949544065,
+        "user_id": "eefd131f-6093-40a1-9892-c5f8afc6d911",
+        "ordered_at": "2021-01-25T18:39:23.695",
+        "status": "CREATED"
+    },
+    {
+        "total": 5963.476883627219,
+        "user_id": "c4d2b40e-4da5-4fc8-9735-af294ace687d",
+        "ordered_at": "2015-09-13T22:47:32.566",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 724.3882227645481,
+        "user_id": "f4754fda-4a33-4371-b789-dd38dbd0157e",
+        "ordered_at": "2021-06-19T10:09:57.721",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4174.590965539715,
+        "user_id": "6b6142e3-6e2a-4874-8a12-c79d52fde728",
+        "ordered_at": "2020-04-01T02:07:08.367",
+        "status": "CREATED"
+    },
+    {
+        "total": 9244.516034130289,
+        "user_id": "536dbaa2-e709-411d-aaef-f40000ac3394",
+        "ordered_at": "2015-12-19T07:48:26.683",
+        "status": "CREATED"
+    },
+    {
+        "total": 9872.339662303995,
+        "user_id": "0dc623a0-09c6-4457-93b4-c080b476bbbb",
+        "ordered_at": "2016-08-27T11:58:52.175",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2339.476532298356,
+        "user_id": "9d00ecef-ca96-4dd1-95ef-9e80f5e74f8c",
+        "ordered_at": "2015-08-06T03:01:06.795",
+        "status": "CREATED"
+    },
+    {
+        "total": 5513.341876446888,
+        "user_id": "084cbd01-3992-4c97-8aa7-3e5d81f5adbe",
+        "ordered_at": "2016-05-03T04:09:20.959",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 668.6901778102838,
+        "user_id": "9739f026-354e-4fd2-bd05-c9a81188c776",
+        "ordered_at": "2020-07-06T23:30:32.340",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5676.022647333368,
+        "user_id": "2c842018-90bf-4080-930d-bc8d20635e8a",
+        "ordered_at": "2024-12-09T06:48:07.962",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7813.678008278134,
+        "user_id": "6152b9d7-b240-43e5-b93f-305cb326fdf8",
+        "ordered_at": "2021-01-03T21:41:24.149",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6693.57344225431,
+        "user_id": "24a7b74f-7c19-4a6a-bfcc-0f194818d4f1",
+        "ordered_at": "2016-03-20T16:30:38.949",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7880.785821408646,
+        "user_id": "0a58aef0-4ea1-42ee-b077-f760039fa277",
+        "ordered_at": "2022-06-11T07:54:37.622",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2889.9970058919266,
+        "user_id": "23d9125b-ef9d-4290-b8da-5cf6b338cfd6",
+        "ordered_at": "2018-07-26T07:19:02.380",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7508.036708954253,
+        "user_id": "31574fde-e9e6-4561-a32f-a9fbc1d7d6cb",
+        "ordered_at": "2018-01-04T03:28:16.788",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4512.039096267205,
+        "user_id": "4f437563-c195-4bad-b3ef-ede0c69f8a82",
+        "ordered_at": "2023-08-05T06:23:03.425",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9599.925658140814,
+        "user_id": "4db202ea-da31-4daf-b75f-ab0b3b97c3cd",
+        "ordered_at": "2022-07-13T02:05:56.256",
+        "status": "CREATED"
+    },
+    {
+        "total": 313.4665991040819,
+        "user_id": "f473c94d-66fb-4132-8387-e569dacd1d5e",
+        "ordered_at": "2016-12-21T06:34:51.298",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2754.7841085461664,
+        "user_id": "39c84081-3336-4dde-8508-824bdacc5267",
+        "ordered_at": "2019-03-05T09:54:15.204",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5522.087107073421,
+        "user_id": "c757758c-a1b2-40fc-85ac-bf4f02a2dbee",
+        "ordered_at": "2018-07-06T11:14:03.006",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7881.8778005488875,
+        "user_id": "1d0e3e61-3cee-4790-a871-8b25eeca2106",
+        "ordered_at": "2019-09-03T13:24:21.192",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 137.31589919020902,
+        "user_id": "e187bfe6-c0bf-48d6-997b-fa7d84d94c8a",
+        "ordered_at": "2023-04-10T07:46:53.529",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2915.9968675673776,
+        "user_id": "0be96f4a-fc89-45d8-bdb5-60c9dbc445b0",
+        "ordered_at": "2018-12-24T14:33:17.296",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1731.4469356504858,
+        "user_id": "c1d7d48b-f65e-42c7-a64f-0ba1297a741c",
+        "ordered_at": "2015-08-04T11:18:43.031",
+        "status": "CREATED"
+    },
+    {
+        "total": 2093.5168797363244,
+        "user_id": "e88929a6-8a78-4f6c-92aa-efb3135924f8",
+        "ordered_at": "2022-10-11T03:24:04.976",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4256.774430554323,
+        "user_id": "962c4061-8f87-4635-b815-2782bec1bb95",
+        "ordered_at": "2017-01-17T14:48:42.595",
+        "status": "CREATED"
+    },
+    {
+        "total": 8004.587233664091,
+        "user_id": "cd636527-0e66-42b0-b8dd-f7dffef50618",
+        "ordered_at": "2017-01-19T05:42:08.738",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9920.28554230065,
+        "user_id": "101fc386-fcdc-403a-960f-e44d1e0c6707",
+        "ordered_at": "2021-10-22T01:51:06.504",
+        "status": "CREATED"
+    },
+    {
+        "total": 911.3191570264867,
+        "user_id": "59c41a6d-6f3e-4ccb-a3f5-976c1ecd026b",
+        "ordered_at": "2017-11-10T04:44:40.794",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4636.019976447098,
+        "user_id": "0d37f746-abf6-463c-9367-15de7c4f3b7d",
+        "ordered_at": "2015-06-10T06:20:49.886",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9732.925967046353,
+        "user_id": "ea7a9b84-9963-4e69-b501-e481db922534",
+        "ordered_at": "2024-04-10T20:07:12.333",
+        "status": "CANCELED"
+    },
+    {
+        "total": 591.8061456122558,
+        "user_id": "63efbcba-caa3-4ffa-b570-0fcdc2e34403",
+        "ordered_at": "2018-12-07T06:29:33.127",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5038.2893625261195,
+        "user_id": "80ba0c81-5007-4e26-a83f-d85686827967",
+        "ordered_at": "2015-02-12T20:53:32.413",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8292.660901801579,
+        "user_id": "95296173-c8ee-4154-b39c-f2023471a3e9",
+        "ordered_at": "2019-07-04T03:42:39.276",
+        "status": "CREATED"
+    },
+    {
+        "total": 4528.2161006981905,
+        "user_id": "a236df27-5c81-4574-ae5c-36d1cf2d3968",
+        "ordered_at": "2018-07-15T17:29:12.411",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8319.605106117186,
+        "user_id": "862fe060-fbdc-464d-828b-f434551d2934",
+        "ordered_at": "2023-01-20T20:13:32.277",
+        "status": "CREATED"
+    },
+    {
+        "total": 2288.793775413969,
+        "user_id": "e28a254c-385a-48d9-a2a3-ac842b3f2614",
+        "ordered_at": "2022-01-09T16:35:32.820",
+        "status": "CREATED"
+    },
+    {
+        "total": 2753.226179629016,
+        "user_id": "356ccbad-cc93-45cf-a554-5b9181d5d2fb",
+        "ordered_at": "2022-08-23T18:39:14.127",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1790.0706203419304,
+        "user_id": "9ebf3fe2-cb76-4ad1-b8f9-01db8f557161",
+        "ordered_at": "2017-06-18T08:25:57.523",
+        "status": "CREATED"
+    },
+    {
+        "total": 2570.4666440676683,
+        "user_id": "e1255a44-67ef-4bdb-a8ec-338cd27941a6",
+        "ordered_at": "2022-04-22T20:55:03.348",
+        "status": "CREATED"
+    },
+    {
+        "total": 9708.352989185983,
+        "user_id": "aa2182f7-c0ad-4127-a4d7-f12c3648a67d",
+        "ordered_at": "2023-07-16T11:32:59.953",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9676.504015184137,
+        "user_id": "e436a4be-8fe0-4f69-9ef9-9577c9918742",
+        "ordered_at": "2021-03-18T12:10:39.805",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9464.578166034034,
+        "user_id": "98fc2ff2-a20b-4b11-bfdf-a3b82bec463a",
+        "ordered_at": "2024-01-07T19:33:16.397",
+        "status": "CREATED"
+    },
+    {
+        "total": 6958.218727575244,
+        "user_id": "f484e3f4-bc19-4e7b-984f-fcae96eeedb3",
+        "ordered_at": "2023-06-10T20:33:26.878",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4475.526775409323,
+        "user_id": "d2a6f070-87cb-4eef-a365-deabeac53c9e",
+        "ordered_at": "2016-03-02T04:49:00.586",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2749.7722153039704,
+        "user_id": "68b79a65-1d2a-4251-8d88-a5642f960c75",
+        "ordered_at": "2017-07-12T20:33:02.017",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6870.456046344684,
+        "user_id": "6a60be7f-b76c-4783-a03a-7421366e7ae0",
+        "ordered_at": "2023-07-25T08:20:10.705",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5323.732149003452,
+        "user_id": "c9c194a6-9a78-46a4-9401-a24ff62680c2",
+        "ordered_at": "2019-07-26T10:31:25.758",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6475.597256361219,
+        "user_id": "1b774354-a17b-4df8-b005-6bd5cc29955e",
+        "ordered_at": "2023-07-14T19:35:55.276",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 933.6610143099344,
+        "user_id": "ec0ee930-c11c-4eee-96e3-8130d97b5bce",
+        "ordered_at": "2017-12-01T22:04:16.126",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1636.7370500486468,
+        "user_id": "cc758151-7e0d-47a5-be1b-136784b1ee48",
+        "ordered_at": "2021-04-06T03:41:34.754",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5038.097384335176,
+        "user_id": "7f3c152b-d2b3-4a4e-a83c-bd0846d12b1c",
+        "ordered_at": "2018-04-20T13:57:46.592",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 640.8441447304236,
+        "user_id": "2ace482f-9942-439a-85d1-17cf0480c946",
+        "ordered_at": "2022-10-16T00:13:59.046",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9664.601314148844,
+        "user_id": "475bebf7-7c56-4077-97e3-0ece16d15133",
+        "ordered_at": "2022-09-19T08:18:42.457",
+        "status": "CREATED"
+    },
+    {
+        "total": 3597.7439155334723,
+        "user_id": "4b6ad070-ff96-421e-aa50-b5ad4e688103",
+        "ordered_at": "2016-01-15T05:42:15.645",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1490.4650706170419,
+        "user_id": "2385b33f-f3a9-4c88-b75b-4819a3ce716d",
+        "ordered_at": "2020-01-20T08:27:48.614",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6419.7695564122605,
+        "user_id": "71b864cd-7403-49bb-b6d1-f0bee803ee03",
+        "ordered_at": "2021-01-03T20:09:12.353",
+        "status": "CREATED"
+    },
+    {
+        "total": 719.5026112596626,
+        "user_id": "2d159eb8-dfd1-4058-b283-666724e769f0",
+        "ordered_at": "2020-06-14T10:49:52.261",
+        "status": "CREATED"
+    },
+    {
+        "total": 3539.9519998788933,
+        "user_id": "b35cda24-8f1a-4f77-9c80-b1feb702a74a",
+        "ordered_at": "2022-08-11T03:29:49.771",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2848.989267783899,
+        "user_id": "fe47af84-79a5-4ae7-b975-ff210b7e026f",
+        "ordered_at": "2024-09-02T02:10:09.325",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5067.724090559887,
+        "user_id": "1cdec7f3-506b-4b32-a996-862e33a4c0b8",
+        "ordered_at": "2015-06-22T14:19:38.651",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6105.521906623593,
+        "user_id": "db512e1f-3234-4529-91f3-05cdeff87a82",
+        "ordered_at": "2021-10-02T17:33:13.840",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8806.6555992395,
+        "user_id": "f6609047-ce88-4c5d-9cbd-adb737f7ba2e",
+        "ordered_at": "2022-04-28T23:22:06.208",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 872.7686892326935,
+        "user_id": "20c26cdf-d1fc-48f1-9fb0-5e8f8978a0d9",
+        "ordered_at": "2019-10-04T22:16:51.722",
+        "status": "CREATED"
+    },
+    {
+        "total": 2843.9502987731657,
+        "user_id": "21aadb14-bbf7-46ee-9f80-4b8435808e42",
+        "ordered_at": "2017-08-11T23:38:42.827",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2558.4738353936377,
+        "user_id": "41639a7a-5a6c-46c6-a018-9ef1e3e71e01",
+        "ordered_at": "2024-05-21T03:20:31.695",
+        "status": "CREATED"
+    },
+    {
+        "total": 940.1894088935414,
+        "user_id": "13b77bd6-2e88-4a4e-b529-ff0fa9e9e718",
+        "ordered_at": "2022-11-01T02:13:54.777",
+        "status": "CREATED"
+    },
+    {
+        "total": 1804.6304027153615,
+        "user_id": "ebfb0800-3200-438c-8bc8-534127be936e",
+        "ordered_at": "2017-12-27T04:40:12.702",
+        "status": "CREATED"
+    },
+    {
+        "total": 9655.147678769461,
+        "user_id": "7b3dcac9-601a-484d-a38a-d7689eae23a1",
+        "ordered_at": "2019-05-20T15:40:47.671",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1016.6486897373661,
+        "user_id": "5f1305f3-b477-4efe-b42a-3c8dbf8c9d4d",
+        "ordered_at": "2021-04-07T20:54:16.411",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2777.777863305618,
+        "user_id": "e0f30083-6c93-4f53-b07c-2c13565c786b",
+        "ordered_at": "2024-05-06T20:38:38.362",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1189.0554874186032,
+        "user_id": "8670f89e-b4b6-4b97-88d8-7300f3195085",
+        "ordered_at": "2020-02-26T02:28:31.612",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8203.234693952658,
+        "user_id": "13bdf9c6-d715-4b49-ac8f-ed6190bd0e18",
+        "ordered_at": "2016-12-27T07:34:41.007",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9782.496043940955,
+        "user_id": "c020fe73-177d-4e48-8460-72d53b65c83f",
+        "ordered_at": "2020-01-25T21:49:34.470",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3715.9228562286053,
+        "user_id": "d04d5f13-fb67-4362-b611-0fd667b3a0d9",
+        "ordered_at": "2018-03-16T23:00:50.951",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7836.500227983538,
+        "user_id": "a18a9781-a3c0-4853-963d-e43ae3919f06",
+        "ordered_at": "2016-06-11T21:31:56.086",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8275.065606125774,
+        "user_id": "fe82cdfe-f7ba-4a66-8bfe-399fd3eb7fe8",
+        "ordered_at": "2018-05-12T23:37:35.766",
+        "status": "CREATED"
+    },
+    {
+        "total": 992.8438160366148,
+        "user_id": "65d85a55-1348-42ac-a680-8559b556f5b4",
+        "ordered_at": "2020-02-12T23:23:50.266",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2219.557504348935,
+        "user_id": "02484989-fba2-41c6-9f42-33156fb10bee",
+        "ordered_at": "2018-01-25T10:29:03.386",
+        "status": "CREATED"
+    },
+    {
+        "total": 5094.816651458078,
+        "user_id": "861d5ab6-3548-43ca-9f59-a120a6f940c3",
+        "ordered_at": "2015-02-14T08:28:21.804",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4454.436126855104,
+        "user_id": "4cf47a12-0f7e-4db5-949e-f7a90323a535",
+        "ordered_at": "2018-06-03T10:51:05.021",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7489.022883663018,
+        "user_id": "a0e08fcf-28db-4762-9f80-b6b1ea4d5e1a",
+        "ordered_at": "2019-07-08T19:28:11.098",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4076.0298223482405,
+        "user_id": "6450b93b-0d78-4939-baa3-3b5312bfba2f",
+        "ordered_at": "2023-06-05T07:13:13.641",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2090.4325525474533,
+        "user_id": "50451957-74e9-4628-b752-a7b5a880dc1a",
+        "ordered_at": "2015-05-08T13:25:31.111",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3241.790239328478,
+        "user_id": "73edd5bb-8f92-4150-9413-f5bf8d4faf15",
+        "ordered_at": "2018-10-09T04:33:02.884",
+        "status": "CREATED"
+    },
+    {
+        "total": 1211.4656483157517,
+        "user_id": "17e37d7d-ae46-4dff-854f-cf1ef6b9116e",
+        "ordered_at": "2017-01-11T03:58:09.004",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3380.3044280979675,
+        "user_id": "ee98388c-4471-4b04-98a6-3692e84a052d",
+        "ordered_at": "2023-05-04T01:56:37.955",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3666.403175220696,
+        "user_id": "e0aa3201-861c-4add-9136-11d385922210",
+        "ordered_at": "2018-10-22T18:48:24.599",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7334.621016956907,
+        "user_id": "ef420161-77a1-482d-8546-aaf4351cea63",
+        "ordered_at": "2016-09-04T08:12:10.590",
+        "status": "CREATED"
+    },
+    {
+        "total": 4839.061241997036,
+        "user_id": "78a160ec-377c-439a-957d-41e8f9a2608e",
+        "ordered_at": "2016-10-27T03:34:04.955",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 786.6004264037363,
+        "user_id": "bee370b1-f17b-44d1-89f7-ddbddeaee226",
+        "ordered_at": "2017-08-03T03:20:01.982",
+        "status": "CREATED"
+    },
+    {
+        "total": 5371.396361894162,
+        "user_id": "033f62ef-b920-4253-a6e9-d7730cab01a2",
+        "ordered_at": "2019-11-19T06:09:24.890",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 651.6287975071344,
+        "user_id": "48bf5fd7-723d-42ee-87e9-b3b4e4a73ba5",
+        "ordered_at": "2022-01-12T19:09:47.807",
+        "status": "CREATED"
+    },
+    {
+        "total": 5551.739713361057,
+        "user_id": "c7a2cc14-d079-41a9-ae39-33bc56dfa44a",
+        "ordered_at": "2016-10-08T12:41:48.255",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 173.00974251822865,
+        "user_id": "00708397-35eb-42f0-a367-e11eb940bab3",
+        "ordered_at": "2019-12-04T05:00:14.846",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9043.133954115536,
+        "user_id": "93240fa1-534d-4f99-9c5b-322fe082af08",
+        "ordered_at": "2022-09-03T13:57:04.006",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7576.291507626014,
+        "user_id": "dd2917b5-824d-4b16-992d-cef41d337ee9",
+        "ordered_at": "2024-09-11T15:40:41.474",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3515.471094558711,
+        "user_id": "ea711bde-809a-4d67-b97f-7eb9ea0a8843",
+        "ordered_at": "2024-12-18T05:01:45.623",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 539.469843125756,
+        "user_id": "398f9df5-a23e-4731-82e7-d2ec6fde74dc",
+        "ordered_at": "2020-07-23T08:36:41.268",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5281.75696376501,
+        "user_id": "7fed5f53-17ee-42df-8de1-3260343c23f8",
+        "ordered_at": "2018-03-18T10:25:38.359",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3850.565545429154,
+        "user_id": "3ce124cb-7695-4b2a-8ca3-ede394f411fb",
+        "ordered_at": "2019-09-25T21:24:55.794",
+        "status": "CREATED"
+    },
+    {
+        "total": 7972.065184187073,
+        "user_id": "e6c96218-1ca9-433d-9bbf-1cbcf8cb8443",
+        "ordered_at": "2016-03-06T17:07:51.291",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4695.793820343298,
+        "user_id": "fdffd97f-55e9-43e0-b5d2-49f531960a6c",
+        "ordered_at": "2019-10-20T02:19:15.823",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1423.039588538888,
+        "user_id": "4623d9c9-caa4-4b63-bcac-d34cf53796d4",
+        "ordered_at": "2015-12-27T16:50:00.156",
+        "status": "CREATED"
+    },
+    {
+        "total": 4567.023572440021,
+        "user_id": "f96f0c60-ff95-4f90-acc2-345b5424db01",
+        "ordered_at": "2019-10-04T05:01:26.125",
+        "status": "CREATED"
+    },
+    {
+        "total": 661.8559579619521,
+        "user_id": "c9ba4c98-8658-49e3-84b1-df522b9f7597",
+        "ordered_at": "2015-06-23T23:01:48.803",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 95.2854981914153,
+        "user_id": "5e9e97b7-4fd8-480e-aecb-6a797a831c06",
+        "ordered_at": "2022-04-04T06:12:11.846",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7498.332171688531,
+        "user_id": "758bc8de-d384-4918-b760-b262436f9ae1",
+        "ordered_at": "2015-04-28T18:59:56.360",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6787.811183725164,
+        "user_id": "ff7fc986-1223-4027-aefa-3a27890278b0",
+        "ordered_at": "2018-01-15T09:27:10.645",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9715.568320326538,
+        "user_id": "a50546aa-34fb-4215-bbba-d11bac9c71b5",
+        "ordered_at": "2016-04-22T04:56:40.272",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 30.798726834901924,
+        "user_id": "a28c2b23-4cb9-443b-a50f-4ccb13a8be6c",
+        "ordered_at": "2020-09-10T14:33:47.632",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8107.557955050753,
+        "user_id": "41c5ae22-9889-4015-b6bc-1693d3e9a4b6",
+        "ordered_at": "2023-09-27T21:11:17.786",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 461.37814738930194,
+        "user_id": "9304dbc5-6f09-4f29-87e5-f67306899c34",
+        "ordered_at": "2015-04-16T08:22:45.475",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7122.3562902128815,
+        "user_id": "b125b3af-a652-42f4-be60-e04504788a4c",
+        "ordered_at": "2019-05-25T17:26:30.162",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5333.925989713577,
+        "user_id": "ae8a6cff-129c-48d5-9afd-bee26c03b7f6",
+        "ordered_at": "2023-05-18T22:54:35.164",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5133.554685797528,
+        "user_id": "fde0b164-0c6c-49ce-a126-6760b7bde6d9",
+        "ordered_at": "2019-07-01T16:02:31.593",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1513.027377889875,
+        "user_id": "b212f449-cc3f-4512-b578-747925fd339e",
+        "ordered_at": "2017-09-27T00:52:34.958",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9414.21433298793,
+        "user_id": "4feacd8a-5200-45cb-9fd5-79c506e4c7ee",
+        "ordered_at": "2017-03-17T19:32:32.589",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7704.3330383491075,
+        "user_id": "e7a1a60a-5fdc-407c-9343-53c346287aa6",
+        "ordered_at": "2018-02-02T21:19:13.267",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4790.491084256434,
+        "user_id": "d8f8196a-8c68-448d-854a-2346e47c3e30",
+        "ordered_at": "2022-03-28T20:58:32.466",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5252.8925042915935,
+        "user_id": "abc32d98-035a-4dde-aa42-f259d311f209",
+        "ordered_at": "2017-09-04T19:43:55.133",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4302.659559292778,
+        "user_id": "8131c057-a5a5-479b-a547-280b9713ede9",
+        "ordered_at": "2021-08-25T01:11:34.189",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5845.077395870132,
+        "user_id": "73e49864-32d5-46bf-8d42-b1f1a0d04196",
+        "ordered_at": "2017-10-18T11:53:14.368",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2626.0527617305206,
+        "user_id": "e44b4316-cde8-4629-b69d-9cc4976aa376",
+        "ordered_at": "2020-08-19T14:48:07.580",
+        "status": "CREATED"
+    },
+    {
+        "total": 6575.040365533933,
+        "user_id": "3035e35b-105a-4ff2-ab79-27e427cf5d64",
+        "ordered_at": "2021-04-06T16:59:13.723",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5661.792159379743,
+        "user_id": "c013d1c4-0ece-4fd4-9655-7a347149fd1e",
+        "ordered_at": "2017-07-21T12:17:09.757",
+        "status": "CREATED"
+    },
+    {
+        "total": 4691.085906223737,
+        "user_id": "ab9c4981-552c-4ab0-9ec4-8a7dfd1ff890",
+        "ordered_at": "2021-03-10T07:24:18.415",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1786.5382860404334,
+        "user_id": "21362bc8-44a1-4953-a3c4-1dd58079d54f",
+        "ordered_at": "2016-04-11T17:27:33.505",
+        "status": "CREATED"
+    },
+    {
+        "total": 5813.969846833481,
+        "user_id": "3159c678-09a4-4f86-b3e3-b99655af33e4",
+        "ordered_at": "2018-02-14T12:23:52.094",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5472.537906576879,
+        "user_id": "665d313b-9271-4631-9f53-b3347b85ae09",
+        "ordered_at": "2024-07-17T07:23:51.357",
+        "status": "CREATED"
+    },
+    {
+        "total": 6191.785927977385,
+        "user_id": "1d0f1e1e-68f4-47c2-982d-56ba7e695de1",
+        "ordered_at": "2021-04-13T03:49:50.220",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3105.9627857866844,
+        "user_id": "17b45c8f-cb11-44ef-b3e4-c3ee37f0a0b9",
+        "ordered_at": "2017-03-25T18:21:43.930",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5579.857022568608,
+        "user_id": "67da485d-f72f-4fa5-802a-0082dd534e57",
+        "ordered_at": "2016-07-24T06:48:09.954",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4126.08487961424,
+        "user_id": "011181a9-decf-4a2c-87c8-91e37734e001",
+        "ordered_at": "2023-05-01T12:02:52.728",
+        "status": "CREATED"
+    },
+    {
+        "total": 7345.219807174433,
+        "user_id": "906bd597-1d48-4e06-aca3-7cd7c87f1019",
+        "ordered_at": "2015-07-26T00:54:51.100",
+        "status": "CREATED"
+    },
+    {
+        "total": 394.71707278569966,
+        "user_id": "bbd6b245-7d96-4bc1-9f26-9f1195f953fa",
+        "ordered_at": "2021-09-26T03:45:15.557",
+        "status": "CREATED"
+    },
+    {
+        "total": 4411.475164129133,
+        "user_id": "efdd392b-4631-4ede-b6a7-efd8814d4706",
+        "ordered_at": "2017-12-25T15:43:19.672",
+        "status": "CREATED"
+    },
+    {
+        "total": 9830.227200209505,
+        "user_id": "0bc7b73b-68e5-490e-a140-6a5035d030a3",
+        "ordered_at": "2021-02-04T21:56:48.675",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7479.795196728537,
+        "user_id": "b5d05cba-f7e8-434f-beb2-fa7ac4642938",
+        "ordered_at": "2015-04-09T22:53:46.053",
+        "status": "CANCELED"
+    },
+    {
+        "total": 680.2865176867034,
+        "user_id": "3f0abc39-7658-4d0b-828c-2eacfbc87599",
+        "ordered_at": "2023-10-11T13:29:40.223",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7665.795316142074,
+        "user_id": "59ae59a3-8456-4264-8ac6-57c3b7e87d02",
+        "ordered_at": "2016-10-15T21:03:51.464",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3770.534076507943,
+        "user_id": "65ab16de-8ab3-4e4e-9e8a-64b79b4a9e4d",
+        "ordered_at": "2022-07-23T04:06:44.590",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2141.1559289880433,
+        "user_id": "79e02b1d-9281-4a79-8c97-1482778f77ac",
+        "ordered_at": "2017-05-23T22:10:30.366",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7091.983319452582,
+        "user_id": "d966aab2-7a98-46be-a45d-2ff18a2fa0ed",
+        "ordered_at": "2024-04-27T06:41:19.490",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4705.852566496847,
+        "user_id": "9fb12ee2-fea8-4369-a830-419f340af1fa",
+        "ordered_at": "2015-08-24T01:04:05.472",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 148.95877761144428,
+        "user_id": "2510c2c1-bbd7-4b08-8650-2659e38c39f2",
+        "ordered_at": "2018-01-13T19:44:36.184",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5365.483251105271,
+        "user_id": "1026fd26-b1b7-47f8-b489-9a7d1d7cd4c3",
+        "ordered_at": "2023-12-12T16:57:00.747",
+        "status": "CREATED"
+    },
+    {
+        "total": 1583.6029683242048,
+        "user_id": "301bf482-d0ab-4443-b531-ecc780bea3f9",
+        "ordered_at": "2017-05-19T14:54:53.202",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4153.5403643407735,
+        "user_id": "c6315171-59f2-42a8-90b8-4fa73dd05217",
+        "ordered_at": "2018-06-04T00:43:38.257",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9255.717353696686,
+        "user_id": "9be8617d-3c1f-42c2-afd5-d9cdc76c6a42",
+        "ordered_at": "2016-05-04T02:31:10.545",
+        "status": "CREATED"
+    },
+    {
+        "total": 5606.866028543297,
+        "user_id": "622a27d1-a442-401f-95f5-b0f547486fe2",
+        "ordered_at": "2021-08-24T12:09:12.242",
+        "status": "CREATED"
+    },
+    {
+        "total": 5752.364520830511,
+        "user_id": "d63a30b7-4c48-4905-8ada-7b7d8493150c",
+        "ordered_at": "2021-07-17T02:22:11.184",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5741.574150000554,
+        "user_id": "5f5ff6fe-bb57-4395-ba6e-6eda309dae8f",
+        "ordered_at": "2020-11-22T07:57:15.473",
+        "status": "CREATED"
+    },
+    {
+        "total": 7325.956852676213,
+        "user_id": "93077d07-1a6d-41e0-9e37-fa69be4c0ae7",
+        "ordered_at": "2022-08-28T00:15:30.286",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3135.209818351814,
+        "user_id": "f10e7ed1-ddcb-49ec-9ccb-7dae7556bc6d",
+        "ordered_at": "2022-08-23T03:00:50.033",
+        "status": "CREATED"
+    },
+    {
+        "total": 639.4511756330501,
+        "user_id": "66253b34-510c-48d4-acc6-bee6299d3474",
+        "ordered_at": "2020-07-18T13:42:57.618",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8128.941234224245,
+        "user_id": "fa2ed755-04b2-4c53-abc1-1ebd18335ca6",
+        "ordered_at": "2022-12-17T19:09:27.378",
+        "status": "CREATED"
+    },
+    {
+        "total": 9090.945747760583,
+        "user_id": "1a1dd89a-0f33-401f-a458-140cb0cbca98",
+        "ordered_at": "2019-12-14T11:16:18.118",
+        "status": "CREATED"
+    },
+    {
+        "total": 8332.477930919124,
+        "user_id": "00885f46-5c4c-4637-a62b-5e6f3603b5a4",
+        "ordered_at": "2023-10-22T05:47:32.074",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 586.9188514354639,
+        "user_id": "c2c8cf52-2f19-412c-85cb-6b1cf11290c3",
+        "ordered_at": "2023-07-15T01:58:18.341",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6936.73673204393,
+        "user_id": "aca4d687-171b-4172-909d-fe2b8e4de3f5",
+        "ordered_at": "2021-09-18T23:45:00.608",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7654.216239592391,
+        "user_id": "2e4d805f-84b8-475e-8deb-914044e14286",
+        "ordered_at": "2024-05-22T05:37:37.482",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 988.8876379207757,
+        "user_id": "bd1f0b83-bd9f-41c5-8554-543eacf86142",
+        "ordered_at": "2023-02-25T17:35:19.449",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1977.6931754029104,
+        "user_id": "5259a0e9-59b3-4507-9c2b-541214284bc6",
+        "ordered_at": "2015-05-25T15:01:27.798",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6216.358431608223,
+        "user_id": "292cd4da-712a-43da-9d8a-8ae1b47a52ae",
+        "ordered_at": "2022-09-04T12:52:39.908",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1606.2963009690468,
+        "user_id": "71283a25-0aee-4d5e-9730-10d8f2876e7a",
+        "ordered_at": "2021-02-25T10:43:51.189",
+        "status": "CREATED"
+    },
+    {
+        "total": 437.0157336837444,
+        "user_id": "327a11dc-814f-4559-b3aa-956345d10bf8",
+        "ordered_at": "2015-10-20T16:30:37.161",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4999.8309826398,
+        "user_id": "83e6f0d0-578b-4b58-9fb1-474b381f6cbc",
+        "ordered_at": "2020-03-20T09:43:08.062",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9579.614641919086,
+        "user_id": "eafb67b9-1fbb-419d-90ce-44dc5caec59a",
+        "ordered_at": "2015-09-25T02:25:13.436",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1137.367631901577,
+        "user_id": "950b7c2b-3939-4600-9b4c-5eef70af5662",
+        "ordered_at": "2018-03-14T12:09:05.184",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5160.590031413667,
+        "user_id": "113356a5-f519-47aa-9e14-b972d66c25d5",
+        "ordered_at": "2021-05-11T20:44:16.953",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5453.171567523243,
+        "user_id": "afe23e97-1475-4c62-99e1-20d3385c9abc",
+        "ordered_at": "2017-07-07T13:04:55.193",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4300.376394600514,
+        "user_id": "907e7ff7-0ee0-4bbd-bb4d-8c6703d4f1dc",
+        "ordered_at": "2020-09-22T23:29:18.256",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3315.391522230162,
+        "user_id": "a53c0c59-e550-4213-8494-f42cd10bfda7",
+        "ordered_at": "2019-08-12T21:25:55.052",
+        "status": "CREATED"
+    },
+    {
+        "total": 8376.078085328783,
+        "user_id": "d8316ddc-ce65-4813-8503-2ece5f5f37e9",
+        "ordered_at": "2023-05-21T16:42:59.273",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4055.959225152681,
+        "user_id": "c303c491-2b43-4936-8f7c-d5f696316c45",
+        "ordered_at": "2024-11-03T01:56:05.583",
+        "status": "CREATED"
+    },
+    {
+        "total": 2839.983492987219,
+        "user_id": "6d932df0-7732-425e-a556-ee6600d63efe",
+        "ordered_at": "2015-09-12T00:48:02.788",
+        "status": "CREATED"
+    },
+    {
+        "total": 1667.948739513677,
+        "user_id": "dc68e8c8-64e5-47e3-ac1c-310c5df44e2b",
+        "ordered_at": "2019-08-03T13:59:59.073",
+        "status": "CREATED"
+    },
+    {
+        "total": 3009.006440757046,
+        "user_id": "829b5302-04fc-451f-b989-2a1e138a54ba",
+        "ordered_at": "2015-11-12T14:48:55.631",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2710.9725391100205,
+        "user_id": "91875cb7-9ccf-4405-ac2f-c5a46131fcb2",
+        "ordered_at": "2021-11-24T12:59:12.866",
+        "status": "CREATED"
+    },
+    {
+        "total": 1453.6916148567325,
+        "user_id": "4d6666c6-4d29-4566-ac29-39c80ba31503",
+        "ordered_at": "2019-05-11T05:16:00.840",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6739.238693174588,
+        "user_id": "735105df-8926-4ad6-9cf0-844411ad8718",
+        "ordered_at": "2015-06-25T18:27:31.347",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5473.274782377685,
+        "user_id": "65afece1-71c6-49bc-8a0d-6e8be1fecc1e",
+        "ordered_at": "2018-08-24T12:58:59.842",
+        "status": "CANCELED"
+    },
+    {
+        "total": 755.1435358273372,
+        "user_id": "5c134655-b49b-4bfd-8c91-2470830a9fa9",
+        "ordered_at": "2022-10-08T18:40:53.693",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4803.027069200869,
+        "user_id": "4c3c7f2b-061b-4820-8252-491fbb5051d7",
+        "ordered_at": "2024-06-24T19:21:31.217",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2389.390980980648,
+        "user_id": "4e606b1a-b152-45e7-a216-d738193d05c1",
+        "ordered_at": "2022-06-25T00:49:41.587",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2710.560088293934,
+        "user_id": "47afa419-a71a-4d70-8366-a7b981210394",
+        "ordered_at": "2018-04-27T18:19:28.166",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9343.60971357083,
+        "user_id": "98ce7657-ecb3-4ab4-998d-a20b607a0261",
+        "ordered_at": "2021-01-11T21:52:46.803",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8828.991667135853,
+        "user_id": "71539bd4-6773-460b-8c6d-a094563fe69e",
+        "ordered_at": "2022-02-03T20:23:06.579",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7261.44171553378,
+        "user_id": "d45e7fdf-391e-47cd-83ac-4d8820b1be54",
+        "ordered_at": "2020-05-08T22:16:22.344",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1058.227512824239,
+        "user_id": "7b88141e-5a45-46b7-af77-bf0306c30caa",
+        "ordered_at": "2023-06-21T22:19:29.330",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8808.591117581775,
+        "user_id": "6c5b653b-63b6-41c0-85b7-ca73e73a7ddf",
+        "ordered_at": "2019-07-02T04:43:34.267",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1533.6406880232535,
+        "user_id": "dbec2e63-f631-483a-b341-5f28ef4b9bd4",
+        "ordered_at": "2018-06-21T16:04:56.302",
+        "status": "CREATED"
+    },
+    {
+        "total": 2062.0331047104632,
+        "user_id": "d1fb426a-6744-4dc8-98d4-f9e0198582a9",
+        "ordered_at": "2017-06-02T11:04:40.778",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8687.998373444369,
+        "user_id": "5805683b-9f85-4beb-9eb4-e36b64cb49fc",
+        "ordered_at": "2020-09-24T12:30:00.694",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2085.4376754059035,
+        "user_id": "c8450c08-feb7-4f4b-830c-ddffe13611c3",
+        "ordered_at": "2024-11-25T00:09:14.936",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2772.6343555123635,
+        "user_id": "ddd97df0-d7c9-45a4-b121-af06b0fce261",
+        "ordered_at": "2017-12-20T02:53:06.082",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1085.0955510162673,
+        "user_id": "c8c56d7d-b225-4308-a55f-b4aca44784ec",
+        "ordered_at": "2021-08-23T20:24:10.786",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5593.953276797008,
+        "user_id": "04f2717b-1d50-4245-8d59-860cae97308b",
+        "ordered_at": "2017-11-25T17:06:13.940",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7112.647735798876,
+        "user_id": "fa9f6cb1-d1a5-4003-a7f3-61df53642e9b",
+        "ordered_at": "2020-04-06T05:40:23.044",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9678.940266727894,
+        "user_id": "57df43d1-2f35-41ef-9b30-9a8884f97037",
+        "ordered_at": "2024-10-14T23:32:35.054",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 753.4762792998196,
+        "user_id": "d31cd788-9090-459b-bdcf-8cdc810d2d1c",
+        "ordered_at": "2015-04-06T23:03:37.920",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6407.270383132155,
+        "user_id": "517655ac-a2a7-4a59-86be-6b904cf1a6fc",
+        "ordered_at": "2021-05-06T03:47:44.374",
+        "status": "CREATED"
+    },
+    {
+        "total": 2489.6094222136135,
+        "user_id": "1aaece91-ca82-48e8-ba7d-9d27a5e7b26c",
+        "ordered_at": "2022-03-26T17:35:25.091",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3917.942629353994,
+        "user_id": "81611dfc-93c9-4d2c-ae0d-56a275aba62d",
+        "ordered_at": "2021-10-11T03:27:09.865",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8861.680345684312,
+        "user_id": "9bdd9125-ccf2-4a9e-bb91-96bf775d79c9",
+        "ordered_at": "2021-01-05T22:07:28.089",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1676.4386217854267,
+        "user_id": "1289e8c2-e5ba-4fb8-82ce-3680c26c41c7",
+        "ordered_at": "2021-01-20T23:56:14.318",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3615.270064382159,
+        "user_id": "cd69e191-5188-445f-9dee-2aa8abe547b3",
+        "ordered_at": "2022-09-14T16:16:41.860",
+        "status": "CANCELED"
+    },
+    {
+        "total": 616.7942539301208,
+        "user_id": "8bb0bee3-a819-46c0-ab09-711dc05c058e",
+        "ordered_at": "2024-06-01T13:12:24.140",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5673.594038324088,
+        "user_id": "5d12fba0-9ebc-4fbe-b573-cd754807f0e4",
+        "ordered_at": "2017-10-12T11:06:33.270",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2675.5011620562095,
+        "user_id": "8d5f73e2-5ae2-42ae-a87d-d1b552fcf3ad",
+        "ordered_at": "2016-12-13T23:40:07.651",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1032.8921816334657,
+        "user_id": "784dcc02-0021-4888-b093-9e4dd9039132",
+        "ordered_at": "2023-05-22T06:19:59.835",
+        "status": "CREATED"
+    },
+    {
+        "total": 6515.924104892792,
+        "user_id": "8b189bd0-bc9b-4093-98b3-ef0fcd5c4c87",
+        "ordered_at": "2015-04-07T20:34:25.496",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2062.263725412774,
+        "user_id": "eb927f8a-13d2-4ba2-b13a-2be829477a92",
+        "ordered_at": "2022-08-04T15:36:07.594",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3289.2198705620813,
+        "user_id": "1608fa5f-1839-47d1-80e1-b28385a8efa8",
+        "ordered_at": "2021-06-22T10:50:25.640",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8770.510537594433,
+        "user_id": "17605338-886a-4995-9bfb-8cbbc495850f",
+        "ordered_at": "2024-03-18T00:29:09.400",
+        "status": "CREATED"
+    },
+    {
+        "total": 6658.187578827835,
+        "user_id": "6f74ca8b-fb93-411e-be26-eb6ac7703c41",
+        "ordered_at": "2021-08-10T22:02:48.153",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 474.50543578115844,
+        "user_id": "400fe510-8efd-4d59-8e21-242998da7321",
+        "ordered_at": "2015-04-19T09:12:28.080",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 72.87987671836915,
+        "user_id": "5e873559-94c9-4ae6-af24-29142f11eb05",
+        "ordered_at": "2017-04-23T21:32:54.753",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8093.649958736419,
+        "user_id": "d0044c74-71c4-477b-b892-d9400053a903",
+        "ordered_at": "2024-03-26T14:25:12.516",
+        "status": "CREATED"
+    },
+    {
+        "total": 4761.233304190112,
+        "user_id": "273c38eb-09b6-4149-9849-5d64080841c7",
+        "ordered_at": "2017-05-01T11:12:50.627",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1661.3248526596424,
+        "user_id": "3ebf4c06-f6ba-4276-b46b-36f9789b9c60",
+        "ordered_at": "2015-02-26T02:56:04.240",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8195.778298700834,
+        "user_id": "84368fb8-240e-440b-81a3-8985874cd003",
+        "ordered_at": "2023-05-19T20:30:11.805",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1276.3280091988515,
+        "user_id": "255e6853-52dc-48e1-a9c3-0d78a7c043d3",
+        "ordered_at": "2022-09-26T19:24:24.587",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2311.2303841605917,
+        "user_id": "596b7b39-0ef9-4419-98c9-a49816f3f1bf",
+        "ordered_at": "2024-12-27T17:49:05.117",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3835.828597323778,
+        "user_id": "b1e9be35-3d01-4875-8699-7e1cf2c41c01",
+        "ordered_at": "2017-11-25T04:45:55.638",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6651.269209606072,
+        "user_id": "1efa53b0-1430-4a1d-9375-6f54c746e2f8",
+        "ordered_at": "2024-12-04T22:09:01.488",
+        "status": "CANCELED"
+    },
+    {
+        "total": 748.3088162175111,
+        "user_id": "0995f37b-7a09-49c9-b800-23dc87ec716f",
+        "ordered_at": "2021-06-01T05:17:56.645",
+        "status": "CREATED"
+    },
+    {
+        "total": 5371.181498515557,
+        "user_id": "9b1fb03a-3126-42af-a561-afc0512e8213",
+        "ordered_at": "2024-02-04T20:23:02.071",
+        "status": "CREATED"
+    },
+    {
+        "total": 1203.5138720306315,
+        "user_id": "331cd57a-e5cd-4e2e-a0c8-a66b6fe3aa30",
+        "ordered_at": "2023-10-26T01:20:02.900",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 852.569239621378,
+        "user_id": "94d47c34-9d18-417b-9976-9bddd63272cc",
+        "ordered_at": "2019-06-23T01:48:12.478",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1291.0351734889414,
+        "user_id": "502d5c39-2c94-4de2-8fc8-a33139af0e08",
+        "ordered_at": "2020-05-27T12:58:03.193",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6114.6262832998245,
+        "user_id": "54b14581-88fe-47ca-857d-59e69bf68b12",
+        "ordered_at": "2016-07-08T19:18:41.557",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5655.523396006047,
+        "user_id": "1202ffc7-3a0d-45e9-824e-1d3702b1977f",
+        "ordered_at": "2016-09-25T08:19:42.832",
+        "status": "CREATED"
+    },
+    {
+        "total": 4532.352148866319,
+        "user_id": "07d8df85-dcce-4588-b559-ead29df4f914",
+        "ordered_at": "2019-10-18T08:49:55.970",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6831.615562580602,
+        "user_id": "abaa2016-426f-4f67-8a40-65853a06982c",
+        "ordered_at": "2018-10-22T00:11:14.247",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8175.614428608829,
+        "user_id": "e665d704-8154-4711-8609-96b5117c2919",
+        "ordered_at": "2022-05-13T23:16:19.753",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8823.658025187357,
+        "user_id": "de0530cc-c72d-49c7-81c5-da9596303eb8",
+        "ordered_at": "2022-11-27T19:09:57.515",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5725.489678217358,
+        "user_id": "9838f245-954b-473c-b22e-0dd965ef6e17",
+        "ordered_at": "2020-03-13T21:33:40.259",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8823.696124232943,
+        "user_id": "cda6f139-479f-43da-a76b-1ba97c65ad84",
+        "ordered_at": "2021-06-19T13:04:06.357",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1048.4100017528176,
+        "user_id": "4f2d4684-f855-45a3-b541-ddd4ae2c0a21",
+        "ordered_at": "2020-03-28T08:11:15.260",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1666.6396181148245,
+        "user_id": "cdf841d9-0551-4be1-87d4-b4413dcea457",
+        "ordered_at": "2020-10-14T21:55:19.315",
+        "status": "CREATED"
+    },
+    {
+        "total": 3538.1267136189745,
+        "user_id": "49bad3aa-4d4c-4e1e-bdda-6bf399065cea",
+        "ordered_at": "2019-07-11T15:16:04.696",
+        "status": "CREATED"
+    },
+    {
+        "total": 206.00294494376837,
+        "user_id": "fa230263-ea64-4a73-9932-dabe0bfd280c",
+        "ordered_at": "2020-04-26T16:30:23.010",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8975.464055443228,
+        "user_id": "a9b14de0-4c47-4f8a-a98a-65f7286fbed2",
+        "ordered_at": "2017-02-16T12:38:18.812",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 5290.3270940059865,
+        "user_id": "374949fb-5cfe-4c6b-8566-f50185c1acaa",
+        "ordered_at": "2021-01-28T18:17:13.844",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3392.602640446383,
+        "user_id": "214420d5-a416-4af2-89ad-46ac4d8541cb",
+        "ordered_at": "2019-08-03T12:38:12.126",
+        "status": "CREATED"
+    },
+    {
+        "total": 7493.78820986868,
+        "user_id": "5e71d675-a7bf-4f7f-b686-18e6dbd9fb84",
+        "ordered_at": "2015-11-04T11:03:58.375",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4029.7686219526454,
+        "user_id": "09b1abeb-467b-4278-ab46-8a01426bf170",
+        "ordered_at": "2016-07-10T13:40:25.403",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9800.27882627107,
+        "user_id": "0d1b21d6-03fe-4269-b5d2-44a7fa37a0ec",
+        "ordered_at": "2019-07-19T21:22:29.475",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8486.562619577433,
+        "user_id": "edad802f-9739-4662-b3dc-14a8df999756",
+        "ordered_at": "2015-08-13T15:14:08.623",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3685.3746293583913,
+        "user_id": "03a4ace0-95b7-4434-a999-83491d2a300a",
+        "ordered_at": "2015-10-20T18:15:34.658",
+        "status": "CREATED"
+    },
+    {
+        "total": 1427.7917082333147,
+        "user_id": "0135d898-99aa-4abf-b736-aef77cd95311",
+        "ordered_at": "2018-02-22T06:29:52.801",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7643.27220925071,
+        "user_id": "2ce953d2-45b3-4dcb-9c25-eedf625ca407",
+        "ordered_at": "2018-11-23T01:13:04.591",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4315.928825897712,
+        "user_id": "621b56c8-c78d-4db0-b038-7614f3a2b0f3",
+        "ordered_at": "2024-01-22T11:54:09.577",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6355.437165131735,
+        "user_id": "ba194b71-a0a5-4903-a847-c88338c41382",
+        "ordered_at": "2018-01-26T06:39:57.423",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7501.757856238573,
+        "user_id": "d71b5491-e086-4e97-b8f8-7cce2965f035",
+        "ordered_at": "2024-11-12T04:37:03.641",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4115.084869761538,
+        "user_id": "bc45f285-63bb-4751-ae22-d13f3af22d4a",
+        "ordered_at": "2015-12-27T14:43:49.872",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1285.230797653747,
+        "user_id": "23634665-b3d6-4d33-91c4-d158ade58b77",
+        "ordered_at": "2023-06-08T01:24:02.991",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8558.620308555626,
+        "user_id": "91e97d02-c187-4d43-924f-4dd05ee3467e",
+        "ordered_at": "2015-10-17T23:12:38.744",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7215.131391008701,
+        "user_id": "24597f36-1330-434b-b360-7aefdb883b2b",
+        "ordered_at": "2020-02-15T04:58:19.511",
+        "status": "CREATED"
+    },
+    {
+        "total": 495.04673486120976,
+        "user_id": "9e74a224-0f22-48aa-a98e-27b54fa167c7",
+        "ordered_at": "2017-07-26T12:42:09.502",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7665.118500803764,
+        "user_id": "6a479ed0-655d-46af-a935-43f2d14dd66b",
+        "ordered_at": "2020-10-15T07:54:50.444",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4981.540497017041,
+        "user_id": "3dc52057-fd3a-49c5-817b-fb372d89e256",
+        "ordered_at": "2015-09-06T07:45:06.711",
+        "status": "CREATED"
+    },
+    {
+        "total": 8622.726151288853,
+        "user_id": "2754e536-5e52-4d05-b521-094d16100fbf",
+        "ordered_at": "2020-03-20T07:46:55.319",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4613.577582279377,
+        "user_id": "412ca6c4-cd84-4df7-8f77-72e9f6b752e4",
+        "ordered_at": "2016-09-09T09:51:15.616",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1455.7193976872163,
+        "user_id": "e185c6ca-ee1b-4f0f-8745-be4a1f5d4c89",
+        "ordered_at": "2024-05-28T01:11:56.092",
+        "status": "CREATED"
+    },
+    {
+        "total": 2158.1747415539608,
+        "user_id": "d2324680-b7d6-4d19-a266-32164bd507d9",
+        "ordered_at": "2020-05-04T00:30:22.057",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6256.948453828084,
+        "user_id": "38ff854e-c3be-4747-bf16-2796343da17e",
+        "ordered_at": "2024-01-24T04:55:24.734",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9567.127362937792,
+        "user_id": "f3c8e97c-5f80-4bc8-a796-48cb04e9c363",
+        "ordered_at": "2018-03-07T06:23:20.510",
+        "status": "CREATED"
+    },
+    {
+        "total": 5075.814024005385,
+        "user_id": "ce0c5495-9127-4fcb-8559-0a1301ee4368",
+        "ordered_at": "2024-04-02T14:12:24.906",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9503.092054064344,
+        "user_id": "ad5941a0-a4b8-475c-8731-dfa2ae08db1d",
+        "ordered_at": "2015-08-25T06:29:59.251",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4064.260656613601,
+        "user_id": "fa56c6cd-92c4-46b6-a8c2-f5831d6b73ef",
+        "ordered_at": "2019-05-02T21:47:55.621",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3765.636346889577,
+        "user_id": "b30a8c7d-e24c-4ed2-8801-a1e8b13248a5",
+        "ordered_at": "2019-08-21T23:14:05.405",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1221.6486055838393,
+        "user_id": "a71c8eb4-bb89-4958-a0d7-3e353d82ee8e",
+        "ordered_at": "2016-02-19T04:01:21.931",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7418.935460884088,
+        "user_id": "86e8d917-9423-4108-8219-8fb5ac4d554d",
+        "ordered_at": "2016-11-22T16:58:06.598",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1221.0241035890435,
+        "user_id": "192864fa-9490-4595-831c-3bc7f92eca17",
+        "ordered_at": "2018-06-26T20:19:56.857",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4530.841521820178,
+        "user_id": "c04d4731-5b1f-4a8f-a50b-f05f27c00c36",
+        "ordered_at": "2022-01-16T17:27:11.351",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1725.5193760983034,
+        "user_id": "a15cee74-8faf-4e11-8c0f-a5feed9a4fbf",
+        "ordered_at": "2023-09-16T19:42:44.435",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9799.018063001906,
+        "user_id": "ad44588d-6942-4598-a817-f700f3f5a82e",
+        "ordered_at": "2015-05-04T02:23:52.112",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 925.4648056316416,
+        "user_id": "3cdb0050-5eb2-4bc8-93f7-14cb91742c8f",
+        "ordered_at": "2015-06-14T19:29:35.120",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3059.451272147482,
+        "user_id": "da33fc57-5b50-4184-b10d-9727ed138897",
+        "ordered_at": "2015-05-03T21:24:43.778",
+        "status": "CREATED"
+    },
+    {
+        "total": 3793.09649039532,
+        "user_id": "4abbd02f-5131-486d-ac55-c23bfd7cf1f7",
+        "ordered_at": "2019-08-03T20:27:19.018",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 872.8463208480608,
+        "user_id": "4a08a22e-d120-4973-91e3-9b6ebc6afe96",
+        "ordered_at": "2022-03-28T22:00:02.638",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3092.5799919322517,
+        "user_id": "56984b55-838c-44d8-8fa5-40bfb3488082",
+        "ordered_at": "2020-08-01T16:56:38.063",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 723.4199028958377,
+        "user_id": "f34c7ac0-95b4-4732-8fa5-1a0270a97141",
+        "ordered_at": "2023-07-07T11:03:19.796",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9609.785648660409,
+        "user_id": "767e123f-54dd-4a8d-a954-206038063af7",
+        "ordered_at": "2019-05-01T10:32:34.100",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 531.8391263608147,
+        "user_id": "2b73a926-0c99-4148-a716-17173b6148f5",
+        "ordered_at": "2017-06-23T15:56:16.631",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6771.381765456451,
+        "user_id": "48859f91-a18e-41fa-9898-4df543809c54",
+        "ordered_at": "2021-01-14T06:05:25.443",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5400.253353052092,
+        "user_id": "923e642e-6114-4ba8-bd11-bd65e6efd7a7",
+        "ordered_at": "2021-08-04T12:05:35.220",
+        "status": "CREATED"
+    },
+    {
+        "total": 5980.247241049555,
+        "user_id": "49d62b25-f233-4c86-aaa3-8195374b1bbf",
+        "ordered_at": "2023-05-10T23:07:14.713",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8024.464677307043,
+        "user_id": "cb0f1760-053b-446e-8b9e-430b09a5c0d0",
+        "ordered_at": "2021-03-15T11:15:47.861",
+        "status": "CREATED"
+    },
+    {
+        "total": 7058.954025747843,
+        "user_id": "a74a6ec6-63df-4329-8818-9001598246a0",
+        "ordered_at": "2019-10-11T23:03:07.187",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1809.4811771093566,
+        "user_id": "a60ae152-2f78-4425-a0db-be7ab1a19c84",
+        "ordered_at": "2020-03-09T00:34:41.949",
+        "status": "CREATED"
+    },
+    {
+        "total": 401.5270011421201,
+        "user_id": "0b37c232-a653-45ee-bf11-23b02a91b457",
+        "ordered_at": "2016-06-26T09:07:30.587",
+        "status": "CREATED"
+    },
+    {
+        "total": 1224.4686886116806,
+        "user_id": "b371903f-2c73-4dcc-ba49-36a2b933f7d2",
+        "ordered_at": "2015-11-01T03:26:19.717",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4303.375664583428,
+        "user_id": "47e27cd4-9b25-4852-b203-ee49d0f35742",
+        "ordered_at": "2017-04-17T19:44:36.730",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1677.1338356759436,
+        "user_id": "04cc36bb-3f10-4ee0-9e79-b5b86fb211be",
+        "ordered_at": "2020-06-12T12:24:44.224",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8769.078107080606,
+        "user_id": "4866d576-c181-4c4b-8264-452146429bff",
+        "ordered_at": "2023-02-14T13:24:25.281",
+        "status": "CREATED"
+    },
+    {
+        "total": 7552.821384071318,
+        "user_id": "c1e43151-6073-4f42-b2b2-19bae5f85f35",
+        "ordered_at": "2016-07-24T15:47:27.380",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 467.64052019551696,
+        "user_id": "59e59c14-bbcf-4312-882e-67a81ef0d038",
+        "ordered_at": "2023-08-04T14:29:15.335",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7958.265248117133,
+        "user_id": "aa408423-4a42-4ba5-93e2-a48b94cfde73",
+        "ordered_at": "2017-09-14T03:23:14.770",
+        "status": "CREATED"
+    },
+    {
+        "total": 7776.27984211558,
+        "user_id": "cf2d6419-2170-4779-9b6f-417fc409087b",
+        "ordered_at": "2016-10-19T17:14:39.301",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 3073.4641780696315,
+        "user_id": "793e6664-4e3a-49cd-baef-10aecfa96c13",
+        "ordered_at": "2021-09-10T18:46:50.749",
+        "status": "CANCELED"
+    },
+    {
+        "total": 8669.284482074598,
+        "user_id": "df9d753e-f1bd-40c2-a358-81ffb3c1438a",
+        "ordered_at": "2023-11-23T05:02:46.174",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2318.267958949426,
+        "user_id": "e7eaa48f-a381-4252-83f4-455d7813e5ab",
+        "ordered_at": "2015-03-20T08:11:16.860",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1991.8933483320634,
+        "user_id": "b543c3cb-0dd4-497b-be2e-06419849c565",
+        "ordered_at": "2015-04-15T18:27:21.252",
+        "status": "CREATED"
+    },
+    {
+        "total": 8284.88878868371,
+        "user_id": "9e20c7bd-0977-4375-b86c-d43713355f48",
+        "ordered_at": "2020-03-16T01:31:40.897",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7115.507404368044,
+        "user_id": "c4ccf3c8-e75b-43a1-8dde-bf3f8408ef38",
+        "ordered_at": "2018-01-09T23:29:32.792",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6606.925316808524,
+        "user_id": "d95ca935-16bd-4ac9-8ec2-8c1faf185a4d",
+        "ordered_at": "2023-02-24T01:10:15.674",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1586.2143035411136,
+        "user_id": "d3b57c74-39b7-4d79-81d1-d44ffcdf936c",
+        "ordered_at": "2015-11-23T23:42:01.367",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2694.038128369728,
+        "user_id": "f7486949-7967-4210-8eb6-da7fff70b46b",
+        "ordered_at": "2020-05-07T05:17:40.495",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7921.154495776237,
+        "user_id": "765011e3-d7a2-4b12-a0b6-f18e3f611df9",
+        "ordered_at": "2023-06-08T06:34:50.471",
+        "status": "CREATED"
+    },
+    {
+        "total": 7154.854410028394,
+        "user_id": "6f3f81c8-46e9-4ba5-8f76-5584994fde26",
+        "ordered_at": "2022-08-01T16:30:55.883",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1725.5180062089105,
+        "user_id": "9ee6fcee-8cc3-4aab-9740-dbeca930aa27",
+        "ordered_at": "2021-10-13T08:01:49.432",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5385.964944094606,
+        "user_id": "02110aab-ffb2-459f-a8cc-f0e7f07daa62",
+        "ordered_at": "2024-06-26T14:21:05.598",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4627.002183899445,
+        "user_id": "ac5560d6-9fd6-4335-b969-9bac704ac229",
+        "ordered_at": "2024-04-15T07:20:48.040",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5380.192347422957,
+        "user_id": "0baea81b-0842-4bab-b287-164bda0ad40a",
+        "ordered_at": "2018-03-20T19:29:23.723",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8765.715607624094,
+        "user_id": "a134261e-e3b7-4029-898d-bddd88c20419",
+        "ordered_at": "2021-07-21T15:03:45.989",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5492.145710276139,
+        "user_id": "3fd75da6-28c4-4163-b517-02eb25e63e3c",
+        "ordered_at": "2020-01-22T20:53:19.960",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9628.370694706147,
+        "user_id": "2b5af083-4801-46ee-9d5f-111172626f41",
+        "ordered_at": "2020-12-24T08:39:32.875",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9414.082760996514,
+        "user_id": "abdfa466-e9d9-4174-b615-6bd19e4f1bd1",
+        "ordered_at": "2019-09-17T04:37:19.793",
+        "status": "CANCELED"
+    },
+    {
+        "total": 1549.9692636891405,
+        "user_id": "5b1b5ef1-166c-47e1-81f9-d5e97c7824f3",
+        "ordered_at": "2018-10-03T20:45:10.951",
+        "status": "CREATED"
+    },
+    {
+        "total": 4712.291677711279,
+        "user_id": "d5eed223-53bc-48a5-8a1d-bcbd19c6c467",
+        "ordered_at": "2017-05-01T09:16:46.264",
+        "status": "CANCELED"
+    },
+    {
+        "total": 4179.160637246198,
+        "user_id": "c534868f-21a0-43c8-9f38-fcec1916a228",
+        "ordered_at": "2017-11-18T00:41:39.964",
+        "status": "CREATED"
+    },
+    {
+        "total": 9236.72407262923,
+        "user_id": "4dc9d989-fbbe-4d5e-b998-6d82faaa7029",
+        "ordered_at": "2023-05-16T11:55:09.407",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8351.34521448447,
+        "user_id": "ce2fc0ec-f1bf-4fcd-82d1-609828a14d89",
+        "ordered_at": "2020-04-01T19:08:39.656",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3858.9605224813386,
+        "user_id": "c127a5a5-da5b-40f6-81e8-acb0d236631c",
+        "ordered_at": "2015-11-27T05:37:04.719",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9153.996405907345,
+        "user_id": "0b194d48-1514-4e84-98ff-79f00a875ac4",
+        "ordered_at": "2020-12-01T11:14:12.918",
+        "status": "CREATED"
+    },
+    {
+        "total": 2161.4414899299004,
+        "user_id": "9f4b0b90-599c-4702-91e9-2b9eafac1ffb",
+        "ordered_at": "2018-04-27T08:18:50.664",
+        "status": "CREATED"
+    },
+    {
+        "total": 1300.4088934445224,
+        "user_id": "e1a2ef96-1e8d-470f-b7a6-593f3c2319b6",
+        "ordered_at": "2017-10-07T21:08:06.225",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6771.216298941685,
+        "user_id": "f1c82b5e-a617-4106-bfa2-26fa167b09f4",
+        "ordered_at": "2023-07-25T06:55:31.165",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 4331.2280872976,
+        "user_id": "fc5a4493-231f-4a67-ac14-3d468903f6e8",
+        "ordered_at": "2024-01-01T21:29:29.474",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6412.45071218623,
+        "user_id": "68985031-e0c9-4c88-b583-f5768db78a82",
+        "ordered_at": "2023-11-02T18:24:35.504",
+        "status": "CREATED"
+    },
+    {
+        "total": 498.9922721605811,
+        "user_id": "2b3f8124-a944-4196-9258-a2b88bf92843",
+        "ordered_at": "2018-04-28T10:17:47.587",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7883.049335211626,
+        "user_id": "f7bda3d2-5600-4d00-8e6d-00126b9bc48a",
+        "ordered_at": "2019-08-07T06:25:47.382",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7602.130654946216,
+        "user_id": "70384616-4bf8-403a-a750-35885dff4880",
+        "ordered_at": "2020-03-04T01:02:31.051",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8012.680567708999,
+        "user_id": "908f12e4-c72b-4afe-807c-a0218496072e",
+        "ordered_at": "2016-09-18T07:15:57.682",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9445.198808112676,
+        "user_id": "c9a7cfc7-b755-42dc-82f8-3fe3dba617ae",
+        "ordered_at": "2015-07-28T00:32:48.949",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4234.2084027335,
+        "user_id": "11b27f5a-907a-4be5-a5d5-0bd76bb2d098",
+        "ordered_at": "2024-07-09T21:51:32.405",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3216.708938677181,
+        "user_id": "606dc1f0-2a07-4b86-92b4-b87e35110b1f",
+        "ordered_at": "2019-01-11T13:40:12.146",
+        "status": "CANCELED"
+    },
+    {
+        "total": 231.2311071732276,
+        "user_id": "c0af0acb-9844-4cfd-9f2a-579126b2a378",
+        "ordered_at": "2020-01-21T23:40:36.993",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1881.032037197834,
+        "user_id": "486a0a99-c035-4403-8e26-23daa23af662",
+        "ordered_at": "2019-11-05T21:58:05.729",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8775.560988056499,
+        "user_id": "81d4d5a9-4370-4bea-86c3-8bbbae00ce84",
+        "ordered_at": "2024-01-20T02:47:10.105",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9944.102247298964,
+        "user_id": "17d22c6d-0611-4a30-ac20-c48a54eee2ac",
+        "ordered_at": "2019-07-01T22:32:04.278",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5435.738456890486,
+        "user_id": "a6f099b8-1307-40da-aff3-d2c81c4dbd0f",
+        "ordered_at": "2016-01-02T23:37:05.991",
+        "status": "CANCELED"
+    },
+    {
+        "total": 7722.865223726628,
+        "user_id": "e1bdc37a-f330-47e8-bfd1-52ad39b58060",
+        "ordered_at": "2019-03-16T08:49:13.678",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9448.046393105978,
+        "user_id": "52860d9b-5ff8-42a7-8ca7-38356b7a9371",
+        "ordered_at": "2021-05-10T19:25:04.133",
+        "status": "CREATED"
+    },
+    {
+        "total": 5855.6554399783945,
+        "user_id": "f2332520-bdaf-4b9e-8c4f-e56575d8df48",
+        "ordered_at": "2017-06-22T23:09:18.676",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 6353.130177810247,
+        "user_id": "87b5fa6b-ace1-471f-bf8b-bd53ccc940fc",
+        "ordered_at": "2020-06-21T10:19:37.607",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2346.3006697567744,
+        "user_id": "2b357620-b2f5-402f-b912-71e350e83796",
+        "ordered_at": "2021-07-15T11:24:47.871",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7703.738273193007,
+        "user_id": "0526d623-a4b6-40e2-a430-faf271c431ef",
+        "ordered_at": "2015-01-09T00:36:48.400",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 6331.305737043136,
+        "user_id": "4c0d0ce3-6cee-42ed-b4a5-5c72f65b361d",
+        "ordered_at": "2022-11-18T17:56:46.689",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7462.948025564773,
+        "user_id": "c3e18c7b-4f7f-4ffe-baa7-0519505c8575",
+        "ordered_at": "2016-10-03T20:41:06.883",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9170.786968338896,
+        "user_id": "cfd1a444-4662-47a3-a8db-a9fcbfef630d",
+        "ordered_at": "2021-08-06T11:17:03.555",
+        "status": "CREATED"
+    },
+    {
+        "total": 889.4870468205318,
+        "user_id": "0eb7562b-b9f0-4f26-acff-68285625ffd6",
+        "ordered_at": "2019-05-20T23:22:25.883",
+        "status": "CREATED"
+    },
+    {
+        "total": 5845.0068164422855,
+        "user_id": "1d63dc78-89b1-40f8-8933-bd27d55e9589",
+        "ordered_at": "2023-04-24T05:48:55.455",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7530.630289269597,
+        "user_id": "1e2382ff-3f2b-45d1-a445-202e1b788631",
+        "ordered_at": "2020-09-01T02:52:12.174",
+        "status": "CANCELED"
+    },
+    {
+        "total": 225.70061279954868,
+        "user_id": "a452e5c1-f0cf-49b7-94e5-bdc58feacde0",
+        "ordered_at": "2021-12-03T12:34:26.192",
+        "status": "CANCELED"
+    },
+    {
+        "total": 5228.070464114252,
+        "user_id": "23a85405-0194-415c-94dd-51ef5df6f9fc",
+        "ordered_at": "2017-05-05T01:22:23.465",
+        "status": "CREATED"
+    },
+    {
+        "total": 2102.497748557408,
+        "user_id": "e90a01f8-72f7-44ed-be75-f135e6700360",
+        "ordered_at": "2017-01-08T00:37:25.751",
+        "status": "CREATED"
+    },
+    {
+        "total": 1133.8333831802227,
+        "user_id": "c167edb6-954c-4718-8387-958392c75a7a",
+        "ordered_at": "2024-06-27T07:16:00.100",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3178.419779839761,
+        "user_id": "87c4336d-bdfb-4ed3-b4fe-3ccd8859c9a7",
+        "ordered_at": "2017-03-17T08:32:09.271",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8.725067089609961,
+        "user_id": "049ed2cb-eae1-4f58-9fd7-a21764ce738a",
+        "ordered_at": "2016-09-28T17:17:58.355",
+        "status": "CANCELED"
+    },
+    {
+        "total": 3184.7939791513236,
+        "user_id": "a13681c7-5582-4b44-9ba6-0329b70dfe73",
+        "ordered_at": "2022-03-22T05:04:53.388",
+        "status": "CANCELED"
+    },
+    {
+        "total": 443.09257439967274,
+        "user_id": "0f60e268-edc9-44d5-904c-25be77e27d5b",
+        "ordered_at": "2020-07-17T08:58:39.122",
+        "status": "CREATED"
+    },
+    {
+        "total": 6166.247374899582,
+        "user_id": "7789baed-7b4e-4018-b2e0-f0f1777a496e",
+        "ordered_at": "2023-04-01T03:59:14.245",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 9038.393011353142,
+        "user_id": "e6f4c982-6b83-449f-91d0-51e227fe59d1",
+        "ordered_at": "2016-10-24T15:50:33.050",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4493.363064477365,
+        "user_id": "bfa4b1e6-968b-4b7e-b264-5d5de4a74342",
+        "ordered_at": "2019-02-04T01:59:32.802",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 8488.81012960296,
+        "user_id": "991f569c-7559-4047-a4fb-05e74007748a",
+        "ordered_at": "2022-01-27T01:22:24.558",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3697.8705603848684,
+        "user_id": "daaf601c-515a-49d3-8994-b676a903de01",
+        "ordered_at": "2023-07-05T21:18:00.992",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 2406.9637705794044,
+        "user_id": "616687c7-0474-4aea-81a6-66b35ae2e0d8",
+        "ordered_at": "2015-12-09T09:43:14.943",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2498.0207327297053,
+        "user_id": "c6552840-782b-4f67-b905-2fd9bacac392",
+        "ordered_at": "2021-12-15T04:07:46.909",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1679.7735706989415,
+        "user_id": "d0780af0-7b3e-4b58-8f17-afa85d9f91c6",
+        "ordered_at": "2017-09-21T08:13:12.512",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 7876.3717027160565,
+        "user_id": "ec4aeb44-d82a-4807-8939-1744a9a2f817",
+        "ordered_at": "2024-12-17T07:55:42.576",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 184.25258685122793,
+        "user_id": "d64d979f-c00b-458e-b988-30150e69159f",
+        "ordered_at": "2024-05-27T12:17:25.777",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6556.163953721439,
+        "user_id": "12e01c95-fdf8-4d89-938f-b1a1c89beee9",
+        "ordered_at": "2018-10-09T04:12:15.649",
+        "status": "CANCELED"
+    },
+    {
+        "total": 2434.100502852703,
+        "user_id": "24e752e3-0af2-4522-b438-31d25122d47c",
+        "ordered_at": "2019-08-08T01:01:07.124",
+        "status": "CANCELED"
+    },
+    {
+        "total": 9244.630376693765,
+        "user_id": "eb4911dd-93be-4cba-bb18-9dbbf9300c49",
+        "ordered_at": "2016-11-04T16:28:19.894",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 9793.401100891126,
+        "user_id": "7904b941-8871-45c2-9abb-33fad699f921",
+        "ordered_at": "2024-09-14T16:45:42.168",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 8402.034079921059,
+        "user_id": "0b20dd3c-9036-410d-8e4b-0f7e3035b7d4",
+        "ordered_at": "2015-05-02T00:26:25.373",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 2441.7174672921406,
+        "user_id": "8f663a5b-c7cb-47ce-a8ab-2c2208f2e603",
+        "ordered_at": "2024-10-13T10:29:18.500",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 665.2896763115657,
+        "user_id": "60bd5243-2e9d-462e-9c6c-7bb8be27efe7",
+        "ordered_at": "2015-01-04T22:55:46.899",
+        "status": "CREATED"
+    },
+    {
+        "total": 494.84571209725937,
+        "user_id": "0f2a6155-6931-463d-af14-e85a0d4f36dd",
+        "ordered_at": "2015-06-16T19:23:01.457",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1297.2840154799037,
+        "user_id": "6066dac8-abd9-4fcc-91fb-1ee159ddaf22",
+        "ordered_at": "2017-11-25T16:18:40.117",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 3298.1780774518834,
+        "user_id": "3a43d26c-1281-4876-adf7-5262a225990f",
+        "ordered_at": "2018-10-17T19:52:56.975",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 5821.2835263957795,
+        "user_id": "34c083d1-6976-4ab2-9593-93c6a47515c3",
+        "ordered_at": "2019-01-08T22:35:56.812",
+        "status": "COMPLETED"
+    },
+    {
+        "total": 1666.9492060499624,
+        "user_id": "3fad4cc6-ed05-4dbb-8339-f0853c0176a8",
+        "ordered_at": "2018-11-24T12:19:10.131",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 7289.195811632583,
+        "user_id": "49f073e5-5a71-4b99-94b4-2e515a669adc",
+        "ordered_at": "2018-09-10T15:46:41.183",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4032.8314799149966,
+        "user_id": "4dcd6422-fdca-4dda-a60e-850bbf39a37c",
+        "ordered_at": "2019-09-13T06:17:44.871",
+        "status": "CREATED"
+    },
+    {
+        "total": 1159.2519566396963,
+        "user_id": "1df2b8d3-9780-42bd-9b57-fd039fbb79c2",
+        "ordered_at": "2017-12-18T02:23:43.411",
+        "status": "CANCELED"
+    },
+    {
+        "total": 6383.845053865956,
+        "user_id": "69c57c33-4321-4abb-9784-3a180f10d812",
+        "ordered_at": "2019-02-04T08:20:10.554",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 1540.4817266146254,
+        "user_id": "bf557683-7e50-4629-8d61-35da055da774",
+        "ordered_at": "2018-07-17T15:07:35.186",
+        "status": "DELIVERY"
+    },
+    {
+        "total": 4400.05312629946,
+        "user_id": "668bedcc-f821-40df-bce9-04f230891f36",
+        "ordered_at": "2022-06-03T11:37:39.660",
+        "status": "CANCELED"
+    }
+]
