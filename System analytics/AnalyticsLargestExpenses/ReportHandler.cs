@@ -32,8 +32,7 @@ public class ReportHandler : IReportHandler
             }
 
             var month = purchase.OrderedAt
-                .ToString("MMMM")
-                .ToLower();
+                .ToString("MMMM");
 
             if (!totalByMonth.ContainsKey(month))
             {
@@ -54,7 +53,7 @@ public class ReportHandler : IReportHandler
         {
             if (totalByMonth[month] == maxTotal)
             {
-                report.Months.Add(month);
+                report.Months.Add(month.ToLower());
             }
         }
 
