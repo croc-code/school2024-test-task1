@@ -1,0 +1,13 @@
+# No object-files
+*.o
+# No executable files
+task1.exe
+task1
+# Add all important files
+!*.md
+!.gitignore
+!*.cpp
+!*.c
+!format.json #Maybe not important
+!*.h
+!*.hpp
