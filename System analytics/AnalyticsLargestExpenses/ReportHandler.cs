@@ -17,7 +17,7 @@ public class ReportHandler : IReportHandler
     public ReportResponse GetReport(List<PurchaseDto> purchases)
     {
         var purchasesSorted = purchases
-            .Where(p => p.Status  == StatusType.COMPLETED)
+            .Where(p => p.Status  == StatusType.Completed)
             .OrderBy(p => p.OrderedAt.Month);
 
         Dictionary<string, double> totalByMonth = [];

@@ -2,8 +2,8 @@
 
 public enum StatusType
 {
-    COMPLETED,
-    CANCELED,
-    CREATED,
-    DELIVERY
+    Completed,
+    Canceled,
+    Created,
+    Delivery
 }
