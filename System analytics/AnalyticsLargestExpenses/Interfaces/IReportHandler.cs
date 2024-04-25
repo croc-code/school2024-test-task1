@@ -8,9 +8,9 @@ namespace AnalyticsLargestExpenses.Interfaces;
 public interface IReportHandler
 {
     /// <summary>
-    ///
+    /// Calculates the most profitable months
     /// </summary>
-    /// <param name="purchases"></param>
-    /// <returns></returns>
+    /// <param name="purchases">List of purchases</param>
+    /// <returns>Response from report</returns>
     ReportResponse GetReport(List<PurchaseDto> purchases);
 }

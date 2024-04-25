@@ -28,6 +28,7 @@ internal class Startup
         services.AddTransient<IJsonConverter<List<PurchaseDto>>, JsonConverter<List<PurchaseDto>>>();
         services.AddTransient<IJsonConverter<ReportResponse>, JsonConverter<ReportResponse>>();
 
+        services.AddScoped<IReportGenerator, ReportGenerator>();
         services.AddScoped<IReportHandler, ReportHandler>();
     }
 
@@ -49,6 +50,6 @@ internal class Startup
 
         IConfiguration config = configBuilder.Build();
 
-        services.Configure<FileInfo>(config.GetSection("FileInfo"));
+        services.Configure<InputFileInfo>(config.GetSection("FileInfo"));
     }
 }

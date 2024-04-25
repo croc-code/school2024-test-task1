@@ -1,4 +1,5 @@
 ﻿using AnalyticsLargestExpenses.Interfaces;
+using AnalyticsLargestExpenses.Models;
 using Microsoft.Extensions.DependencyInjection;
 using Prototyping;
 
@@ -8,6 +9,7 @@ Startup.Configure(builder);
 
 var provider = builder.BuildServiceProvider();
 
-var reportHandler = provider
-    .GetRequiredService<IReportHandler>();
+var reportGenerator = provider
+    .GetRequiredService<IReportGenerator>();
 
+reportGenerator.GetReportInJson();

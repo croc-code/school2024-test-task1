@@ -20,12 +20,12 @@ public class JsonConverter<T> : IJsonConverter<T>
 
     public T DeserializeJsonFromFile(string path)
     {
-        if (!File.Exists(""))
+        if (!File.Exists(path))
         {
             return new();
         }
 
-        var jsonString = File.ReadAllText("");
+        var jsonString = File.ReadAllText(path);
 
         var values = JsonSerializer
             .Deserialize<T>(jsonString);
