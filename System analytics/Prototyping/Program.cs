@@ -11,4 +11,4 @@ var provider = builder.BuildServiceProvider();
 var reportGenerator = provider
     .GetRequiredService<IReportGenerator>();
 
-reportGenerator.GetReportInJson();
+await reportGenerator.GetReportInJson();

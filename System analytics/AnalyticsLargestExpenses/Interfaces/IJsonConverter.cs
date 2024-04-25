@@ -24,7 +24,7 @@ public interface IJsonConverter<T>
     /// </summary>
     /// <param name="path">File path</param>
     /// <returns>Deserialized value</returns>
-    T DeserializeJsonFromFile(string path);
+    Task<T> DeserializeJsonFromFile(string path);
 
     /// <summary>
     /// Serializes data in json to file
@@ -32,5 +32,5 @@ public interface IJsonConverter<T>
     /// <param name="path">File path</param>
     /// <param name="value">Value to serialize</param>
     /// <returns>Json string</returns>
-    string SerializeJsonToFile(string path, T value);
+    Task<string> SerializeJsonToFile(string path, T value);
 }

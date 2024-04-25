@@ -33,9 +33,9 @@ public class ReportGenerator : IReportGenerator
         _inputFile = fileInfo.Value.Name;
     }
 
-    public string? GetReportInJson()
+    public async Task<string?> GetReportInJson()
     {
-        var purchase = _jsonConverterPurchase
+        var purchase = await _jsonConverterPurchase
             .DeserializeJsonFromFile(Path.Combine(_directoryRoot, _inputFile));
 
         if (purchase is null || purchase.Count == 0)
@@ -47,7 +47,7 @@ public class ReportGenerator : IReportGenerator
 
         var report = _reportHandler.GetReport(purchase);
 
-        string reportInJson = _jsonConverterResponse
+        string reportInJson = await _jsonConverterResponse
             .SerializeJsonToFile(Path.Combine(_directoryRoot, OUTPUT_FILE), report);
 
         _logger.LogInformation($"The result of report:\n{reportInJson}");

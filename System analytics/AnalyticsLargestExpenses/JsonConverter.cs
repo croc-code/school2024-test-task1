@@ -18,14 +18,14 @@ public class JsonConverter<T> : IJsonConverter<T>
             ?? new();
     }
 
-    public T DeserializeJsonFromFile(string path)
+    public async Task<T> DeserializeJsonFromFile(string path)
     {
         if (!File.Exists(path))
         {
             return new();
         }
 
-        var jsonString = File.ReadAllText(path);
+        var jsonString = await File.ReadAllTextAsync(path);
 
         var values = !string.IsNullOrEmpty(jsonString)
             ? JsonSerializer.Deserialize<T>(jsonString)
@@ -34,11 +34,11 @@ public class JsonConverter<T> : IJsonConverter<T>
         return values ?? new();
     }
 
-    public string SerializeJsonToFile(string path, T value)
+    public async Task<string> SerializeJsonToFile(string path, T value)
     {
         var jsonString = JsonSerializer.Serialize(value);
 
-        File.WriteAllText(path, jsonString);
+        await File.WriteAllTextAsync(path, jsonString);
 
         return jsonString;
     }
