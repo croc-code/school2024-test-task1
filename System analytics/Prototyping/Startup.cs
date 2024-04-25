@@ -50,6 +50,6 @@ internal class Startup
 
         IConfiguration config = configBuilder.Build();
 
-        services.Configure<InputFileInfo>(config.GetSection("FileInfo"));
+        services.Configure<InputFileInfo>(config.GetSection("InputFileInfo"));
     }
 }

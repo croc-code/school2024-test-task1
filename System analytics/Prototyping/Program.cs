@@ -1,5 +1,4 @@
 ﻿using AnalyticsLargestExpenses.Interfaces;
-using AnalyticsLargestExpenses.Models;
 using Microsoft.Extensions.DependencyInjection;
 using Prototyping;
 

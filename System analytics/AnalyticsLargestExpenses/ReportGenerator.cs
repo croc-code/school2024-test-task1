@@ -1,7 +1,7 @@
 ﻿using AnalyticsLargestExpenses.Interfaces;
 using AnalyticsLargestExpenses.Models;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Serilog;
 
 namespace AnalyticsLargestExpenses;
 
@@ -11,7 +11,7 @@ public class ReportGenerator : IReportGenerator
 
     private readonly string _directoryRoot;
     private readonly string _inputFile;
-    private readonly ILogger _logger;
+    private readonly ILogger<ReportGenerator> _logger;
 
     private readonly IReportHandler _reportHandler;
 
@@ -22,7 +22,7 @@ public class ReportGenerator : IReportGenerator
         IReportHandler reportHandler,
         IJsonConverter<List<PurchaseDto>> jsonConverterPurchase,
         IJsonConverter<ReportResponse> jsonConverterResponse,
-        ILogger logger,
+        ILogger<ReportGenerator> logger,
         IOptions<InputFileInfo> fileInfo)
     {
         _directoryRoot = new DirectoryInfo(@"..\..\..\").Parent!.FullName;
@@ -40,7 +40,7 @@ public class ReportGenerator : IReportGenerator
 
         if (purchase is null)
         {
-            _logger.Error("The original data was null");
+            _logger.LogError("The original data was null");
             throw new ArgumentNullException("The original data was null");
         }
 
@@ -49,7 +49,7 @@ public class ReportGenerator : IReportGenerator
         string reportInJson = _jsonConverterResponse
             .SerializeJsonToFile(Path.Combine(_directoryRoot, OUTPUT_FILE), report);
 
-        _logger.Information($"Результат формирования отчета:\n{reportInJson}");
+        _logger.LogInformation($"Результат формирования отчета:\n{reportInJson}");
 
         return reportInJson;
     }
