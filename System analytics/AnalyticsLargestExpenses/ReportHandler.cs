@@ -17,14 +17,25 @@ public class ReportHandler : IReportHandler
 
     public ReportResponse GetReport(List<PurchaseDto> purchases)
     {
+        Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+
         var purchasesSorted = purchases
             .OrderBy(p => p.OrderedAt);
 
-        Dictionary<string, int> totalByMonth = [];
+        Dictionary<string, double> totalByMonth = [];
 
         foreach (var purchase in purchasesSorted)
         {
-            totalByMonth[purchase.OrderedAt.ToString("MMMM")] += purchase.Total;
+            var month = purchase.OrderedAt
+                .ToString("MMMM")
+                .ToLower();
+
+            if (!totalByMonth.ContainsKey(month))
+            {
+                totalByMonth[month] = 0;
+            }
+
+            totalByMonth[month] += double.Parse(purchase.Total);
         }
 
         var maxTotal = totalByMonth.Values.Max();

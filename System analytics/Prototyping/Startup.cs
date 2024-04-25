@@ -11,11 +11,11 @@ internal class Startup
 {
     public static void Configure(IServiceCollection services)
     {
+        ConfigureFilePath(services);
+
         ConfigureLog();
 
         ConfigureServices(services);
-
-        ConfigureFilePath(services);
     }
 
     private static void ConfigureServices(IServiceCollection services)
@@ -46,7 +46,10 @@ internal class Startup
 
         var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 
-        configBuilder.AddJsonFile($"appsettings.{env}.json", true, true);
+        var directory = new DirectoryInfo(@"..\..\..\").FullName;
+        var root = Path.Combine(directory, $"appsettings.{env}.json");
+
+        configBuilder.AddJsonFile(root, true, true);
 
         IConfiguration config = configBuilder.Build();
 

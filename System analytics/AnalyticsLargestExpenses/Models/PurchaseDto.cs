@@ -17,5 +17,5 @@ public class PurchaseDto
     public required string Status { get; set; }
 
     [JsonPropertyName("total")]
-    public int Total { get; set; }
+    public required string Total { get; set; }
 }
