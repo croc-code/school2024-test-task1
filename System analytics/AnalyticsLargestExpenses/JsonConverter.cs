@@ -27,8 +27,9 @@ public class JsonConverter<T> : IJsonConverter<T>
 
         var jsonString = File.ReadAllText(path);
 
-        var values = JsonSerializer
-            .Deserialize<T>(jsonString);
+        var values = !string.IsNullOrEmpty(jsonString)
+            ? JsonSerializer.Deserialize<T>(jsonString)
+            : new();
 
         return values ?? new();
     }

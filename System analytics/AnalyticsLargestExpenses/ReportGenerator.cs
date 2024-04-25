@@ -33,15 +33,15 @@ public class ReportGenerator : IReportGenerator
         _inputFile = fileInfo.Value.Name;
     }
 
-    public string GetReportInJson()
+    public string? GetReportInJson()
     {
         var purchase = _jsonConverterPurchase
             .DeserializeJsonFromFile(Path.Combine(_directoryRoot, _inputFile));
 
-        if (purchase is null)
+        if (purchase is null || purchase.Count == 0)
         {
             _logger.LogError("The original data was null");
-            throw new ArgumentNullException("The original data was null");
+            return null;
         }
 
         var report = _reportHandler.GetReport(purchase);
