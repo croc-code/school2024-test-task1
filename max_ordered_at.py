@@ -11,9 +11,11 @@ def create_report(input_data):
         date = datetime.strptime(order['ordered_at'], "%Y-%m-%dT%H:%M:%S.%f")
         month = date.strftime("%B").lower()
         months[month] += float(order['total'])
+
     max_expense = max(months.values())
-    max_months = sorted([month for month, expense in months.items() if expense == max_expense])
-    result = {'months': max_months}
+    max_months = [month for month, expense in months.items() if expense == max_expense]
+    max_months1 = sorted(max_months, key=lambda m: datetime.strptime(m, "%B"))
+    result = {'months': max_months1}
     return result
 
 
@@ -24,3 +26,7 @@ with open('input.json', 'r') as file:
 
 #вызов функции для формирования отчета
 print(create_report(data))
+
+
+
+
