@@ -20,12 +20,17 @@ public class ReportHandler : IReportHandler
         Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
 
         var purchasesSorted = purchases
-            .OrderBy(p => p.OrderedAt);
+            .OrderBy(p => p.OrderedAt.Month);
 
         Dictionary<string, double> totalByMonth = [];
 
         foreach (var purchase in purchasesSorted)
         {
+            if (purchase.Status != CORRECT_STATUS)
+            {
+                continue;
+            }
+
             var month = purchase.OrderedAt
                 .ToString("MMMM")
                 .ToLower();
