@@ -61,4 +61,4 @@ private static List<String> extractMonthNames(
 1) Установить локально сборщик Maven
 2) Добавить в корень проекта файл с данными input.json
 3) Выполнить команду mvn clean install
-4) Выполнить команду java -jar target/my-app-1.jar
+4) Выполнить команду mvn exec:java

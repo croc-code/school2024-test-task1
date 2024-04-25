@@ -1,3 +1,4 @@
+package com.fridrock;
 
 public class Main {
   private static final String FILE_NAME = "input.json";
