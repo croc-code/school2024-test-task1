@@ -30,7 +30,35 @@
 4. Найденный в соответствии с условием задачи месяц должен выводиться на английском языке в нижнем регистре. Если месяцев несколько, то на вывод они все подаются на английском языке в нижнем регистре в порядке их следования в течение года.
 
 ## Автор решения
-
+Фридрих Александр Валерьевич
 ## Описание реализации
+В основном классе Main вызывается статический метод perform(String fileName) класса OrderAnalytics.
+В этом методе последовательно вызываются следующие статические методы:
+```java 
+//1) Получение списка заказов из файла.
+public static List<Order> getOrdersFromFile(String fileName){}
+``` 
+```java
+/* 2) Возвращает список наборов ключ значение,
+ где ключ это номер месяца, а значение это сумма заказов в этот месяц. 
+ Список отсортирован по возрастанию суммы.*/
+public static List<Map.Entry<Integer, Double>> getMonthTotalSorted(List<Order> orders){}
+//Метод 2 использует:
+//Заполняет Map<Номер месяца, Сумма заказов> 
+private static Map<Integer, Double> fillMonthTotalMap(final List<Order> orders){} 
+```       
+```java
+//3)Выводит в консоль список месяцев, когда выручка оказалась наибольшей.
+public void getResultJson(List<Map.Entry<Integer, Double>> monthTotalSorted){}
+//Метод 3 использует:
+//Возвращает список названий месяцев, когда выручка была максимальной
+private static List<String> extractMonthNames(
+  final List<Map.Entry<Integer, Double>> monthTotalSorted, 
+  final double maxTotal){}
+```
 
 ## Инструкция по сборке и запуску решения
+1) Установить локально сборщик Maven
+2) Добавить в корень проекта файл с данными input.json
+3) Выполнить команду mvn clean install
+4) Выполнить команду mvn exec:java
