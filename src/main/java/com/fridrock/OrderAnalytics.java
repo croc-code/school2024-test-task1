@@ -6,7 +6,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -30,8 +29,8 @@ public class OrderAnalytics {
     //Getting max sum of orders
     double maxTotal = monthTotalSorted.get(monthTotalSorted.size() - 1).getValue();
     List<String> maxMonthsNames = extractMonthNames(monthTotalSorted, maxTotal);
-    String maxMonthsJSON = String.join(",", maxMonthsNames);
-    return String.format("{«months»:[%s]}", maxMonthsJSON);
+    String maxMonthsJSON = String.join(", ", maxMonthsNames);
+    return String.format("{«months»: [%s]}", maxMonthsJSON);
   }
 
   private static List<String> extractMonthNames(
@@ -47,7 +46,7 @@ public class OrderAnalytics {
 
   private static List<Map.Entry<Integer, Double>> getMonthTotalSorted(final List<Order> orders) {
     List<Map.Entry<Integer, Double>> list = new LinkedList<>(fillMonthTotalMap(orders).entrySet());
-    Collections.sort(list, Map.Entry.comparingByValue());
+    list.sort(Map.Entry.comparingByValue());
     return list;
   }
 
