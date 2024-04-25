@@ -1,6 +1,7 @@
 ﻿using AnalyticsLargestExpenses.Interfaces;
 using AnalyticsLargestExpenses.Models;
 using Microsoft.Extensions.Logging;
+using System.Globalization;
 
 namespace AnalyticsLargestExpenses;
 
@@ -17,25 +18,22 @@ public class ReportHandler : IReportHandler
 
     public ReportResponse GetReport(List<PurchaseDto> purchases)
     {
-        Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
-
         var purchasesSorted = purchases
             .Where(p => p.Status  == CORRECT_STATUS)
             .OrderBy(p => p.OrderedAt.Month);
 
         Dictionary<string, double> totalByMonth = [];
 
+        var culture = new CultureInfo("en-US");
+
         foreach (var purchase in purchasesSorted)
         {
             var month = purchase.OrderedAt
-                .ToString("MMMM");
+                .ToString("MMMM", culture);
 
-            if (!totalByMonth.ContainsKey(month))
-            {
-                totalByMonth[month] = 0;
-            }
+            totalByMonth.TryAdd(month, 0);
 
-            totalByMonth[month] += double.Parse(purchase.Total);
+            totalByMonth[month] += double.Parse(purchase.Total, culture);
         }
 
         var maxTotal = totalByMonth.Values.Max();
@@ -45,13 +43,10 @@ public class ReportHandler : IReportHandler
             Months = []
         };
 
-        foreach(var month in totalByMonth.Keys)
-        {
-            if (totalByMonth[month] == maxTotal)
-            {
-                report.Months.Add(month.ToLower());
-            }
-        }
+        report.Months = totalByMonth.Keys
+            .Where(k => totalByMonth[k] == maxTotal)
+            .Select(k => k.ToLower())
+            .ToList();
 
         _logger.LogInformation($"The number of months recorded in the report = {report.Months.Count}");
 

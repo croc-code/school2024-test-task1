@@ -11,6 +11,7 @@ public class ReportGenerator : IReportGenerator
 
     private readonly string _directoryRoot;
     private readonly string _inputFile;
+
     private readonly ILogger<ReportGenerator> _logger;
 
     private readonly IReportHandler _reportHandler;
@@ -23,14 +24,14 @@ public class ReportGenerator : IReportGenerator
         IJsonConverter<List<PurchaseDto>> jsonConverterPurchase,
         IJsonConverter<ReportResponse> jsonConverterResponse,
         ILogger<ReportGenerator> logger,
-        IOptions<InputFileInfo> fileInfo)
+        IOptions<InputFileInfo> inputFile)
     {
         _directoryRoot = new DirectoryInfo(@"..\..\..\").Parent!.FullName;
         _logger = logger;
         _reportHandler = reportHandler;
         _jsonConverterPurchase = jsonConverterPurchase;
         _jsonConverterResponse = jsonConverterResponse;
-        _inputFile = fileInfo.Value.Name;
+        _inputFile = inputFile.Value.Name;
     }
 
     public async Task<string?> GetReportInJson()
