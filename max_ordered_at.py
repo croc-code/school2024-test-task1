@@ -12,7 +12,7 @@ def create_report(input_data):
         month = date.strftime("%B").lower()
         months[month] += float(order['total'])
     max_expense = max(months.values())
-    max_months = [month for month, expense in months.items() if expense == max_expense]
+    max_months = sorted([month for month, expense in months.items() if expense == max_expense])
     result = {'months': max_months}
     return result
 
