@@ -41,6 +41,7 @@ public class ReportGenerator : IReportGenerator
         if (purchase is null || purchase.Count == 0)
         {
             _logger.LogError("The original data was null");
+
             return null;
         }
 
@@ -49,7 +50,7 @@ public class ReportGenerator : IReportGenerator
         string reportInJson = _jsonConverterResponse
             .SerializeJsonToFile(Path.Combine(_directoryRoot, OUTPUT_FILE), report);
 
-        _logger.LogInformation($"Результат формирования отчета:\n{reportInJson}");
+        _logger.LogInformation($"The result of report:\n{reportInJson}");
 
         return reportInJson;
     }
