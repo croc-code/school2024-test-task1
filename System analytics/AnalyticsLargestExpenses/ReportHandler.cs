@@ -7,8 +7,6 @@ namespace AnalyticsLargestExpenses;
 
 public class ReportHandler : IReportHandler
 {
-    private const string CORRECT_STATUS = "COMPLETED";
-
     private readonly ILogger<ReportHandler> _logger;
 
     public ReportHandler(ILogger<ReportHandler> logger)
@@ -19,7 +17,7 @@ public class ReportHandler : IReportHandler
     public ReportResponse GetReport(List<PurchaseDto> purchases)
     {
         var purchasesSorted = purchases
-            .Where(p => p.Status  == CORRECT_STATUS)
+            .Where(p => p.Status  == StatusType.COMPLETED)
             .OrderBy(p => p.OrderedAt.Month);
 
         Dictionary<string, double> totalByMonth = [];
@@ -40,13 +38,11 @@ public class ReportHandler : IReportHandler
 
         var report = new ReportResponse()
         {
-            Months = []
-        };
-
-        report.Months = totalByMonth.Keys
+            Months = totalByMonth.Keys
             .Where(k => totalByMonth[k] == maxTotal)
             .Select(k => k.ToLower())
-            .ToList();
+            .ToList()
+        };
 
         _logger.LogInformation($"The number of months recorded in the report = {report.Months.Count}");
 

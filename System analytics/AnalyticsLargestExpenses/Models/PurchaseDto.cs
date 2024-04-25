@@ -14,7 +14,8 @@ public class PurchaseDto
     public DateTime OrderedAt { get; set; }
 
     [JsonPropertyName("status")]
-    public required string Status { get; set; }
+    [JsonConverter(typeof(JsonStringEnumConverter))]
+    public required StatusType Status { get; set; }
 
     [JsonPropertyName("total")]
     public required string Total { get; set; }
