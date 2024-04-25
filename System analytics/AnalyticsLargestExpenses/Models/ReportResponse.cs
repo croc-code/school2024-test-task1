@@ -5,5 +5,5 @@
 /// </summary>
 public class ReportResponse
 {
-    public required List<string> Months { get; set; }
+    public List<string>? Months { get; set; }
 }

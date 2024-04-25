@@ -1,17 +1,11 @@
 ﻿using AnalyticsLargestExpenses.Interfaces;
+using AnalyticsLargestExpenses.Models;
 
 namespace AnalyticsLargestExpenses;
 
 public class ReportHandler : IReportHandler
 {
-    private readonly IJsonConverter _jsonConverter;
-
-    public ReportHandler(IJsonConverter jsonConverter)
-    {
-        _jsonConverter = jsonConverter;
-    }
-
-    public string GetrReport()
+    public ReportResponse GetReport(List<PurchaseDto> purchases)
     {
         throw new NotImplementedException();
     }

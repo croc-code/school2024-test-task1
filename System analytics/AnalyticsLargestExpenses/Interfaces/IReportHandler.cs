@@ -1,4 +1,6 @@
-﻿namespace AnalyticsLargestExpenses.Interfaces;
+﻿using AnalyticsLargestExpenses.Models;
+
+namespace AnalyticsLargestExpenses.Interfaces;
 
 /// <summary>
 /// Data handler for the report
@@ -8,6 +10,7 @@ public interface IReportHandler
     /// <summary>
     ///
     /// </summary>
+    /// <param name="purchases"></param>
     /// <returns></returns>
-    string GetrReport();
+    ReportResponse GetReport(List<PurchaseDto> purchases);
 }
