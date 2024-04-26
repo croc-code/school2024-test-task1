@@ -4,7 +4,7 @@ using School2024.Domain;
 
 public interface IReportCreator
 {
-    public List<Order> orders {get;} 
+    public List<Order> Orders {get;} 
 
     public void SetOrders();
 

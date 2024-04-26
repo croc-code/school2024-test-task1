@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3x4rF9lFwI+KLVE+AuzpZm9ErSiMDrntNYiTn/DO1FV8aDctXNT+7J2cYvz7xBWblrlqWPRpWsKOiBhEU1XmWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\School2024.Launch\\School2024.Launch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
