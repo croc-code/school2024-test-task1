@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 
 
-# функция для подсчета общих затрат по месяцам
+# функция для создания словаря, содержащего суммарные траты заказов со статусом COMPLETED по месяцам
 def get_data(data):
     months_total = {}
     for item in data:
@@ -23,10 +23,14 @@ def create_report(months_total):
 if __name__ == "__main__":
 
     try:
+        # открываем файл format.json при помощи контекстного менеджера
         with open('format.json', 'r') as f:
             data = json.load(f)
-
+        
+        # формируем словарь, содержащий суммарные траты по месяцам
         m_total = get_data(data)
+        
+        # генерируем на основе словаря отчет и выводим его в стандартный вывод
         print(create_report(m_total))
 
     except FileNotFoundError:
