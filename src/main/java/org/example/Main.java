@@ -32,8 +32,8 @@ public class Main {
 //добавлять элементы в конец массива, поэтому удобнее всего взять ArrayList.
         for (int monthNumber = 1; monthNumber < 13; monthNumber++) {
             float sumOfSpentMoneyInMonth = 0;//в эту переменную будут суммироваться траты в текущем месяце
-            for (int objectNumberInJsonArray = 0; objectNumberInJsonArray < jsonArray.size(); objectNumberInJsonArray++) {
-                JSONObject jsonObject = (JSONObject) jsonArray.get(objectNumberInJsonArray);//каждую итерацию записываем в эту переменную текущий объект из jsonArray.
+            for (int index = 0; index < jsonArray.size(); index++) {
+                JSONObject jsonObject = (JSONObject) jsonArray.get(index);//каждую итерацию записываем в эту переменную текущий объект из jsonArray.
                 String currentMonthStr = jsonObject.get("ordered_at").toString().substring(5 ,7);// по ключу "ordered_at" получаем строку, из которой выделяем подстроку с 5 по 7 элемент, потому что там содержится порядковый номер месяца.
                 int currentMonth = Integer.parseInt(currentMonthStr);//переводим подстроку из String в int, чтобы можно было сравнить с monthNumber, который int.
                 if((monthNumber == currentMonth) && jsonObject.get("status").toString().equals("COMPLETED")){//если месцы совпали и статус заказа "COMPLETED", то прибавляем цену к текущей сумме трат в этом месяце.
