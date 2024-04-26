@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\src.csproj": {}
+    "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\School2024.Domain\\School2024.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\src.csproj": {
+    "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\School2024.Domain\\School2024.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\src.csproj",
-        "projectName": "src",
-        "projectPath": "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\src.csproj",
+        "projectUniqueName": "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\School2024.Domain\\School2024.Domain.csproj",
+        "projectName": "School2024.Domain",
+        "projectPath": "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\School2024.Domain\\School2024.Domain.csproj",
         "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\obj\\",
+        "outputPath": "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\School2024.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
