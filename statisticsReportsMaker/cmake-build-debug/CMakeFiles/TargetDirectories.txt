@@ -1,0 +1,3 @@
+C:/Programming/CLion/Krok_summer2024/statisticsReportsMaker/cmake-build-debug/CMakeFiles/statisticsReportsMaker.dir
+C:/Programming/CLion/Krok_summer2024/statisticsReportsMaker/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Programming/CLion/Krok_summer2024/statisticsReportsMaker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
