@@ -45,7 +45,7 @@
 
 4 Склонируйте репозиторий с проектом:
 
-git clone https://github.com/DBerdnikovO/school2024-test-task1
+<p>git clone <a target="_new" href="https://github.com/DBerdnikovO/school2024-test-task1">https://github.com/DBerdnikovO/school2024-test-task1</a></p>
 
 5 Откройте терминал (или командную строку) и перейдите в каталог проекта;
 
