@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ru.berdnikov.school2024.service.MarketControllerService;
 
+//Автоматом генерируется json
 @RestController
 public class MarketController {
     private final MarketControllerService marketControllerService;
@@ -15,6 +16,7 @@ public class MarketController {
         this.marketControllerService = marketControllerService;
     }
 
+    //Начало
     @GetMapping("/start")
     public ResponseEntity<?> getMaxTotalMonth() {
         return marketControllerService.calculate();

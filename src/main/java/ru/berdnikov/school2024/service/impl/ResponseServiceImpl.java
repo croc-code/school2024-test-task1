@@ -10,4 +10,9 @@ public class ResponseServiceImpl implements ResponseService<String> {
     public ResponseEntity<?> successResponse(String orders) {
         return ResponseEntity.ok(orders);
     }
+
+    @Override
+    public ResponseEntity<?> errorResponse(String error) {
+        return ResponseEntity.badRequest().body(error);
+    }
 }

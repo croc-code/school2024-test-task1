@@ -18,7 +18,7 @@ import java.util.*;
 public class OrderServiceImpl implements OrderService {
     private final ObjectMapper objectMapper;
 
-    @Value("classpath:format.json")
+    @Value("classpath:input.json")
     private Resource resourceFile;
 
     @Autowired
@@ -35,10 +35,9 @@ public class OrderServiceImpl implements OrderService {
             return objectMapper.writeValueAsString(report);
         } catch (IOException e) {
             e.printStackTrace();
-            return "{}";
+            return null;
         }
     }
-
 
     //Генерируем Map с ключем в виде года, значения в виде Map, где ключ - месяц, а значения - сумма трат
     //Пример: {2016={3=215.50}, 2023={1=1917.00, 3=13990.00, 12=64259.00}}
@@ -65,6 +64,7 @@ public class OrderServiceImpl implements OrderService {
         }
     }
 
+    //Получаем последний возможный месяц из файла и берем предыдущие 11
     public Map<Integer, Map<Integer, BigDecimal>> getLastYearWithPreviousMonths(Map<Integer, Map<Integer, BigDecimal>> yearWithMonthMap) {
         Map<Integer, Map<Integer, BigDecimal>> lastYearWithPreviousMonths = new HashMap<>();
 
@@ -108,6 +108,7 @@ public class OrderServiceImpl implements OrderService {
         return lastYearWithPreviousMonths;
     }
 
+    //Получаем месяцы с максимальной прибылью
     public List<String> getMaxTotalMonths(Map<Integer, Map<Integer, BigDecimal>> yearWithMonthMap) {
         List<String> maxTotalMonths = new ArrayList<>();
 
@@ -137,6 +138,7 @@ public class OrderServiceImpl implements OrderService {
         return maxTotalMonths;
     }
 
+    //генерирум отчет
     private Map<String, List<String>> generateReport(List<String> maxTotalMonths) {
         Map<String, List<String>> report = new HashMap<>();
         report.put("months", maxTotalMonths);

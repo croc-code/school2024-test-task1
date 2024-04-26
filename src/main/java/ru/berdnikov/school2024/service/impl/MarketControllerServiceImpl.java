@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import ru.berdnikov.school2024.service.MarketControllerService;
 import ru.berdnikov.school2024.service.OrderService;
 import ru.berdnikov.school2024.service.ResponseService;
+import ru.berdnikov.school2024.utils.Errors;
 
 @Service
 public class MarketControllerServiceImpl implements MarketControllerService {
@@ -20,6 +21,10 @@ public class MarketControllerServiceImpl implements MarketControllerService {
 
     @Override
     public ResponseEntity<?> calculate() {
+        String response = orderService.getMaxTotalMonthReport();
+        if (response.isEmpty()) {
+            return responseService.errorResponse(Errors.NOT_RESPONSE);
+        }
         return responseService.successResponse(orderService.getMaxTotalMonthReport());
     }
 }
