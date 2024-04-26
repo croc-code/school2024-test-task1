@@ -37,3 +37,19 @@
 
 ## Инструкция по сборке и запуску решения
 Приложение написано на java с использованием spring framework, input.json необходимо положить в папку resources, отчет выводится по GET запросу http://localhost:8081/start
+
+1  Убедитесь, что у вас установлены JDK (Java Development Kit) и Maven;
+
+2 Склонируйте репозиторий с проектом:
+
+git clone https://github.com/DBerdnikovO/school2024-test-task1
+
+Откройте терминал (или командную строку) и перейдите в каталог проекта;
+
+Соберите проект с помощью Maven:
+
+mvn clean package
+
+Перейдите в папку проекта и запустите: 
+
+java -jar target/school2024-0.0.1-SNAPSHOT.jar
