@@ -61,7 +61,7 @@ private static void createJsonFile(String jsonContent, String filePath)
 
 Клонируйте репозиторий:
 ```
-git clone https://github.com/croc-code/school2024-test-task1.git
+git clone https://github.com/matyushazvezda/school2024-test-task1.git
 ```
 
 В директории проекта выполните команду Maven для сборки и создания jar:
