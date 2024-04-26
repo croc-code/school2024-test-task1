@@ -27,7 +27,7 @@ public class DateTime extends JsonDeserializer<DateTime> {
     private int second;
 
     @Override
-    public DateTime deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JacksonException {
+    public DateTime deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         String value = jsonParser.getValueAsString();
         Matcher matcher = pattern.matcher(value);
         if (matcher.find()) {
