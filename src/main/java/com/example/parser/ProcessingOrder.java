@@ -45,6 +45,7 @@ public class ProcessingOrder {
                 .collect(Collectors.toList());
     }
 
+    //Преобразование полученных месяцев в формат JSON
     public static String returnJson(List<String> uniqueMonths) {
         StringBuilder jsonResult = new StringBuilder();
         jsonResult.append("{");
@@ -59,12 +60,13 @@ public class ProcessingOrder {
         return jsonResult.toString();
     }
 
+    //Главный метод, который вызывается в классе App
     public static void startApplication(String file) {
         try {
             List<Order> orders = parseJson(file);
             System.out.println(returnJson(calculateMostSpendingMonths(orders)));
         } catch (IOException e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println("Error occurred: " + e.getMessage());
         } catch (ParseException e) {
             throw new RuntimeException(e);
         }
