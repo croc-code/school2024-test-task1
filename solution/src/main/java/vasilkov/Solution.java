@@ -1,9 +1,7 @@
 package vasilkov;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.NoSuchElementException;
+import java.time.Month;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -35,7 +33,7 @@ public class Solution {
 
         Double monthlyMaxTotal = getMonthlyMaxValue(monthlyTotal);
 
-        List<String> monthsWithMaxTotal = findMonthsEqualToMaxTotal(monthlyTotal, monthlyMaxTotal);
+        List<String> monthsWithMaxTotal = findOrderedMonthsEqualToMaxTotal(monthlyTotal, monthlyMaxTotal);
 
         return new OrderModels.Result(monthsWithMaxTotal);
     }
@@ -56,10 +54,11 @@ public class Solution {
      * @param maxValue Максимальное значение оборота за месяц.
      * @return Список месяцев с максимальным оборотом.
      */
-    private List<String> findMonthsEqualToMaxTotal(Map<String, Double> monthlyTotal, Double maxValue) {
+    private List<String> findOrderedMonthsEqualToMaxTotal(Map<String, Double> monthlyTotal, Double maxValue) {
         return monthlyTotal.entrySet().stream()
                 .filter(entry -> entry.getValue().equals(maxValue))
                 .map(Map.Entry::getKey)
+                .sorted(Comparator.comparing(m -> Month.valueOf(m.toUpperCase())))
                 .collect(Collectors.toList());
     }
 
