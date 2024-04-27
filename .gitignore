@@ -1,0 +1,6 @@
+build
+cmake-build-debug
+bin.dbg
+bin.rel
+bin
+.idea
