@@ -1,20 +1,44 @@
-﻿using Microsoft.Extensions.Logging;
+﻿namespace School2024.Launch;
+
+using Microsoft.Extensions.Logging;
+using System.IO;
+using System.Text.Json;
 using School2024.Application;
 using School2024.ServicesForTestTask;
 using School2024.ServicesForTestTask.Models;
 
-ILoggerFactory loggerFactory = LoggerFactory
-                                .Create(builder => builder.AddConsole());
+public class Program
+{
+    static void Main(string[] args)
+    {
+        ILoggerFactory loggerFactory = LoggerFactory
+                                    .Create(builder => builder.AddConsole());
+    
+        ILogger logger = loggerFactory.CreateLogger("School2024");
+    
+        IOrderAnalyzer analyzer = new OrderAnalyzer();
+    
+        InputingFileFeatures inputingFile;
+    
+        if (args.Length > 0){
+            if (!File.Exists(args[0])){
+                inputingFile = new InputingFileFeatures("input.json");
+            }
+            else {
+                inputingFile = new InputingFileFeatures(args[0]);
+            }
+        }
+        else {
+            inputingFile = new InputingFileFeatures("input.json");
+        }
+        
+        JsonSerializerOptions jsonOptions = new JsonSerializerOptions(){
+            PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower,
+            WriteIndented = true
+        };
 
-ILogger logger = loggerFactory.CreateLogger("School2024");
+        IReportCreator reportGenerator = new ReportCreator(logger, analyzer, inputingFile, jsonOptions);
 
-IOrderAnalyzer analyzer = new OrderAnalyzer();
-
-InputingFileFeatures inputinFile;
-
-# if DEBUG 
-    inputinFile = new InputingFileFeatures("../../../input.json");
-# else 
-    inputinFile = new InputingFileFeatures("input.json");
-# endif
-
+        reportGenerator.Create();
+    }
+}

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("School2024.ServicesForTestTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bcb5fcf69afb35a8bfae829063915233efa6305")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c90529ea9ef741e3c98913534133621bb6f4a577")]
 [assembly: System.Reflection.AssemblyProductAttribute("School2024.ServicesForTestTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("School2024.ServicesForTestTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

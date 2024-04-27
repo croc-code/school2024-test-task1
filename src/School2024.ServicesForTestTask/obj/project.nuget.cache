@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ZRie98GEfvwzbXym8PrZhxxygdLIdCGItutY6QpK2J3PimO/uih2+uIpYCckWwGteqkqyR1aq/zPmaRb5nNILQ==",
+  "dgSpecHash": "XcOfDuTgbOrMVqgxDdqIQS2uMn22rZioorcPCvk08ClaeZuz8jcuqWljIK112c70Cuih3wGjoJnSgfW/ivg/dA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Honor\\Desktop\\Programming\\school2024-test-task1\\src\\School2024.ServicesForTestTask\\School2024.ServicesForTestTask.csproj",
+  "projectFilePath": "C:\\Users\\igorp\\Programming\\school2024-test-task1\\src\\School2024.ServicesForTestTask\\School2024.ServicesForTestTask.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\igorp\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\igorp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\igorp\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\igorp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\igorp\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\igorp\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

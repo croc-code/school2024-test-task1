@@ -10,3 +10,15 @@ C:\Users\Honor\Desktop\Programming\school2024-test-task1\src\School2024.Domain\o
 C:\Users\Honor\Desktop\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\refint\School2024.Domain.dll
 C:\Users\Honor\Desktop\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\School2024.Domain.pdb
 C:\Users\Honor\Desktop\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\ref\School2024.Domain.dll
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\bin\Debug\net8.0\School2024.Domain.deps.json
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\bin\Debug\net8.0\School2024.Domain.dll
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\bin\Debug\net8.0\School2024.Domain.pdb
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\School2024.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\School2024.Domain.AssemblyInfoInputs.cache
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\School2024.Domain.AssemblyInfo.cs
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\School2024.Domain.csproj.CoreCompileInputs.cache
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\School2024.Domain.sourcelink.json
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\School2024.Domain.dll
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\refint\School2024.Domain.dll
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\School2024.Domain.pdb
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Domain\obj\Debug\net8.0\ref\School2024.Domain.dll
