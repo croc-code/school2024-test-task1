@@ -25,6 +25,9 @@ public class ReportService : IReportService
         {
             var monthName = order.OrderedAt.ToString("MMMM", CultureInfo.InvariantCulture);
 
+			//Предположено, что заказ в статусе Delivery можно отменить,
+			//соответсвенно при подсчете полученных от пользователей сумм
+			//стоит учитывать только заказы в статусе Completed
             if (order.Status == Status.Completed) 
                 _report[monthName] += order.Total;
         }
