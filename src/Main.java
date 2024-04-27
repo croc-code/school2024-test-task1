@@ -19,13 +19,14 @@ public class Main {
         // Вывод отчета в консоль
         System.out.println(report);
     }
+
     public static String generateReport(String filepath) {
         try {
 
             // Чтение файла и парсинг данных в массив json-объектов
             JSONArray jsonArray = (JSONArray) new JSONParser().parse(new FileReader(filepath));
 
-            // Список месяцев в порядке их следования в течении года
+            // Список месяцев в порядке их следования в течение года
             List<String> orderedMonths = new ArrayList<>();
             for (Month month : Month.values()) {
                 orderedMonths.add(month.toString().toLowerCase());
@@ -50,7 +51,7 @@ public class Main {
                 LocalDate date = LocalDate.parse(orderedAt);
                 String month = date.getMonth().toString().toLowerCase();
                 Double total = Double.parseDouble((String) jsonOrder.get("total"));
-                // Добавление суммы заказа к общей сумме за месяц
+                // Добавление суммы заказа к общей сумме трат за месяц
                 totalPerMonth.put(month, totalPerMonth.getOrDefault(month, 0.0) + total);
             }
 
