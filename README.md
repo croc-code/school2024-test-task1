@@ -57,6 +57,7 @@
 git clone https://github.com/Pihtaw/school2024-test-task1.git
 ```
 или же скачать .ZIP-архив;
+
 2. Перейти в репозиторий -> в папку build;
 ```
 cd build
