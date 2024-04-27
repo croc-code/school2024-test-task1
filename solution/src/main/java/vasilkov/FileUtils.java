@@ -19,11 +19,4 @@ public class FileUtils {
         return resourcePath.toString();
     }
 
-    /**
-     * Получение текущей рабочей директории.
-     * @return Путь к текущей рабочей директории.
-     */
-    public static String getCurrentDirectory() {
-        return System.getProperty("user.dir");
-    }
 }

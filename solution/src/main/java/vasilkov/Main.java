@@ -13,12 +13,13 @@ import java.nio.file.InvalidPathException;
 import java.nio.file.NoSuchFileException;
 import java.util.*;
 
-
+/**
+ * Главный класс приложения для обработки заказов.
+ */
 public class Main {
     // Задание статуса заказа по умолчанию
     private static final OrderModels.Status status = OrderModels.Status.COMPLETED;
 
-    // Логгер для вывода сообщений об ошибках
     private static final Logger logger = LogManager.getLogger(Main.class);
 
     /**
@@ -39,6 +40,7 @@ public class Main {
         String filePath = FileUtils.getResourceFilePath(fileName);
 
         try {
+
             //Конфигурирование инструмента для чтения и вывода Json
             ObjectMapperProvider objectMapperProvider = new CustomObjectMapperProvider();
             ObjectMapper mapper = objectMapperProvider.getObjectMapper();
@@ -58,7 +60,7 @@ public class Main {
 
             String json = mapper.writeValueAsString(result);
 
-            logger.info(json);
+            System.out.print(json);
 
         }catch (NoSuchFileException | AccessDeniedException | InvalidPathException e) {
             logger.error("An IO error occurred while accessing the file: \n " + e.getMessage());
