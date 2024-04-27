@@ -1,10 +1,8 @@
 #include <nlohmann/json.hpp>
-#include <date/tz.h>
+#include <date/date.h>
 
-#include <chrono>
 #include <fstream>
 #include <iostream>
-#include <regex>
 #include <sstream>
 #include <string>
 
@@ -60,6 +58,7 @@ const std::vector<Order> ReadOrdersFile(const std::string& filename) {
         data = json::parse(orders_file);
     } catch (const std::exception& e) {
         std::cerr << e.what() << std::endl;
+        throw std::ifstream::failbit;
     }
 
     orders_file.close();
