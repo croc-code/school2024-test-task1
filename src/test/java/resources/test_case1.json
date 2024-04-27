@@ -1,0 +1,20 @@
+[
+  {
+    "user_id": "25b003b9-ab22-4a24-a616-dd0303f983d8",
+    "ordered_at": "2023-03-05T08:34:21.123",
+    "status": "COMPLETED",
+    "total": "13990.00"
+  },
+  {
+    "user_id": "0999c6aa-1bac-4ded-9a54-92fff4f34d69",
+    "ordered_at": "2023-12-14T11:10:29.408",
+    "status": "CANCELED",
+    "total": "494992.00"
+  },
+  {
+    "user_id": "0999c6aa-1bac-4ded-9a54-92fff4f34d69",
+    "ordered_at": "2023-12-14T11:15:31.108",
+    "status": "CREATED",
+    "total": "14760.00"
+  }
+]
