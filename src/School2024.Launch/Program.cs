@@ -1,9 +1,20 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.Logging;
+using School2024.Application;
+using School2024.ServicesForTestTask;
+using School2024.ServicesForTestTask.Models;
 
-IServiceCollection services = new ServiceCollection();
+ILoggerFactory loggerFactory = LoggerFactory
+                                .Create(builder => builder.AddConsole());
 
-services.Configure<ILogger>()
+ILogger logger = loggerFactory.CreateLogger("School2024");
 
-ServiceProvider serviceProvider  = services.BuildServiceProvider();
+IOrderAnalyzer analyzer = new OrderAnalyzer();
 
-ILogger logger = serviceProvider.GetService<ILogger>();
+InputingFileFeatures inputinFile;
+
+# if DEBUG 
+    inputinFile = new InputingFileFeatures("../../../input.json");
+# else 
+    inputinFile = new InputingFileFeatures("input.json");
+# endif
+

@@ -51,7 +51,7 @@ public class ReportCreator : IReportCreator
 
         foreach (string month in _analyzer.GetMostProfitableMonths(_orders))
         {
-            output.Value.Add(month);
+            output.Value.Add(month.ToLower());
         }
 
         using (FileStream fileStream = new FileStream (

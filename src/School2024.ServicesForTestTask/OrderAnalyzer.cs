@@ -14,10 +14,6 @@ public class OrderAnalyzer : IOrderAnalyzer
                             .Where(x => x.Status == OrderStatus.COMPLETED)
                             .OrderBy(x => x.OrderedAt.Month)
                             .ToArray();
-                    
-        if (temp.Length == 0){
-
-        }
 
         DateTimeFormatInfo dateInfo = new DateTimeFormatInfo();
 
@@ -32,6 +28,14 @@ public class OrderAnalyzer : IOrderAnalyzer
 
             yield return dateInfo
                             .GetMonthName(temp[i].OrderedAt.Month);
+            
+            for (int j = i; j < temp.Length; j++)
+            {
+                if (temp[j].OrderedAt != temp[i].OrderedAt){
+                    i = j;
+                    break;
+                }
+            }
         }
     }
 }
