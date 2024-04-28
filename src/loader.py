@@ -56,7 +56,7 @@ class JsonToSqliteLoader(AbstractLoader):
     def get_data(self) -> list[dict]:
         """
         Just open json file with built-in json module
-        It can be iterable if Json file is huge.
+        It can be generator if Json file is huge.
         :return: Return list of dicts due to given example
         """
         with open(self._file_path) as file:
