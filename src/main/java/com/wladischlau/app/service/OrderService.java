@@ -74,6 +74,13 @@ public class OrderService {
                order.status() == OrderStatus.COMPLETED;
     }
 
+    /**
+     * Вычисляет общую сумму трат по месяцам.
+     *
+     * @param orders список заказов.
+     * @return отображение, где ключи - названия месяцев в нижнем регистре,
+     * значения - общая сумма трат за каждый месяц.
+     */
     private static Map<String, BigDecimal> getMonthlyTotals(
             List<OrderDTO> orders
     ) {
