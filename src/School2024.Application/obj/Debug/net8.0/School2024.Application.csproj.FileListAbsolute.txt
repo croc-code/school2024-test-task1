@@ -29,4 +29,4 @@ C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Application\obj\
 C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Application\obj\Debug\net8.0\refint\School2024.Application.dll
 C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Application\obj\Debug\net8.0\School2024.Application.pdb
 C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Application\obj\Debug\net8.0\ref\School2024.Application.dll
-C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Application\obj\Debug\net8.0\School2024.Application.csproj.CopyComplete
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.Application\obj\Debug\net8.0\School20.B38EB45A.Up2Date
