@@ -4,7 +4,6 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.*;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -36,7 +35,7 @@ public class Main {
         return sumOfSpentMoneyInMonth;
     }
     
-    public static JSONObject generateReport(JSONArray jsonArray){
+    public static String generateReport(JSONArray jsonArray){
         JSONObject jsonObjectMonths = new JSONObject();// этот json объект необходим, чтобы в него записывать массив
 //из месяцев по ключу "months". Именно его текущая функция вернёт в конце выполнения(требование задания).
         float maxSumOfSpentMoney = 0;// будет обновляться, если найдётся больше
@@ -53,23 +52,12 @@ public class Main {
             }
         }
         jsonObjectMonths.put("months", monthArrayWithMaxSum);
-        outputConsole(monthArrayWithMaxSum);//здесь используется функция вывода названия месяцев на консоль.
-        return jsonObjectMonths;
-    }
-
-    public static void outputConsole(ArrayList monthArray){//в качестве аргумента передаём массив месяцев.
-        for (int i = 0; i < monthArray.size(); i++) {
-            if(i < monthArray.size() - 1){
-                System.out.print(monthArray.get(i) + ", ");
-            }
-            else {
-                System.out.println(monthArray.get(i));
-            }
-        }
+        System.out.println(jsonObjectMonths);
+        return jsonObjectMonths.toJSONString();
     }
 
     public static void main(String[] args){
         JSONArray jsonArray = readJsonFile("input.json");//читаем файл, передав название файла в качестве аргумента
-        generateReport(jsonArray);//создаём отчёт, а также внутри заключена функция вывода на консоль.
+        generateReport(jsonArray);//создаём отчёт, а также внутри заключён вывод на консоль.
     }
 }
