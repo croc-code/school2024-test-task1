@@ -40,7 +40,7 @@ internal class Program
             path = Path.Combine(projectPath, fileName);
     }
 
-        string json = File.ReadAllText(path); // Чтение JSON из файла
+        string json = File.ReadAllText(path); // Чтение JSON из  файла
 
         // Десериализация JSON в список заказов
         List<Order> orders = JsonConvert.DeserializeObject<List<Order>>(json);
