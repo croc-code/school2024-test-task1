@@ -12,6 +12,7 @@ public class JsonReport {
 
     /**
      * Метод отвечающий за вывод информации в json
+     *
      * @param jsonMonthInfo - информация для вывода
      */
     public static void saveReportToFile(String jsonMonthInfo) throws IOException {
