@@ -4,9 +4,11 @@ from src.strategies import SqliteFindMaxSpendingMonthStrategy
 import sqlite3
 from tempfile import TemporaryDirectory
 from datetime import datetime
+from os import PathLike
+import argparse
 
 
-def main():
+def find_max_spending_month(file: PathLike):
     # Sets fields as it was in example
     datatypes_mapping = {
         "user_id": str,
@@ -24,11 +26,11 @@ def main():
         connection = sqlite3.connect(f"{temp_dir}/{temp_db_name}")
         create_database(
             connection=connection, table_name=table_name, rows=datatypes_mapping
-        ) 
+        )
         # Load data from json to sqlite3
-        loader = JsonToSqliteLoader(file_path="format.json",
-                                    table_name=table_name,
-                                    connection=connection)
+        loader = JsonToSqliteLoader(
+            file_path="format.json", table_name=table_name, connection=connection
+        )
         loader.load()
 
         # Finding and formatting result
@@ -37,11 +39,11 @@ def main():
         print(result)
 
 
-
-
-
-
-
-
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(
+        description="Finds max spending month in given json-file"
+    )
+    parser.add_argument("file", type=str, help="Data input on sells")
+    args = parser.parse_args()
+
+    find_max_spending_month(args.file)
