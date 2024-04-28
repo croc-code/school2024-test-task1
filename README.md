@@ -51,7 +51,10 @@
 Володин Валерий Cергеевич
 
 ## Описание реализации
-
+Для преобразования JSON-файла в объекты использована библиотека Jackson - https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+Для работы jackson с Java 8 Date&Time Api использован модуль из - https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310
+Для подтягивания зависимостей используется Maven.
+Реализация содержит:
 1.Order - класс, представляющий заказ. Содержит 4 поля, соответствующие данным JSON-файла:
 
 1) userId - идентификатор пользователя.
