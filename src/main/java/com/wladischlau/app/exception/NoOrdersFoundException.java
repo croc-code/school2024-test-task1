@@ -1,7 +1,7 @@
 package com.wladischlau.app.exception;
 
 /**
- * Исключение, выбрасываемое при отсутствии после парсинга JSON-файла.
+ * Исключение, выбрасываемое при отсутствии данных после парсинга JSON-файла.
  */
 public class NoOrdersFoundException extends Exception {
 

@@ -26,7 +26,7 @@ public abstract class JsonUtils {
      * Преобразует JSON-строку в список объектов заданного типа.
      *
      * @param content   JSON-строка.
-     * @param valueType тип элементов списка.
+     * @param valueType тип элементов списка (класс).
      * @param <T>       тип элементов списка.
      * @return список объектов заданного типа.
      * @throws JsonProcessingException если возникает ошибка при обработке JSON.

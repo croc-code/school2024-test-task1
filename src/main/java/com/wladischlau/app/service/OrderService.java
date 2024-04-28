@@ -9,6 +9,7 @@ import com.wladischlau.app.util.JsonUtils;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.time.Month;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -65,16 +66,21 @@ public class OrderService {
 
     /**
      * Вычисляет общую сумму трат по месяцам.
+     * <p>
+     * В реализации не используется {@link Collection#parallelStream()}, так как
+     * в данном случае параллельные стримы эффективны начиная только с 1_000_000
+     * заказов в списке.
+     * </p>
      *
      * @param orders список заказов.
-     * @return отображение, где ключи - названия месяцев в нижнем регистре,
+     * @return {@link Map}, где ключи - названия месяцев в нижнем регистре,
      * значения - общая сумма трат за каждый месяц.
      */
     private static Map<String, BigDecimal> getMonthlyTotals(
             List<OrderDTO> orders
     ) {
         return orders
-                .stream() // Parallel is effective only from 1_000_000 elements
+                .stream()
                 .filter(order -> order.status() == OrderStatus.COMPLETED)
                 .collect(
                         Collectors.groupingBy(
