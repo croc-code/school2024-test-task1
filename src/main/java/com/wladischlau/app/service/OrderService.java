@@ -8,6 +8,8 @@ import com.wladischlau.app.util.JsonUtils;
 
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.time.Month;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -110,6 +112,7 @@ public class OrderService {
                 .stream()
                 .filter(entry -> entry.getValue().compareTo(maxTotal) == 0)
                 .map(Map.Entry::getKey)
+                .sorted(Comparator.comparing(m -> Month.valueOf(m.toUpperCase())))
                 .toList();
     }
 }
