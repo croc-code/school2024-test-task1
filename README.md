@@ -41,7 +41,7 @@
 
 ### Order.cs 
    Класс для того, чтобы парсить данные из .json 
-
+```
    public class Order
        {
 
@@ -57,13 +57,13 @@
            [JsonProperty("total")]
            public double Total { get; set; }
        }
-
+```
 ### OrderProcessor.cs 
    Класс, содержащий функции:
    - для парсинга json-строки в List<Order>
    - вытягивание названия месяца в нужном формате из поля "ordered_at"
    - поиска месяца(ев) с максимальной выручкой и выведения результата в формате json-строки
-
+```
 public static class OrderProcessor
     {
         /// <summary>
@@ -125,9 +125,10 @@ public static class OrderProcessor
             }
         }
     }
+```
 ### Program.cs
    Испольняемый файл
-
+```
 internal class Program
 {
     private static void Main(string[] args)
@@ -187,6 +188,7 @@ internal class Program
         
     }
 }
+```
 ## Инструкция по сборке и запуску решения
 1. Откройте терминал или командную строку.
 2. Перейдите в директорию, в которой вы хотите клонировать репозиторий.
