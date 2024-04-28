@@ -64,3 +64,32 @@ _Main.java_:
 
   
 ## Инструкция по сборке и запуску решения
+## Windows
+> Предварительно: `Необходимо открыть консоль.` ВВодим команды представленные ниже.
+```sh
+git clone https://github.com/Ioutcast/school2024-test-task1.git
+cd .\school2024-test-task1\solution\out
+```
+Запуск программы с  помощью скрипта. Вводим в консоль :
+```sh
+start.bat
+```
+Запуск программы ручками. Вводим в консоль :
+```sh
+java -jar vasilkov-task-solution-jar-with-dependencies.jar input.json
+```
+## Linux
+> Предварительно: `Необходимо открыть консоль.` ВВодим команды представленные ниже.
+```sh
+git clone https://github.com/Ioutcast/school2024-test-task1.git
+cd ./school2024-test-task1/solution/out
+```
+Запуск программы с  помощью скрипта. Вводим в консоль :
+```sh
+chmod +x start.sh
+./start.sh
+```
+Запуск программы ручками. Вводим в консоль :
+```sh
+java -jar vasilkov-task-solution-jar-with-dependencies.jar input.json
+```
