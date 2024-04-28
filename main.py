@@ -29,7 +29,7 @@ def find_max_spending_month(file: PathLike):
         )
         # Load data from json to sqlite3
         loader = JsonToSqliteLoader(
-            file_path="format.json", table_name=table_name, connection=connection
+            file_path=file, table_name=table_name, connection=connection
         )
         loader.load()
 
