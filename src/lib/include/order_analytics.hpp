@@ -4,7 +4,11 @@
 #include <string>
 #include <vector>
 
+#include <nlohmann/json.hpp>
+
 #include <order.hpp>
+
+using json = nlohmann::ordered_json;
 
 /*!
  * @brief Class for orders statistics
@@ -16,7 +20,7 @@ public:
     ~OrderAnalytics();
 
     /*!
-     * Analyses only completed orders
+     * Analyzes only completed orders
      * and returns months with the maximum users' spending
      *
      * @return List of months with the greatest expenses
@@ -26,7 +30,7 @@ public:
     /*!
      * Creates a month report for the current orders file
      */
-    const void CreateMonthReport() const;
+    const json CreateMonthReport() const;
 
 private:
     /*!

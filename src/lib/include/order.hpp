@@ -4,7 +4,7 @@
 #include <string>
 
 /*!
- * @brief Class for orders
+ * @brief Class for orders data
  */
 class Order {
 public:

@@ -4,11 +4,6 @@
 #include <iostream>
 #include <sstream>
 
-#include <date/tz.h>
-#include <nlohmann/json.hpp>
-
-using json = nlohmann::ordered_json;
-
 const std::vector<Order> OrderAnalytics::ReadOrdersFile(const std::string& filename) {
     std::ifstream orders_file;
     json data;
@@ -78,12 +73,12 @@ const std::vector<std::string> OrderAnalytics::GetMaxSpendingMonth() const {
     return result;
 }
 
-const void OrderAnalytics::CreateMonthReport() const {
+const json OrderAnalytics::CreateMonthReport() const {
     std::vector<std::string> max_months = GetMaxSpendingMonth();
 
     json j_report = {
             {"months", max_months}
     };
 
-    std::cout << j_report << std::endl;
+    return j_report;
 }
