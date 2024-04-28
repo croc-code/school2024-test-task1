@@ -4,5 +4,5 @@
 int main() {
     OrderAnalytics orders("format.json");
     orders.CreateMonthReport();
-    return 0;
+    system("pause");
 }

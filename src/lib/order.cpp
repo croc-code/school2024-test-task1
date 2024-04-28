@@ -20,7 +20,7 @@ Order::Order(const std::string& user_id,
 
 Order::~Order() = default;
 
-const std::string Order::GetMonth() const {
+const std::string Order::GetMonthName() const {
     std::string date_string = this->GetDate();
 
     try {

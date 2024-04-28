@@ -55,7 +55,7 @@ const std::vector<std::string> OrderAnalytics::GetMaxSpendingMonth() const {
     double max_amount = 0;
 
     for (Order order : orders_) {
-        std::string current_month = order.GetMonth();
+        std::string current_month = order.GetMonthName();
 
         if (order.GetStatus() == "COMPLETED") {
             month_total[current_month] += std::stod(order.GetTotal());
@@ -85,5 +85,5 @@ const void OrderAnalytics::CreateMonthReport() const {
             {"months", max_months}
     };
 
-    std::cout << j_report;
+    std::cout << j_report << std::endl;
 }

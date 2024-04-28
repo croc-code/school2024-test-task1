@@ -3,6 +3,9 @@
 
 #include <string>
 
+/*!
+ * @brief Class for orders
+ */
 class Order {
 public:
     Order();
@@ -15,10 +18,16 @@ public:
 
     ~Order();
 
-    const std::string GetMonth() const;
-    const std::string GetDate() const { return this->ordered_at_; }
-    const std::string GetStatus() const { return this->status_; }
-    const std::string GetTotal() const { return this->total_; }
+    /*!
+     * Returns the month name of a current order
+     *
+     * @return The month name string
+     */
+    const std::string GetMonthName() const;
+
+    const std::string& GetDate() const { return this->ordered_at_; }
+    const std::string& GetStatus() const { return this->status_; }
+    const std::string& GetTotal() const { return this->total_; }
 
 private:
     const std::string user_id_{""};
