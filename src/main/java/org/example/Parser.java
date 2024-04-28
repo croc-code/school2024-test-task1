@@ -10,12 +10,12 @@ import java.util.List;
 public interface Parser<T>{
 
     /**Десиализирует json файл и возвращает список из объектов POJO**/
-    public List<T> deserialize();
+    List<T> deserialize();
 
     /**Сериализирует список строк, который поступает как параметр.
      * Сериализируется в строку формата json и возвращает ее**/
-    public String serialize(List<String> list);
+    String serialize(List<String> list);
 
     /**Данный метод предназначен для основной логики при решении задания**/
-    public String doCounting();
+    String doCounting();
 }
