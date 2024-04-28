@@ -36,11 +36,11 @@
 **Status** - enum всех существующих статусов заказа  
 **JsonConverter** - класс, отвечающий за получение листа заказов из json файла и конвертацию месяцев в строку в формате json
 следующего формата:  
-- {"months": ["march"]}  
-- {"months": ["march", "december"]}  
+    - {"months": ["march"]}  
+    - {"months": ["march", "december"]}  
 **LocalDateTimeDeserializer**, **StatusDeserializer** - классы, необходимые для регистрации typeAdapters для **LocalDateTime** и
-enum **Status**, тк **Status**- наш кастомный тип, а для **LocalDateTime** не предусмотрено такого адаптера в GSON
-**ReportGenerator** - класс, отвечающий за обработку пришедшего листа заказов(**Purchase**), возвращает список месяцев  
+enum **Status**, тк **Status**- наш кастомный тип, а для **LocalDateTime** не предусмотрено такого адаптера в GSON  
+**ReportGenerator** - класс, отвечающий за обработку пришедшего листа заказов(**Purchase**), возвращает список месяцев    
 **Main** - точка входа  
 
 - В main класса Main происходит считывание названия файла с заказами, затем вызывается метод getReport, который формирует отчет
