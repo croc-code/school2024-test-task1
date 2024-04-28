@@ -4,4 +4,4 @@ cmake .. -DCMAKE_TOOLCHAIN_FILE="./build/generators/conan_toolchain.cmake"
 cmake --build . --config Release
 cmake --install .
 cd ..\solution
-.\school2024_test_task1.exe
+.\test_app.exe

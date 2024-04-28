@@ -1,52 +1,15 @@
-#include <nlohmann/json.hpp>
-#include <date/date.h>
+#include "order_analytics.hpp"
 
 #include <fstream>
 #include <iostream>
 #include <sstream>
-#include <string>
+
+#include <date/tz.h>
+#include <nlohmann/json.hpp>
 
 using json = nlohmann::ordered_json;
 
-class Order {
-private:
-    const std::string user_id_{""};
-    const std::string ordered_at_{""};
-    const std::string status_{""};
-    const std::string total_{""};
-
-public:
-    Order();
-
-    Order(const std::string& user_id,
-          const std::string& time,
-          const std::string& status,
-          const std::string& total
-          );
-
-    ~Order();
-
-    const std::string GetMonth() const;
-    const std::string GetDate() const { return this->ordered_at_; }
-    const std::string GetStatus() const { return this->status_; }
-    const std::string GetTotal() const { return this->total_; }
-};
-
-class OrderAnalytics {
-private:
-    std::vector<Order> orders_;
-
-public:
-    OrderAnalytics();
-    OrderAnalytics(const std::string& filename);
-    OrderAnalytics(const std::vector<Order>& order_list);
-    ~OrderAnalytics();
-
-    const std::vector<std::string> GetMaxSpendingMonth() const;
-    const void CreateMonthReport() const;
-};
-
-const std::vector<Order> ReadOrdersFile(const std::string& filename) {
+const std::vector<Order> OrderAnalytics::ReadOrdersFile(const std::string& filename) {
     std::ifstream orders_file;
     json data;
 
@@ -78,12 +41,7 @@ const std::vector<Order> ReadOrdersFile(const std::string& filename) {
 OrderAnalytics::~OrderAnalytics() = default;
 
 OrderAnalytics::OrderAnalytics(const std::string &filename)
-    : orders_(ReadOrdersFile(filename))
-{
-};
-
-OrderAnalytics::OrderAnalytics(const std::vector<Order>& order_list)
-    : orders_{order_list}
+        : orders_(ReadOrdersFile(filename))
 {
 };
 
@@ -124,47 +82,8 @@ const void OrderAnalytics::CreateMonthReport() const {
     std::vector<std::string> max_months = GetMaxSpendingMonth();
 
     json j_report = {
-        {"months", max_months}
+            {"months", max_months}
     };
 
     std::cout << j_report;
-}
-
-Order::Order() = default;
-
-Order::Order(const std::string& user_id,
-             const std::string& time,
-             const std::string& status,
-             const std::string& total)
-      : user_id_{user_id}
-      , ordered_at_{time}
-      , status_{status}
-      , total_{total}
-{
-};
-
-Order::~Order() = default;
-
-const std::string Order::GetMonth() const {
-    std::string date_string = this->GetDate();
-
-    try {
-        std::istringstream iss(date_string);
-        date::sys_seconds tp;
-        iss >> date::parse("%Y-%m-%dT%H:%M:%S", tp);
-
-        std::string month = date::format("%B", tp);
-        month[0] = tolower(month[0]);
-
-        return month;
-    } catch (const std::exception& e) {
-        std::cerr << "Error: " << e.what() << std::endl;
-        return "Invalid date format";
-    }
-}
-
-int main() {
-    OrderAnalytics orders("format.json");
-    orders.CreateMonthReport();
-    return 0;
 }

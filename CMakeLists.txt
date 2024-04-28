@@ -3,15 +3,15 @@ project(school2024_test_task1)
 
 set(CMAKE_CXX_STANDARD 17)
 
+# set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/solution)
 
 find_package(nlohmann_json REQUIRED)
 find_package(date REQUIRED)
 
-add_executable(${PROJECT_NAME} source.cpp)
-target_link_libraries(${PROJECT_NAME} nlohmann_json::nlohmann_json date::date)
+add_subdirectory(src)
 
-install(TARGETS ${PROJECT_NAME} DESTINATION ${CMAKE_INSTALL_PREFIX})
+install(TARGETS test_app DESTINATION ${CMAKE_INSTALL_PREFIX})
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/input/
         DESTINATION ${CMAKE_INSTALL_PREFIX}
