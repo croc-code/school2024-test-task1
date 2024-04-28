@@ -60,6 +60,6 @@
 Запуск из корня проекта с путем к папке с JSON файлом, пример для Windows:
 
 ```bash
-C:\Users\IdeaProjects\school2024-test> gradle run --args="src\main\java\ru\croc\javaschool2024\resources\format.json"                                                                                               
+C:\Users\IdeaProjects\school2024-test> gradle run --args="src\main\resources\format.json"                                                                                               
 ```
    
