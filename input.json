@@ -1,0 +1,20 @@
+[
+  {
+    "user_id": "0999c6aa-1bac-4ded-9a54-92fff4f34d69",
+    "ordered_at": "2023-12-14T11:15:31.108",
+    "status": "COMPLETED",
+    "total": "500"
+  },
+  {
+    "user_id": "0999c6aa-1bac-4ded-9a54-92fff4f34d69",
+    "ordered_at": "2023-12-14T11:15:31.108",
+    "status": "CANCELED",
+    "total": "5000"
+  },
+  {
+    "user_id": "0999c6aa-1bac-4ded-9a54-92fff4f34d69",
+    "ordered_at": "2023-01-14T11:15:31.108",
+    "status": "COMPLETED",
+    "total": "500"
+  }
+]
