@@ -41,7 +41,7 @@
 
 ### Order.cs 
    Класс для того, чтобы парсить данные из .json 
-```
+```C#
    public class Order
        {
 
@@ -63,7 +63,7 @@
    - для парсинга json-строки в List<Order>
    - вытягивание названия месяца в нужном формате из поля "ordered_at"
    - поиска месяца(ев) с максимальной выручкой и выведения результата в формате json-строки
-```
+```C#
 public static class OrderProcessor
     {
         /// <summary>
@@ -128,7 +128,7 @@ public static class OrderProcessor
 ```
 ### Program.cs
    Испольняемый файл
-```
+``` C#
 internal class Program
 {
     private static void Main(string[] args)
