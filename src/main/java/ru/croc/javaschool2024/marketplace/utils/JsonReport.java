@@ -1,6 +1,8 @@
 package ru.croc.javaschool2024.marketplace.utils;
 
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.io.IOException;
 
 public class JsonReport {
@@ -10,7 +12,9 @@ public class JsonReport {
      *
      * @param jsonMonthInfo - информация для вывода
      */
-    public static byte[] generateReport(String jsonMonthInfo) throws IOException {
-        return jsonMonthInfo.getBytes();
+    public static String generateReport(String jsonMonthInfo) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        Object json = mapper.readValue(jsonMonthInfo, Object.class);
+        return mapper.writeValueAsString(json);
     }
 }
