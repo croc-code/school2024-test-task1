@@ -6,6 +6,7 @@ using System.Text.Json;
 using School2024.Application;
 using School2024.ServicesForTestTask;
 using School2024.ServicesForTestTask.Models;
+using School2024.Domain;
 
 public class Program
 {
@@ -37,7 +38,7 @@ public class Program
             WriteIndented = true
         };
 
-        IReportCreator reportGenerator = new ReportCreator(logger, analyzer, inputingFile, jsonOptions);
+        IReportCreator reportGenerator = new ReportInJsonCreator(logger, analyzer, inputingFile, jsonOptions, new WorkerDTOs());
 
         reportGenerator.Create();
     }

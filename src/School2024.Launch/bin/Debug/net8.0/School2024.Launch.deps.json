@@ -11,6 +11,7 @@
           "Microsoft.Extensions.Logging": "8.0.0",
           "Microsoft.Extensions.Logging.Console": "8.0.0",
           "School2024.Application": "1.0.0",
+          "School2024.Domain": "1.0.0",
           "School2024.ServicesForTestTask": "1.0.0"
         },
         "runtime": {

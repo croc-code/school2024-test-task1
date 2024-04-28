@@ -8,7 +8,8 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\School2024.Application\School2024.Application.csproj" />
-    <ProjectReference Include="..\School2024.ServicesForTestTask\School2024.ServicesForTestTask.csproj" />
+    <ProjectReference Include="..\School2024.ServicesForTestTask\School2024.ServicesForTestTask.csproj" /> 
+    <ProjectReference Include="..\School2024.Domain\School2024.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />

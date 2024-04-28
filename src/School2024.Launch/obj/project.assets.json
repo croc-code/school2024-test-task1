@@ -891,6 +891,7 @@
       "Microsoft.Extensions.Logging >= 8.0.0",
       "Microsoft.Extensions.Logging.Console >= 8.0.0",
       "School2024.Application >= 1.0.0",
+      "School2024.Domain >= 1.0.0",
       "School2024.ServicesForTestTask >= 1.0.0"
     ]
   },
@@ -928,6 +929,9 @@
           "projectReferences": {
             "C:\\Users\\igorp\\Programming\\school2024-test-task1\\src\\School2024.Application\\School2024.Application.csproj": {
               "projectPath": "C:\\Users\\igorp\\Programming\\school2024-test-task1\\src\\School2024.Application\\School2024.Application.csproj"
+            },
+            "C:\\Users\\igorp\\Programming\\school2024-test-task1\\src\\School2024.Domain\\School2024.Domain.csproj": {
+              "projectPath": "C:\\Users\\igorp\\Programming\\school2024-test-task1\\src\\School2024.Domain\\School2024.Domain.csproj"
             },
             "C:\\Users\\igorp\\Programming\\school2024-test-task1\\src\\School2024.ServicesForTestTask\\School2024.ServicesForTestTask.csproj": {
               "projectPath": "C:\\Users\\igorp\\Programming\\school2024-test-task1\\src\\School2024.ServicesForTestTask\\School2024.ServicesForTestTask.csproj"
