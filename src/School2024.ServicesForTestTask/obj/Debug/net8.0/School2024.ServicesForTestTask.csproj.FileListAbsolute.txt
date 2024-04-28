@@ -29,8 +29,8 @@ C:\Users\igorp\Programming\school2024-test-task1\src\School2024.ServicesForTestT
 C:\Users\igorp\Programming\school2024-test-task1\src\School2024.ServicesForTestTask\obj\Debug\net8.0\School2024.ServicesForTestTask.AssemblyInfo.cs
 C:\Users\igorp\Programming\school2024-test-task1\src\School2024.ServicesForTestTask\obj\Debug\net8.0\School2024.ServicesForTestTask.csproj.CoreCompileInputs.cache
 C:\Users\igorp\Programming\school2024-test-task1\src\School2024.ServicesForTestTask\obj\Debug\net8.0\School2024.ServicesForTestTask.sourcelink.json
-C:\Users\igorp\Programming\school2024-test-task1\src\School2024.ServicesForTestTask\obj\Debug\net8.0\School20.BA47ECC8.Up2Date
 C:\Users\igorp\Programming\school2024-test-task1\src\School2024.ServicesForTestTask\obj\Debug\net8.0\School2024.ServicesForTestTask.dll
 C:\Users\igorp\Programming\school2024-test-task1\src\School2024.ServicesForTestTask\obj\Debug\net8.0\refint\School2024.ServicesForTestTask.dll
 C:\Users\igorp\Programming\school2024-test-task1\src\School2024.ServicesForTestTask\obj\Debug\net8.0\School2024.ServicesForTestTask.pdb
 C:\Users\igorp\Programming\school2024-test-task1\src\School2024.ServicesForTestTask\obj\Debug\net8.0\ref\School2024.ServicesForTestTask.dll
+C:\Users\igorp\Programming\school2024-test-task1\src\School2024.ServicesForTestTask\obj\Debug\net8.0\School2024.ServicesForTestTask.csproj.CopyComplete

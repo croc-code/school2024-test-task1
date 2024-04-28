@@ -2,6 +2,8 @@
 
 using System.Text.Json;
 using System.Text;
+using System.Globalization;
+
 using School2024.Domain;
 using School2024.Application;
 using School2024.ServicesForTestTask;
@@ -46,6 +48,9 @@ public static class TestTaskInitializer
 {
 	public static BasicReportCreator CreateBasicReportCreator(string inputingPath)
 	{
+        CultureInfo nonInvariantCulture = new CultureInfo("en-US");
+        Thread.CurrentThread.CurrentCulture = nonInvariantCulture;
+
 		InputingFileFeatures inputingFile = new InputingFileFeatures(inputingPath);
 
         JsonSerializerOptions jsonOptions = new JsonSerializerOptions(){

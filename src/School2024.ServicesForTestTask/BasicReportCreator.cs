@@ -30,10 +30,10 @@ public class BasicReportCreator : IReportCreator
         if (inputingFile == null || inputingFile.FullName == null || inputingFile.FullName.Trim().Length == 0){
             throw new ArgumentNullException("The path to the input data file is not specified");
         }
-        if (_analyzer == null){
+        if (analyzer == null){
             throw new ArgumentNullException("The Order Analizer is empty");
         }
-        if (_workerDTOs == null){
+        if (workerDTOs == null){
             throw new ArgumentNullException("The worker DTOs is empty");
         }
         _inputingFile = inputingFile;
