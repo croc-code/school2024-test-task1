@@ -1,2 +1,2 @@
-cd ../solution
+cd solution
 ./test_app.exe
