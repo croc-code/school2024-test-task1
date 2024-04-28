@@ -1,3 +1,4 @@
+@echo off
 if exist .\build rmdir .\build /q /s
 if exist .\solution rmdir .\solution /q /s
 
