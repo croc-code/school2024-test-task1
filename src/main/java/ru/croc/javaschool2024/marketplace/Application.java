@@ -10,6 +10,10 @@ import java.util.List;
 
 public class Application {
 
+    /**
+     *
+     * @param args - путь к JSON - файлу
+     */
     public static void main(String[] args) {
 
         if (args.length == 0) {
