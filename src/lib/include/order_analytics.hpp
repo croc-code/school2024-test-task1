@@ -29,6 +29,8 @@ public:
 
     /*!
      * Creates a month report for the current orders file
+     *
+     * @return JSON-string with max spending months
      */
     const json CreateMonthReport() const;
 
