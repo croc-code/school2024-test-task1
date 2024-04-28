@@ -1,5 +1,8 @@
 namespace School2024.Domain;
 
+// <summary>
+// Базовая сущность Заказа
+// </summary>
 
 public class Order
 {

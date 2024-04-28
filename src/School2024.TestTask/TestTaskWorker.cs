@@ -9,6 +9,12 @@ using School2024.Application;
 using School2024.ServicesForTestTask;
 using School2024.ServicesForTestTask.Models;
 
+// <summary>
+// Работник тестового задания, доставляющий аналитику разными способами
+// - GetAnalyticsToString возвращает аналитику в виде строки по структуре JSON
+// - GetAnalyticsToJsonFile создает .json файл по переданному в метод пути и записывает в него аналитику
+// </summary>
+
 public class TestTaskWorker
 {
     private readonly Dictionary<string, List<string>> _result;
@@ -43,6 +49,10 @@ public class TestTaskWorker
         }       
     }
 }
+
+// <summary>
+// Класс предоставляющий методы инициализации сущности Создателя Отчетов, то есть предоставляющий для этой сущности сервисы 
+// </summary>
 
 public static class TestTaskInitializer 
 {

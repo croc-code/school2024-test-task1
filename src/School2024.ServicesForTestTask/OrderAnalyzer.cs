@@ -6,10 +6,15 @@ using System.Runtime.Serialization;
 using School2024.Application;
 using School2024.Domain;
 
+// <summary>
+// Сущность для проведения аналитики
+// </summary>
+
 public class OrderAnalyzer : IOrderAnalyzer
 {
     public IEnumerable<string> GetMostProfitableMonths(List<Order> orders)
     {
+        // Получение в отсортированном виде только завершенных заказов
         Order[] temp =  orders
                             .Where(x => x.Status == OrderStatus.COMPLETED)
                             .OrderBy(x => x.OrderedAt.Month)

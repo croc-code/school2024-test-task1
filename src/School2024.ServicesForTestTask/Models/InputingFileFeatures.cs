@@ -1,5 +1,8 @@
 namespace School2024.ServicesForTestTask.Models;
 
+// <summary>
+// Сущность описания файла с вводными данными
+// </summary>
 
 public class InputingFileFeatures
 {

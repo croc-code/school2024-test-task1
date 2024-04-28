@@ -4,6 +4,10 @@ using School2024.Application;
 using School2024.Domain;
 using School2024.ServicesForTestTask.Models;
 
+// <summary>
+// Реализация конвертора для Заказа
+// </summary>
+
 public class DTOConverterOrder : IDTOConverter
 {
 	private Dictionary<string, OrderStatus> _statuses = 

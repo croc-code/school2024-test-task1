@@ -8,6 +8,10 @@ using System.IO;
 using System.Text.Json;
 using System.Text;
 
+// <summary>
+// Сущность для создания базового отчета
+// </summary>
+
 public class BasicReportCreator : IReportCreator
 {
     private readonly IOrderAnalyzer _analyzer;
@@ -19,6 +23,14 @@ public class BasicReportCreator : IReportCreator
     private readonly InputingFileFeatures? _inputingFile;
 
     private readonly WorkerDTOs _workerDTOs;
+
+    // <summary>
+    // Получение нужных для базового создателя отчетов сервисов:
+    // - IOrderAnalyzer для разных реализаций аналитики
+    // - InputingFileFeatures свойства файла вводных данных
+    // - JsonSerializerOptions опции для сериализации из файла 
+    // - WorkerDTOs для получения нужного конвертатора для DTO сущностей
+    // </summary>
 
     public BasicReportCreator (
         IOrderAnalyzer analyzer, 
@@ -44,13 +56,9 @@ public class BasicReportCreator : IReportCreator
 
     }
 
-    public void SetOrders()
-    {
-        
-    }
-
     public Dictionary<string, List<string>> Create()
     {
+        // Проверка корректности переданного пути
         FileInfo fileWithInputing = new FileInfo(_inputingFile.FullName);
 
         if (!fileWithInputing.Exists){
@@ -59,6 +67,7 @@ public class BasicReportCreator : IReportCreator
 
         List<OrderDTO> dto;
 
+        // Десериализация из файла с данными в DTO сущность чтобы исключить ошибки  
         using (FileStream fileStream = new FileStream (fileWithInputing.FullName, FileMode.Open, FileAccess.Read))
         {
             try {
@@ -69,6 +78,7 @@ public class BasicReportCreator : IReportCreator
             }
         }
 
+        // Конвертация DTO в базовую сущность
         foreach (OrderDTO orderDTO in dto)
         {
             _orders.Add( 
@@ -83,6 +93,7 @@ public class BasicReportCreator : IReportCreator
                         
         output.Add("months", new List<string>());
 
+        // Проведение аналитики
         foreach (string month in _analyzer.GetMostProfitableMonths(_orders))
         {
             output["months"].Add(month.ToLower());

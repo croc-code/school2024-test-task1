@@ -2,6 +2,10 @@ namespace School2024.ServicesForTestTask;
 
 using School2024.Application;
 
+// <summary>
+// Сущность для управления конвертерами
+// </summary>
+
 public class WorkerDTOs
 {
 	private Dictionary<string, Func<IDTOConverter>> _converters;
