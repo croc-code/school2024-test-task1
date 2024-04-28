@@ -5,8 +5,8 @@
 #include <order.hpp>
 #include <order_analytics.hpp>
 
-int main() {
-    OrderAnalytics orders("format.json");
+int main(int argc, char* argv[]) {
+    OrderAnalytics orders("input.json");
     std::cout << orders.CreateMonthReport() << std::endl;
     system("pause");
 }
