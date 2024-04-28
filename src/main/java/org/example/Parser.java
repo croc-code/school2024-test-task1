@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**Интерфейс Parser, который описывает работу обработчика файлов неопределенного формата
@@ -14,7 +15,7 @@ public interface Parser<T>{
 
     /**Сериализирует список строк, который поступает как параметр.
      * Сериализируется в строку формата json и возвращает ее**/
-    String serialize(List<String> list);
+    String serialize(ArrayList<String> list);
 
     /**Данный метод предназначен для основной логики при решении задания**/
     String doCounting();

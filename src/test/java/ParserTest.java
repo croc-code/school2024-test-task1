@@ -1,3 +1,4 @@
+import org.example.JsonParser;
 import org.example.Parser;
 import org.example.enums.Status;
 import org.example.pojo.Order;
@@ -5,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -14,7 +16,7 @@ public class ParserTest {
 
     @Before
     public void setUp() {
-        //TODO: Происвоить объект на JsonParser
+        parser = new JsonParser();
     }
 
     @Test
@@ -35,14 +37,19 @@ public class ParserTest {
 
     @Test
     public void whenSerializeNoNullListItWorksCorrectly(){
-        List<String> list = List.of("march", "april", "may", "june");
+        ArrayList<String> list = new ArrayList<>(){{
+            add("march");
+            add("august");
+            add("may");
+            add("june");
+        }};
         String json = parser.serialize(list);
-        assertEquals(json, "{\"months\":[\"march\",\"april\",\"may\",\"june\"]}");
+        assertEquals(json, "{\"months\":[\"march\",\"may\",\"june\",\"august\"]}");
     }
 
     @Test
     public void whenSerializeNullListItWorksCorrectly(){
-        List<String> list = List.of();
+        ArrayList<String> list = new ArrayList<>();
         String json = parser.serialize(list);
         assertEquals(json, "{\"months\":[]}");
     }
