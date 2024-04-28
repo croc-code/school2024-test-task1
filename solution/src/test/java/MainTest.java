@@ -42,7 +42,7 @@ public class MainTest {
 
         Main.main(args);
 
-        String expectedOutput = "{«months»:[«december»]}";
+        String expectedOutput = "{«months»: [«december»]}";
 
         assertEquals(expectedOutput, outputStream.toString());
 
@@ -75,7 +75,7 @@ public class MainTest {
 
         Main.main(args);
 
-        String expectedOutput = "{«months»:[«february»,«march»,«may»]}";
+        String expectedOutput = "{«months»: [«february», «march», «may»]}";
         assertEquals(expectedOutput, outputStream.toString());
     }
 }

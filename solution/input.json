@@ -1,0 +1,14 @@
+[
+  {
+    "user_id": "3acfb0b7-04bd-4978-be4c-3929372277c1",
+    "ordered_at": "2023-01-16T13:56:39.492",
+    "status": "COMPLETED",
+    "total": "1917.00"
+  },
+  {
+    "user_id": "25b003b9-ab22-4a24-a616-dd0303f983d8",
+    "ordered_at": "2023-03-05T08:34:21.123",
+    "status": "COMPLETED",
+    "total": "1917.00"
+  }
+]
