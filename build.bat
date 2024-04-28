@@ -6,4 +6,4 @@ cd build
 cmake .. -DCMAKE_TOOLCHAIN_FILE=".\\build\\generators\\conan_toolchain.cmake"
 cd ..
 cmake --build build --config Release
-cmake --install build
+cmake --install ./build
