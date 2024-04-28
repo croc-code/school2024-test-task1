@@ -64,17 +64,6 @@ public class OrderService {
     }
 
     /**
-     * Проверяет, оплачен ли {@link OrderDTO заказ}.
-     *
-     * @param order {@link OrderDTO заказ} для проверки.
-     * @return {@code true}, если заказ оплачен, {@code false} в противном случае.
-     */
-    private static boolean isOrderPaid(OrderDTO order) {
-        return order.status() == OrderStatus.DELIVERY ||
-               order.status() == OrderStatus.COMPLETED;
-    }
-
-    /**
      * Вычисляет общую сумму трат по месяцам.
      *
      * @param orders список заказов.
@@ -86,7 +75,7 @@ public class OrderService {
     ) {
         return orders
                 .stream() // Parallel is effective only from 1_000_000 elements
-                .filter(OrderService::isOrderPaid)
+                .filter(order -> order.status() == OrderStatus.COMPLETED)
                 .collect(
                         Collectors.groupingBy(
                                 order -> order
