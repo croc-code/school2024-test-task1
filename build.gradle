@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'application'
+
+}
+
+group = 'ru.croc.javaschool2024.Dubrovin'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '21'
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Зависимости для Jackson
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.16.0'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.16.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.16.0'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.0'
+
+    // Зависимость для Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.32'
+    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+
+    // Тестовые зависимости
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+application {
+    mainClass = 'ru.croc.javaschool2024.marketplace.Application'
+}
+
+
+
