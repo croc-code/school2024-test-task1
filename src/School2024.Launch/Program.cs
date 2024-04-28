@@ -3,6 +3,7 @@
 using Microsoft.Extensions.Logging;
 using System.IO;
 using System.Text.Json;
+using System.Globalization;
 using School2024.Application;
 using School2024.ServicesForTestTask;
 using School2024.ServicesForTestTask.Models;
@@ -38,7 +39,13 @@ public class Program
             WriteIndented = true
         };
 
-        IReportCreator reportGenerator = new ReportInJsonCreator(logger, analyzer, inputingFile, jsonOptions, new WorkerDTOs());
+        WorkerDTOs worker = new WorkerDTOs();
+        worker.AddConverter(nameof(Order), () => new DTOConverterOrder());
+
+        IReportCreator reportGenerator = new ReportInJsonCreator(logger, analyzer, inputingFile, jsonOptions, worker);
+
+        CultureInfo nonInvariantCulture = new CultureInfo("en-US");
+        Thread.CurrentThread.CurrentCulture = nonInvariantCulture;
 
         reportGenerator.Create();
     }

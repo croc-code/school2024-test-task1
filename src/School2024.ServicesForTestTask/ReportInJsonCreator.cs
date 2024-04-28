@@ -37,6 +37,7 @@ public class ReportInJsonCreator : IReportCreator
         _inputingFile = inputingFile;
         _jsonOptions = jsonOptions;
         _workerDTOs = workerDTOs;
+        _orders = new List<Order>();
     }
 
     public void SetOrders()
@@ -59,38 +60,43 @@ public class ReportInJsonCreator : IReportCreator
         using (FileStream fileStream = new FileStream (_inputingFile.FullName, FileMode.Open, FileAccess.Read))
         {
             dto = JsonSerializer.Deserialize <List<OrderDTO>> (fileStream, _jsonOptions);
-
-            foreach (OrderDTO order in dto)
-            {
-                Console.WriteLine($"{order.UserId}\t{order.OrderedAt.ToString()}\t{order.Total}\t{order.Status}");
-            }
         }
 
-        // Dictionary<string, List<string>> output = 
-        //         new Directory<string, List<string>>(1)
-        //                 .Add("months", new List<string>());
+        foreach (OrderDTO orderDTO in dto)
+        {
+            _orders.Add( 
+                _workerDTOs
+                .GetConverter(nameof(Order))
+                .Convert(orderDTO) as Order 
+            );
+        }
 
-        // foreach (string month in _analyzer.GetMostProfitableMonths(_orders))
-        // {
-        //     output.Value.Add(month.ToLower());
-        // }
+        Dictionary<string, List<string>> output = 
+                new Dictionary<string, List<string>>(1);
+                        
+        output.Add("months", new List<string>());
 
-        // using (FileStream fileStream = new FileStream (
-        //         Path.Combine(
-        //             Directory.GetCurrentDirectory(), "result.json"
-        //         ),
-        //         FileMode.OpenOrCreate,
-        //         FileAccess.Write
-        //     ))
-        // {
-        //     string json = JsonSerializer.Serialize <KeyValuePair<string, List<string>>> (output);
-        //     _logger.LogInformation(json);
+        foreach (string month in _analyzer.GetMostProfitableMonths(_orders))
+        {
+            output["months"].Add(month.ToLower());
+        }
 
-        //     byte[] jsonInBytes = Encoding.ASCII.GetBytes(json);
+        using (FileStream fileStream = new FileStream (
+                Path.Combine(
+                    Directory.GetCurrentDirectory(), "result.json"
+                ),
+                FileMode.OpenOrCreate,
+                FileAccess.Write
+            ))
+        {
+            string json = JsonSerializer.Serialize <Dictionary<string, List<string>>> (output);
+            _logger.LogInformation(json);
 
-        //     fileStream.SetLength(0);
+            byte[] jsonInBytes = Encoding.ASCII.GetBytes(json);
 
-        //     fileStream.Write(jsonInBytes);
-        // }
+            fileStream.SetLength(0);
+
+            fileStream.Write(jsonInBytes);
+        }
     }
 }

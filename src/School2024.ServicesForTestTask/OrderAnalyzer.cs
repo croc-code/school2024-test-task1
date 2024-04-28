@@ -29,10 +29,10 @@ public class OrderAnalyzer : IOrderAnalyzer
             yield return dateInfo
                             .GetMonthName(temp[i].OrderedAt.Month);
             
-            for (int j = i; j < temp.Length; j++)
+            for (int j = i  + 1; j < temp.Length; j++)
             {
-                if (temp[j].OrderedAt != temp[i].OrderedAt){
-                    i = j;
+                if (temp[j].OrderedAt.Month != temp[i].OrderedAt.Month){
+                    i = j - 1;
                     break;
                 }
             }

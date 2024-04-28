@@ -9,5 +9,5 @@ public class Order
 
     public OrderStatus Status {get; set;}
 
-    public decimal Total {get; set;}
+    public double Total {get; set;}
 }
