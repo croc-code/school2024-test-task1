@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\School2024.Application\School2024.Application.csproj" />
+    <ProjectReference Include="..\School2024.Domain\School2024.Domain.csproj" />
+    <ProjectReference Include="..\School2024.ServicesForTestTask\School2024.ServicesForTestTask.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

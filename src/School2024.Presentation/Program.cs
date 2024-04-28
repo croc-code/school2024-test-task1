@@ -1,9 +1,11 @@
-﻿namespace School2024.Launch;
+﻿namespace School2024.Presentation;
 
 using Microsoft.Extensions.Logging;
 using System.IO;
 using System.Text.Json;
 using System.Globalization;
+using System.Text;
+
 using School2024.Application;
 using School2024.ServicesForTestTask;
 using School2024.ServicesForTestTask.Models;
@@ -13,11 +15,6 @@ public class Program
 {
     static void Main(string[] args)
     {
-        ILoggerFactory loggerFactory = LoggerFactory
-                                    .Create(builder => builder.AddConsole());
-    
-        ILogger logger = loggerFactory.CreateLogger("School2024");
-    
         IOrderAnalyzer analyzer = new OrderAnalyzer();
     
         InputingFileFeatures inputingFile;
@@ -42,11 +39,31 @@ public class Program
         WorkerDTOs worker = new WorkerDTOs();
         worker.AddConverter(nameof(Order), () => new DTOConverterOrder());
 
-        IReportCreator reportGenerator = new ReportInJsonCreator(logger, analyzer, inputingFile, jsonOptions, worker);
+        IReportCreator reportGenerator = new BasicReportCreator(analyzer, inputingFile, jsonOptions, worker);
 
         CultureInfo nonInvariantCulture = new CultureInfo("en-US");
         Thread.CurrentThread.CurrentCulture = nonInvariantCulture;
 
-        reportGenerator.Create();
+        Dictionary<string, List<string>> result = reportGenerator.Create();
+
+        using (FileStream fileStream = new FileStream (
+                Path.Combine(
+                    Directory.GetCurrentDirectory(), "result.json"
+                ),
+                FileMode.OpenOrCreate,
+                FileAccess.Write
+                ) 
+            )
+        {
+            string json = JsonSerializer.Serialize <Dictionary<string, List<string>>> (result);
+
+            Console.WriteLine(json);
+
+            byte[] jsonInBytes = Encoding.ASCII.GetBytes(json);
+
+            fileStream.SetLength(0);
+
+            fileStream.Write(jsonInBytes);
+        }
     }
 }
