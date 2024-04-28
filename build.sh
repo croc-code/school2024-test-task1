@@ -9,5 +9,6 @@ fi
 conan install conanfile.txt --build=missing
 cd build
 cmake .. --toolchain ./build/generators/conan_toolchain.cmake
-cmake --build . --config Release
-cmake --install .
+cd ..
+cmake --build build --config Release
+cmake --install ./build
