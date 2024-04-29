@@ -30,7 +30,165 @@
 4. Найденный в соответствии с условием задачи месяц должен выводиться на английском языке в нижнем регистре. Если месяцев несколько, то на вывод они все подаются на английском языке в нижнем регистре в порядке их следования в течение года.
 
 ## Автор решения
+Калинич Анна Борисовна
 
 ## Описание реализации
+Данная программа ищет внутри папки проекта файл "input.json" и выводит месяц(ы) с максимальной выручкой в json-формате в консоль и в "output.json".
+Код состоит из 3-х классов:
+- Order.cs
+- OrderProcessor.cs
+- Program.cs
 
+### Order.cs 
+   Класс для того, чтобы парсить данные из .json 
+```C#
+   public class Order
+       {
+
+           [JsonProperty("user_id")]
+           public required string UserId { get; set; }
+
+           [JsonProperty("ordered_at")]
+           public DateTime OrderedAt { get; set; }
+
+           [JsonProperty("status")]
+           public required string Status { get; set; }
+
+           [JsonProperty("total")]
+           public double Total { get; set; }
+       }
+```
+### OrderProcessor.cs 
+   Класс, содержащий функции:
+   - для парсинга json-строки в List<Order>
+   - вытягивание названия месяца в нужном формате из поля "ordered_at"
+   - поиска месяца(ев) с максимальной выручкой и выведения результата в формате json-строки
+```C#
+public static class OrderProcessor
+    {
+        /// <summary>
+        /// Парсирует дату и возвращает строку с названием месяца в нижнем регистре
+        /// </summary>
+        /// <param name="dateTime">Дата для парсинга</param>
+        /// <returns>Строка с названием месяца в нижнем регистре</returns>
+        private static string ParseMonth(DateTime dateTime)
+        {
+            CultureInfo culture = new CultureInfo("en-US");
+            return dateTime.ToString("MMMM", culture).ToLower();
+        }
+
+        /// <summary>
+        /// Поиск месяцев с максимальной выручкой
+        /// </summary>
+        /// <param name="_orders">Список заказов</param>
+        /// <returns>JSON-строка с месяцами, в которых достигнута максимальная выручка</returns>
+        public static string GetMaxTotalPerMonth(List<Order> orders)
+        {
+            var totalPerMonth = new Dictionary<string, double>();
+
+            foreach (var order in orders)
+            {
+                if (order.Status != "COMPLETED")
+                {
+                    continue;
+                }
+                var month = ParseMonth(order.OrderedAt);
+
+                if (totalPerMonth.ContainsKey(month))
+                {
+                    totalPerMonth[month] += order.Total;
+                }
+                else
+                {
+                    totalPerMonth[month] = order.Total;
+                }
+            }
+
+            double maximum = totalPerMonth.Values.Max();
+            var maxMonths = totalPerMonth.Where(month => month.Value == maximum).Select(month => month.Key).ToList();
+            var result = new { months = maxMonths };
+            var json = JsonConvert.SerializeObject(result);
+
+            return json;
+        }
+
+        /// <summary>
+        /// Создает новый файл формата JSON и записывает в него переданную строку.
+        /// </summary>
+        /// <param name="json">Строка JSON, которую необходимо записать в файл.</param>
+        /// <param name="path">Путь для создания файла.</param>
+        public static void MakeJsonFile(string json, string path)
+        {
+            using (StreamWriter writer = new StreamWriter(Path.Combine(path, "output.json")))
+            {
+                writer.WriteLine(json);
+            }
+        }
+    }
+```
+### Program.cs
+   Испольняемый файл
+``` C#
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        bool makeJsonFile = true; // Флаг, указывающий, нужно ли создавать JSON файл
+
+        string fileName = "input.json"; // Имя файла для чтения данных
+        string projectPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
+        string path = fileName;
+
+        // Определение пути к файлу с учётом структуры проекта
+        try{
+            path = Path.Combine(projectPath, fileName);// Проверяем существование пути до файла
+            if(!File.Exists(path)){
+                projectPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
+                path = Path.Combine(projectPath, fileName);
+            }
+            if(!File.Exists(path))
+            {
+                throw new FileNotFoundException();
+            }
+        }
+        catch (FileNotFoundException)
+        { 
+            while(!File.Exists(path))
+            {
+                Console.WriteLine($"FILE \"{path}\" NOT FOUND");
+                Console.Write("> Введите полный путь к json-файлу: ");
+                path = Console.ReadLine();
+                projectPath = Path.GetDirectoryName(path);
+            }
+            Console.WriteLine();
+        }
+
+        string json = File.ReadAllText(path); // Чтение JSON из  файла
+
+        // Десериализация JSON в список заказов
+        List<Order> orders = JsonConvert.DeserializeObject<List<Order>>(json);
+
+        // Получение максимальной суммы заказов за месяц и соответствующих месяцев
+        if (orders is not null)
+        {
+            var maxTotal = OrderProcessor.GetMaxTotalPerMonth(orders);
+
+            Console.WriteLine(maxTotal); // Вывод результата на консоль
+
+            if (makeJsonFile)
+            {
+                OrderProcessor.MakeJsonFile(maxTotal, projectPath); // Создание JSON файла с результатом
+                Console.WriteLine($"\n--> Результат записан в \"{Path.Combine(projectPath, "output.json")}\" ");
+            }
+        }
+    }
+}
+```
 ## Инструкция по сборке и запуску решения
+   git clone https://github.com/Altermilk/school2024-test-task1.git
+
+Примечания для использования:
+- Запускаемый файл - "testTask.sln". 
+- Для того, чтобы программа работала, необходимо разместить файл "input.json" в той же директории, в которой находится приложение.
+- Если требуется найти другой файл, можно изменить имя файла в переменной string fileName внутри Program.cs или задать его с клавиатуры при запуске программы. 
+- Если требуется вывод результата только в консоль, измените значение флага "makeJsonFile" внутри Program.cs на "false".

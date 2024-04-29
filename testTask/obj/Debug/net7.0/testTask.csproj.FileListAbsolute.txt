@@ -1,0 +1,17 @@
+D:\уник\3 курс\school2024-test-task1\testTask\bin\Debug\net7.0\testTask.exe
+D:\уник\3 курс\school2024-test-task1\testTask\bin\Debug\net7.0\testTask.deps.json
+D:\уник\3 курс\school2024-test-task1\testTask\bin\Debug\net7.0\testTask.runtimeconfig.json
+D:\уник\3 курс\school2024-test-task1\testTask\bin\Debug\net7.0\testTask.dll
+D:\уник\3 курс\school2024-test-task1\testTask\bin\Debug\net7.0\testTask.pdb
+D:\уник\3 курс\school2024-test-task1\testTask\obj\Debug\net7.0\testTask.csproj.AssemblyReference.cache
+D:\уник\3 курс\school2024-test-task1\testTask\obj\Debug\net7.0\testTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\уник\3 курс\school2024-test-task1\testTask\obj\Debug\net7.0\testTask.AssemblyInfoInputs.cache
+D:\уник\3 курс\school2024-test-task1\testTask\obj\Debug\net7.0\testTask.AssemblyInfo.cs
+D:\уник\3 курс\school2024-test-task1\testTask\obj\Debug\net7.0\testTask.csproj.CoreCompileInputs.cache
+D:\уник\3 курс\school2024-test-task1\testTask\obj\Debug\net7.0\testTask.dll
+D:\уник\3 курс\school2024-test-task1\testTask\obj\Debug\net7.0\refint\testTask.dll
+D:\уник\3 курс\school2024-test-task1\testTask\obj\Debug\net7.0\testTask.pdb
+D:\уник\3 курс\school2024-test-task1\testTask\obj\Debug\net7.0\testTask.genruntimeconfig.cache
+D:\уник\3 курс\school2024-test-task1\testTask\obj\Debug\net7.0\ref\testTask.dll
+D:\уник\3 курс\school2024-test-task1\testTask\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\уник\3 курс\school2024-test-task1\testTask\obj\Debug\net7.0\testTask.csproj.CopyComplete
