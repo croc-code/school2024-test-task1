@@ -30,7 +30,14 @@
 4. Найденный в соответствии с условием задачи месяц должен выводиться на английском языке в нижнем регистре. Если месяцев несколько, то на вывод они все подаются на английском языке в нижнем регистре в порядке их следования в течение года.
 
 ## Автор решения
+Соловьева Кристина Вадимовна
 
 ## Описание реализации
+AnalyticsSystem - класс для создания отчёта, основной метод public String getMostProfitMonths(String filename)
+
+JsonReader - класс для считывания json, основной метод static List<Order> readJsonAndSaveData(String filePath)
 
 ## Инструкция по сборке и запуску решения
+Сборка: запустить mvn clean install из директории school2024-test-task1
+
+Запуск: java -jar target/school2024-test-task1-1.0.jar path_to_json, где path_to_json - путь до файла с данными, например, /Users/User/IdeaProjects/school2024-test-task1/src/main/resources/format.json
