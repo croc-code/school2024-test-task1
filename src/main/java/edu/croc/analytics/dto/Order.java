@@ -1,4 +1,4 @@
-package edu.croc.analytics;
+package edu.croc.analytics.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

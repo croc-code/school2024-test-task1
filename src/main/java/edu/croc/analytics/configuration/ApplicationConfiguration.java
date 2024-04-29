@@ -1,4 +1,4 @@
-package edu.croc.analytics;
+package edu.croc.analytics.configuration;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.json.JsonMapper;

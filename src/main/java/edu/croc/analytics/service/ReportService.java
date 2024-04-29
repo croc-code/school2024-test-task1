@@ -1,7 +1,9 @@
-package edu.croc.analytics;
+package edu.croc.analytics.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import edu.croc.analytics.dto.Order;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
@@ -17,6 +19,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class ReportService {
@@ -34,8 +37,10 @@ public class ReportService {
     }
 
     private Order[] readOrdersJson(String filePath) throws IOException {
-        var source = new BufferedReader(new InputStreamReader(new FileInputStream(filePath), StandardCharsets.UTF_8));
-        return mapper.readValue(source, Order[].class);
+        try(var source = new BufferedReader(
+                new InputStreamReader(new FileInputStream(filePath), StandardCharsets.UTF_8))) {
+            return mapper.readValue(source, Order[].class);
+        }
     }
 
     private Map<Month, BigDecimal> getTotalByMonth(Order[] orders) {
