@@ -34,5 +34,11 @@
     "ordered_at": "2023-12-14T11:15:31.108",
     "status": "COMPLETED",
     "total": "14760.00"
+  },
+  {
+    "user_id": "0999c6aa-1bac-4ded-9a54-92fff4f34d59",
+    "ordered_at": "2023-04-14T11:15:31.108",
+    "status": "COMPLETED",
+    "total": " 64259.0"
   }
 ]
