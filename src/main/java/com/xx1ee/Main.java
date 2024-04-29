@@ -1,3 +1,5 @@
+package com.xx1ee;
+
 import java.util.List;
 import java.util.Scanner;
 
