@@ -13,10 +13,7 @@ import java.io.InputStreamReader;
 import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
 import java.time.Month;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Slf4j
@@ -60,12 +57,13 @@ public class ReportService {
 
     private List<String> getMaxTotalMonths(Map<Month, BigDecimal> totals) {
         BigDecimal max = Collections.max(totals.values());
-        return totals.entrySet()
-                .stream()
-                .filter(entry -> entry.getValue().equals(max))
-                .map(Map.Entry::getKey)
-                .map(Month::name)
-                .map(String::toLowerCase)
-                .toList();
+
+        List<String> result = new ArrayList<>();
+        for (Month month : Month.values()) {
+            if (totals.get(month).equals(max)) {
+                result.add(month.name().toLowerCase());
+            }
+        }
+        return result;
     }
 }
