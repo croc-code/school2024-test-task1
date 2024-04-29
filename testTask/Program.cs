@@ -8,7 +8,6 @@ internal class Program
         bool makeJsonFile = true; // Флаг, указывающий, нужно ли создавать JSON файл
 
         string fileName = "input.json"; // Имя файла для чтения данных
-
         string projectPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
         string path = fileName;
 
@@ -19,26 +18,22 @@ internal class Program
                 projectPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
                 path = Path.Combine(projectPath, fileName);
             }
-        }
-        catch (FileNotFoundException ex)
-        { 
-            Console.WriteLine(ex.Message);
-            Console.Write("Введите имя json-файла: ");
-            path = Path.Combine(projectPath, Console.ReadLine() + ".json");
-        }
-        finally{
-            while (!File.Exists(path))
+            if(!File.Exists(path))
             {
-                Console.Write("Введите путь к json-файлу: ");
-                projectPath = Console.ReadLine();
-                path = Path.Combine(projectPath, fileName);
-                if(!File.Exists(path)){
-                    Console.Write("Введите имя json-файла: ");
-                    fileName = Console.ReadLine() + ".json";
-                }
+                throw new FileNotFoundException();
             }
-            path = Path.Combine(projectPath, fileName);
-    }
+        }
+        catch (FileNotFoundException)
+        { 
+            while(!File.Exists(path))
+            {
+                Console.WriteLine($"FILE \"{path}\" NOT FOUND");
+                Console.Write("> Введите полный путь к json-файлу: ");
+                path = Console.ReadLine();
+                projectPath = Path.GetDirectoryName(path);
+            }
+            Console.WriteLine();
+        }
 
         string json = File.ReadAllText(path); // Чтение JSON из  файла
 
@@ -55,8 +50,8 @@ internal class Program
             if (makeJsonFile)
             {
                 OrderProcessor.MakeJsonFile(maxTotal, projectPath); // Создание JSON файла с результатом
+                Console.WriteLine($"\n--> Результат записан в \"{Path.Combine(projectPath, "output.json")}\" ");
             }
         }
-        
     }
 }
