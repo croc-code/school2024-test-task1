@@ -70,9 +70,17 @@
 
 ![изображение](https://github.com/slattchrome/school2024-test-task1/assets/112937058/fbb3a709-a72f-4f3b-b4d0-60646c8d115c)
 
+Создаю компоратор, чтобы сравнивать месяца по их значению в течение года и тем самым отсортировать.
+
+![изображение](https://github.com/slattchrome/school2024-test-task1/assets/112937058/84de4da6-b7cb-420d-9e49-47347e2f736b)
+
+Преобразую названия месяцев обратно в объект Month, сортирую месяцы по их порядку в году и после преобразую объект Month в строку приводя к нижнему ренистру.
+
+![изображение](https://github.com/slattchrome/school2024-test-task1/assets/112937058/ac36f2d0-3473-4cb4-9cbe-2eda76e6b8dc)
+
 В конце концов создаю переменнцю в которую записываю полученные названия месяцев в соответствии с требованиями и возвращаю её.
 
-![изображение](https://github.com/slattchrome/school2024-test-task1/assets/112937058/532b635b-44ec-405a-ad82-b00632d973d7)
+![изображение](https://github.com/slattchrome/school2024-test-task1/assets/112937058/739e75fa-4474-4ec1-8f11-7f07ea77035e)
 
 Метод написан. Перехожу в класс Main чтобы проверить что всё работает.
 Создаю экземпляр класса DataAnalytics, чтобы получить доступ к методу getAnalytics() и затем вывожу результат в консоль.
@@ -90,4 +98,27 @@
 5. Запустите код и наблюдайте вывод в консоли
 
 **ВАЖНО: чтобы работать с другими данными замените содержимоет файла format.json, который находится в папке data!**
+
+***Также предоставляю инструкцию по установке нужных библиотек***
+1. Скачай 4 библиотеки:
    
+   https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+
+   https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+
+   https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations
+
+   https://mvnrepository.com/artifact/org.projectlombok/lombok
+
+3. Выбираете нужную версию(можно просто самую последнюю) и скачиваете jar файл
+4. Переходите в проект, открываете Project Structure -> Libraries и нажимаете "+" чтобы добавить библиотеку(и так для всех 4)
+   
+   ![изображение](https://github.com/slattchrome/school2024-test-task1/assets/112937058/10ba1c10-70e8-4413-962e-a169390deef9)
+
+5. Добавляете скачанные библиотеки, у вас должен получиться такой список
+   
+   ![изображение](https://github.com/slattchrome/school2024-test-task1/assets/112937058/84dfa886-d413-4edf-a7dd-eb9f14552cbe)
+
+7. После переходите в раздел Models, ставите галочки напротив всех добавленных библиотек и кликаете Apply
+
+   ![изображение](https://github.com/slattchrome/school2024-test-task1/assets/112937058/4a208688-645f-4210-a1da-d4a8a0b866c9)
