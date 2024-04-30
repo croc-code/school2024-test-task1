@@ -119,6 +119,6 @@
    
    ![изображение](https://github.com/slattchrome/school2024-test-task1/assets/112937058/84dfa886-d413-4edf-a7dd-eb9f14552cbe)
 
-7. После переходите в раздел Models, ставите галочки напротив всех добавленных библиотек и кликаете Apply
+6. После переходите в раздел Models, ставите галочки напротив всех добавленных библиотек и кликаете Apply
 
    ![изображение](https://github.com/slattchrome/school2024-test-task1/assets/112937058/4a208688-645f-4210-a1da-d4a8a0b866c9)
