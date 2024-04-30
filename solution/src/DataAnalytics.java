@@ -4,17 +4,16 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
+import java.time.Month;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class DataAnalytics {
     // Функция, которая будет вычислять месяца когда покупателя тратили больше всего
     public String getAnalytics() throws IOException {
         // Указываю путь к файлу, на основе которого буду проводить анализ
-        var fileName = "data/format.json";
+        var fileName = "solution/data/format.json";
         // Создаю экземпляр класса ObjectMapper чтобы, прочитать json
         var objectMapper = new ObjectMapper();
         // Предварительно создав класс Client со всеми необходимыми полями, я считываю json файл с данными о клиентах,
@@ -52,8 +51,21 @@ public class DataAnalytics {
                 maxMonths.add(entry.getKey());
             }
         }
-        // Создаю строку, которая будет возвращать нужные мне названия месяцев в требуемом формате
-        var result = "{\"months\": " + objectMapper.writeValueAsString(maxMonths) + "}";
+        // Создаю компоратор, чтобы сравнивать месяца по их значению в течение года и тем самым отсортировать
+        Comparator<Month> monthComparator = Comparator.comparingInt(Month::getValue);
+
+        maxMonths = monthlySales.entrySet().stream()
+                .filter(entry -> entry.getValue().equals(Collections.max(monthlySales.values())))
+                // Преобразуем название месяца обратно в объект Month
+                .map(entry -> Month.valueOf(entry.getKey().toUpperCase()))
+                // Сортируем месяцы по порядку в течение года
+                .sorted(monthComparator)
+                // Преобразуем объекты Month обратно в названия месяце и приводим к нижнему регистру
+                .map(month -> month.toString().toLowerCase())
+                .collect(Collectors.toList());
+
+        var result = "{\"months\": " + maxMonths.stream().map(month -> "\"" + month + "\"")
+                .collect(Collectors.joining(",")) + "}";
 
         return result;
     }
