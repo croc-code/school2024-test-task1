@@ -60,7 +60,7 @@ public class ReportService {
 
         List<String> result = new ArrayList<>();
         for (Month month : Month.values()) {
-            if (totals.get(month).equals(max)) {
+            if (totals.get(month).compareTo(max) == 0) {
                 result.add(month.name().toLowerCase());
             }
         }
